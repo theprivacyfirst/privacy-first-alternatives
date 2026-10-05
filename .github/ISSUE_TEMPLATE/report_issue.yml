@@ -1,0 +1,41 @@
+name: ⚠️ Report an Issue / Invalidation
+description: Report a broken link, defunct project, or an app that introduced telemetry.
+title: "[Report]: <Issue with App Name>"
+labels: ["audit", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to report an issue with an existing entry (e.g., license change, tracking introduced, dead link).
+  - type: input
+    id: app_name
+    attributes:
+      label: Software / Alternative Name
+      placeholder: e.g. Audacity
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Type of Issue
+      options:
+        - "Privacy Compromise (Tracking / Telemetry added)"
+        - "License Change (Closed-source or restrictive license)"
+        - "Dead / Abandoned Project"
+        - "Broken / Outdated Link"
+        - "Incorrect Replaced Software"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Evidence and Details
+      description: Provide links to announcements, commits, or issue tracker references.
+      placeholder: Describe the problem and link to supporting evidence.
+    validations:
+      required: true
+  - type: input
+    id: proposed_fix
+    attributes:
+      label: Proposed Fix / Replacement (Optional)
+      placeholder: e.g. Replace with Tenacity fork

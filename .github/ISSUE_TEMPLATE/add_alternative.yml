@@ -1,0 +1,120 @@
+name: 💡 Propose a New Alternative
+description: Suggest adding a privacy-first, open-source alternative to the list.
+title: "[Suggestion]: Add <App Name> to <Category>"
+labels: ["enhancement", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the directory! Please fill out the details below so we can evaluate your suggestion.
+  - type: input
+    id: tool_name
+    attributes:
+      label: Software / Alternative Name
+      description: What is the name of the privacy-first tool?
+      placeholder: e.g. FreeTube
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official Website
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: source_code
+    attributes:
+      label: Open Source Repository URL
+      placeholder: https://github.com/... or GitLab/Codeberg URL
+    validations:
+      required: true
+  - type: input
+    id: replaces
+    attributes:
+      label: What proprietary software does it replace?
+      placeholder: e.g. YouTube Desktop, YouTube Web
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - "1. Web Browsers"
+        - "2. Search Engines"
+        - "3. Email Clients & Secure Email Providers"
+        - "4. Email Aliasing & Privacy Forwarding"
+        - "5. Calendars & Meeting Scheduling"
+        - "6. Instant Messaging & Chat Apps"
+        - "7. Team Communication & Community Chat"
+        - "8. Video Conferencing & Screen Recording"
+        - "9. Cloud Storage & File Synchronization"
+        - "10. Local File Sharing & P2P Transfer"
+        - "11. Notes, Knowledge Base & PKM"
+        - "12. Office Suites & Document Collaboration"
+        - "13. PDF Viewers, Editors & Tools"
+        - "14. Document Archiving & Scanning"
+        - "15. Diagramming, Whiteboards & Mind Mapping"
+        - "16. Project Management & Kanban"
+        - "17. Password Managers"
+        - "18. Two-Factor Authentication (2FA) & IAM"
+        - "19. Operating Systems"
+        - "20. Music Streaming & Audio Players"
+        - "21. Video Streaming & Platforms"
+        - "22. E-Book Readers & Audiobooks"
+        - "23. Photo Management & Backups"
+        - "24. Graphic Design, Prototyping & 3D"
+        - "25. Image Editing & RAW Photo Processing"
+        - "26. Video Editing & VFX"
+        - "27. Audio Production (DAW)"
+        - "28. Social Networks & Decentralized Media"
+        - "29. Publishing, Blogging & Newsletters"
+        - "30. Code Editors & IDEs"
+        - "31. Git Hosting & DevOps Platforms"
+        - "32. API Clients & Developer Tools"
+        - "33. Web Analytics & Error Monitoring"
+        - "34. Personal Finance & Budgeting"
+        - "35. Maps & Navigation"
+        - "36. Weather Forecasts"
+        - "37. Translation & Writing Tools"
+        - "38. Local AI Assistants & Copilots"
+        - "39. Speech-to-Text Transcription"
+        - "40. DNS, Firewalls & VPNs"
+        - "41. Router OS & Network Storage"
+        - "42. File Encryption & Metadata Sanitization"
+        - "43. Encrypted Pastebins"
+        - "44. Mobile Keyboards"
+        - "45. Smart Home & IoT"
+        - "46. RSS Readers & Read-It-Later"
+        - "47. Torrent & Download Managers"
+        - "48. Time Tracking & Wellbeing"
+        - "49. App Launchers & Search"
+        - "50. Screenshots & Annotation"
+        - "51. Clipboard Managers"
+        - "52. Flashcards & Spaced Repetition"
+        - "53. Gaming Launchers"
+        - "54. Forms & Customer Support"
+        - "55. Remote Desktop & Virtualization"
+        - "56. App Stores"
+        - "57. E-Commerce & Website Builders"
+        - "New Category (Propose Below)"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief Description & Key Privacy Strengths
+      description: Explain why this tool belongs in the privacy-first directory.
+      placeholder: Mention if it features E2EE, local-first storage, no telemetry, or self-hosting.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklists
+    attributes:
+      label: Verification
+      options:
+        - label: I have verified that this project is open source and actively maintained.
+          required: true
+        - label: I confirm this project does not include covert surveillance, ads, or tracking.
+          required: true

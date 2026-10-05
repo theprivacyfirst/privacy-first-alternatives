@@ -1470,18 +1470,23 @@ Each entry includes a clear description, official website link, open-source repo
 
 ## 🤝 Contributing
 
-Contributions are warmly welcome! We want this list to remain the most up-to-date, accurate, and comprehensive directory of privacy-first alternatives on GitHub.
+Contributions are warmly welcome! We want this directory to remain the most up-to-date, accurate, and comprehensive resource on GitHub.
 
+- 📖 **Full Guidelines**: Please read our [Contribution Guidelines](CONTRIBUTING.md) before submitting a pull request.
+- 🛡️ **Code of Conduct**: This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
+- 🔒 **Security Policy**: To report a compromised project or security concern, review our [Security Policy](SECURITY.md).
+
+### Quick Contribution Steps:
 1. **Fork the Repository**
 2. **Create a Feature Branch** (`git checkout -b feature/add-alternative`)
 3. **Format Entry Consistently**:
    ```markdown
-   - **[Tool Name](Official URL)** — Clear 1-2 sentence description.
+   - **[Tool Name](Official URL)** — Clear 1-2 sentence description highlighting privacy features.
      - 🌐 **Official Website**: https://...
      - 💻 **Open Source Link**: https://github.com/...
      - 🔄 **Replaces**: Proprietary Software Names
    ```
-4. **Commit Your Changes** (`git commit -m "Add AppName alternative for ProprietaryApp"`)
+4. **Commit Your Changes** (`git commit -m "feat: add AppName alternative for ProprietaryApp"`)
 5. **Push and Open a Pull Request**
 
 ---
