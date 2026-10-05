@@ -70,6 +70,25 @@ Each entry includes a clear description, official website link, open-source repo
 - [55. Remote Desktop & Virtualization](#55-remote-desktop--virtualization)
 - [56. App Stores & Package Management](#56-app-stores--package-management)
 - [57. E-Commerce & Website Builders](#57-e-commerce--website-builders)
+- [58. Fitness, Health & Biometric Tracking](#58-fitness-health--biometric-tracking)
+- [59. System Cleaners, Disk Analyzers & Privacy Sweepers](#59-system-cleaners-disk-analyzers--privacy-sweepers)
+- [60. Game Streaming & Remote Play](#60-game-streaming--remote-play)
+- [61. Adblocking, Content Filtering & Browser Hardening](#61-adblocking-content-filtering--browser-hardening)
+- [62. Database Management & SQL Clients](#62-database-management--sql-clients)
+- [63. Customer Relationship Management (CRM)](#63-customer-relationship-management-crm)
+- [64. Enterprise Resource Planning (ERP) & Human Resources (HR)](#64-enterprise-resource-planning-erp--human-resources-hr)
+- [65. Link Shorteners & Branded Links](#65-link-shorteners--branded-links)
+- [66. Incident Management, Status Pages & Monitoring](#66-incident-management-status-pages--monitoring)
+- [67. Podcast Players & Radio Streaming](#67-podcast-players--radio-streaming)
+- [68. Home Inventory & Household Management](#68-home-inventory--household-management)
+- [69. Recipe Management & Meal Planning](#69-recipe-management--meal-planning)
+- [70. Family Tree & Genealogy](#70-family-tree--genealogy)
+- [71. Self-Hosted Application Dashboards & Startpages](#71-self-hosted-application-dashboards--startpages)
+- [72. Privacy-Friendly Web Fonts & CDN Mirrors](#72-privacy-friendly-web-fonts--cdn-mirrors)
+- [73. System Monitors & Performance Profiling](#73-system-monitors--performance-profiling)
+- [74. Photo Portfolio & Self-Hosted Galleries](#74-photo-portfolio--self-hosted-galleries)
+- [75. Digital Audio Synthesizers & Sound Plugins (VST)](#75-digital-audio-synthesizers--sound-plugins-vst)
+- [Project Roadmap & Expansion Plan](#️-project-roadmap--future-expansion)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -1465,6 +1484,300 @@ Each entry includes a clear description, official website link, open-source repo
   - 🌐 **Official Website**: https://saleor.io/
   - 💻 **Open Source Link**: https://github.com/saleor/saleor
   - 🔄 **Replaces**: Shopify Plus, Adobe Commerce (Magento)
+
+---
+
+## 58. Fitness, Health & Biometric Tracking
+
+- **[Gadgetbridge](https://gadgetbridge.org/)** — Android application that pairs with smartbands and watches (Pebble, Mi Band, Amazfit, Garmin) keeping all biometric data 100% on your device.
+  - 🌐 **Official Website**: https://gadgetbridge.org/
+  - 💻 **Open Source Link**: https://codeberg.org/Freeyourgadget/Gadgetbridge
+  - 🔄 **Replaces**: Mi Fit / Zepp Life, Garmin Connect, Fitbit App, Apple Health
+
+- **[RunnerUp](https://github.com/jonasoreland/runnerup)** — Open-source track running and workout companion for Android using GPS without uploading routes to corporate servers.
+  - 🌐 **Official Website**: https://github.com/jonasoreland/runnerup
+  - 💻 **Open Source Link**: https://github.com/jonasoreland/runnerup
+  - 🔄 **Replaces**: Strava, Nike Run Club, MapMyRun
+
+- **[OpenTracks](https://opentracksapp.com/)** — A sport tracking application that respects your privacy, recording tracks, speed, and elevation with zero cloud sync.
+  - 🌐 **Official Website**: https://opentracksapp.com/
+  - 💻 **Open Source Link**: https://github.com/OpenTracksApp/OpenTracks
+  - 🔄 **Replaces**: AllTrails, Strava, Komoot
+
+- **[wger](https://wger.de/)** — Free, open-source self-hosted web application that manages your personal workouts, exercise routines, and dietary intake.
+  - 🌐 **Official Website**: https://wger.de/
+  - 💻 **Open Source Link**: https://github.com/wger-project/wger
+  - 🔄 **Replaces**: MyFitnessPal, JEFIT, Strong
+
+---
+
+## 59. System Cleaners, Disk Analyzers & Privacy Sweepers
+
+- **[BleachBit](https://www.bleachbit.org/)** — Open-source system cleaner that frees disk space, guards privacy, and shreds cache, cookies, internet history, and junk logs.
+  - 🌐 **Official Website**: https://www.bleachbit.org/
+  - 💻 **Open Source Link**: https://github.com/bleachbit/bleachbit
+  - 🔄 **Replaces**: CCleaner, CleanMyMac, Windows Disk Cleanup
+
+- **[Czkawka](https://github.com/qarmin/czkawka)** — Multi-functional, blisteringly fast tool written in Rust to find and remove duplicates, empty folders, similar images, and broken files.
+  - 🌐 **Official Website**: https://github.com/qarmin/czkawka
+  - 💻 **Open Source Link**: https://github.com/qarmin/czkawka
+  - 🔄 **Replaces**: Gemini Duplicate Finder, Duplicate Cleaner Pro
+
+- **[QDirStat](https://github.com/shundhammer/qdirstat)** — Graphical disk usage analyzer for Linux and desktop systems providing visual treemaps of storage consumption.
+  - 🌐 **Official Website**: https://github.com/shundhammer/qdirstat
+  - 💻 **Open Source Link**: https://github.com/shundhammer/qdirstat
+  - 🔄 **Replaces**: DaisyDisk, TreeSize, SpaceMonger
+
+---
+
+## 60. Game Streaming & Remote Play
+
+- **[Sunshine](https://app.lizardbyte.dev/Sunshine/)** — Self-hosted game stream host for Moonlight, providing low-latency cloud gaming from your PC to any screen.
+  - 🌐 **Official Website**: https://app.lizardbyte.dev/Sunshine/
+  - 💻 **Open Source Link**: https://github.com/LizardByte/Sunshine
+  - 🔄 **Replaces**: NVIDIA GameStream, GeForce NOW, Parsec
+
+- **[Moonlight](https://moonlight-stream.org/)** — Open-source client for streaming PC games to PC, Mac, Android, iOS, and Raspberry Pi without telemetry or accounts.
+  - 🌐 **Official Website**: https://moonlight-stream.org/
+  - 💻 **Open Source Link**: https://github.com/moonlight-stream
+  - 🔄 **Replaces**: Steam Remote Play, Parsec, Moonlight Game Streaming
+
+---
+
+## 61. Adblocking, Content Filtering & Browser Hardening
+
+- **[uBlock Origin](https://ublockorigin.com/)** — Efficient wide-spectrum content blocker for browsers that blocks advertisements, trackers, and malware domains with minimal CPU overhead.
+  - 🌐 **Official Website**: https://ublockorigin.com/
+  - 💻 **Open Source Link**: https://github.com/gorhill/uBlock
+  - 🔄 **Replaces**: AdBlock Plus, AdGuard Browser Extension
+
+- **[Privacy Badger](https://privacybadger.org/)** — Automatically learns to block invisible trackers based on their behavior, created by the Electronic Frontier Foundation (EFF).
+  - 🌐 **Official Website**: https://privacybadger.org/
+  - 💻 **Open Source Link**: https://github.com/EFForg/privacybadger
+  - 🔄 **Replaces**: Ghostery, Disconnect
+
+- **[LocalCDN](https://www.localcdn.org/)** — Emulates remote Content Delivery Networks (Google Hosted Libraries, Cloudflare, cdnjs) locally to intercept CDN tracking.
+  - 🌐 **Official Website**: https://www.localcdn.org/
+  - 💻 **Open Source Link**: https://codeberg.org/nobody/LocalCDN
+  - 🔄 **Replaces**: Decentraleyes
+
+---
+
+## 62. Database Management & SQL Clients
+
+- **[DBeaver](https://dbeaver.io/)** — Universal database tool for developers, database administrators, and analysts supporting PostgreSQL, MySQL, SQLite, and MongoDB.
+  - 🌐 **Official Website**: https://dbeaver.io/
+  - 💻 **Open Source Link**: https://github.com/dbeaver/dbeaver
+  - 🔄 **Replaces**: Navicat, DataGrip, TablePlus
+
+- **[Beekeeper Studio](https://www.beekeeperstudio.io/)** — Modern, lightweight, and easy-to-use SQL editor and database manager with a clean interface and zero telemetry.
+  - 🌐 **Official Website**: https://www.beekeeperstudio.io/
+  - 💻 **Open Source Link**: https://github.com/beekeeper-studio/beekeeper-studio
+  - 🔄 **Replaces**: TablePlus, Sequel Pro, Navicat
+
+---
+
+## 63. Customer Relationship Management (CRM)
+
+- **[Twenty](https://twenty.com/)** — A modern, beautifully designed open-source CRM alternative to Salesforce, built with full data sovereignty and customizable pipelines.
+  - 🌐 **Official Website**: https://twenty.com/
+  - 💻 **Open Source Link**: https://github.com/twentyhq/twenty
+  - 🔄 **Replaces**: Salesforce, HubSpot, Pipedrive
+
+- **[SuiteCRM](https://suitecrm.com/)** — Enterprise-ready open-source CRM application providing complete customer journey insights, reporting, and marketing automation.
+  - 🌐 **Official Website**: https://suitecrm.com/
+  - 💻 **Open Source Link**: https://github.com/salesagility/SuiteCRM
+  - 🔄 **Replaces**: Salesforce, Microsoft Dynamics 365
+
+- **[EspoCRM](https://www.espocrm.com/)** — Fast and responsive web-based CRM system to manage relationships, sales prospects, projects, and inventory.
+  - 🌐 **Official Website**: https://www.espocrm.com/
+  - 💻 **Open Source Link**: https://github.com/espocrm/espocrm
+  - 🔄 **Replaces**: Zoho CRM, HubSpot
+
+---
+
+## 64. Enterprise Resource Planning (ERP) & Human Resources (HR)
+
+- **[ERPNext](https://erpnext.com/)** — The world's top open-source ERP system covering accounting, manufacturing, HR, payroll, supply chain, and CRM in one system.
+  - 🌐 **Official Website**: https://erpnext.com/
+  - 💻 **Open Source Link**: https://github.com/frappe/erpnext
+  - 🔄 **Replaces**: SAP Business One, Oracle NetSuite, Odoo Enterprise
+
+- **[Odoo (Community Edition)](https://www.odoo.com/)** — Open-source suite of integrated business applications for invoicing, manufacturing, inventory, and point of sale.
+  - 🌐 **Official Website**: https://www.odoo.com/
+  - 💻 **Open Source Link**: https://github.com/odoo/odoo
+  - 🔄 **Replaces**: SAP, NetSuite, Microsoft Dynamics
+
+- **[OrangeHRM](https://www.orangehrm.com/)** — Open-source human resource management software covering personnel info, leave tracking, time logs, and performance reviews.
+  - 🌐 **Official Website**: https://www.orangehrm.com/
+  - 💻 **Open Source Link**: https://github.com/orangehrm/orangehrm
+  - 🔄 **Replaces**: Workday, BambooHR, ADP
+
+---
+
+## 65. Link Shorteners & Branded Links
+
+- **[Dub.co](https://dub.co/)** — Modern open-source link management platform with built-in analytics, QR code generation, and custom domains.
+  - 🌐 **Official Website**: https://dub.co/
+  - 💻 **Open Source Link**: https://github.com/dubinc/dub
+  - 🔄 **Replaces**: Bitly, Short.io, Rebrandly
+
+- **[Shlink](https://shlink.io/)** — Self-hosted open-source URL shortener with REST API, command-line interface, and granular geo-analytics under your control.
+  - 🌐 **Official Website**: https://shlink.io/
+  - 💻 **Open Source Link**: https://github.com/shlinkio/shlink
+  - 🔄 **Replaces**: Bitly, TinyURL
+
+- **[Kutt](https://kutt.it/)** — Modern URL shortener with support for custom domains, password-protected links, and private analytics dashboards.
+  - 🌐 **Official Website**: https://kutt.it/
+  - 💻 **Open Source Link**: https://github.com/thedevs-network/kutt
+  - 🔄 **Replaces**: Bitly, Ow.ly
+
+---
+
+## 66. Incident Management, Status Pages & Monitoring
+
+- **[OneUptime](https://oneuptime.com/)** — Complete open-source observability platform integrating uptime monitoring, status pages, incident alerting, and on-call schedules.
+  - 🌐 **Official Website**: https://oneuptime.com/
+  - 💻 **Open Source Link**: https://github.com/oneuptime/oneuptime
+  - 🔄 **Replaces**: PagerDuty, Statuspage.io, Better Stack
+
+- **[Cachet](https://cachethq.io/)** — Beautiful, open-source status page system designed to inform users of downtime, scheduled maintenance, and service incidents.
+  - 🌐 **Official Website**: https://cachethq.io/
+  - 💻 **Open Source Link**: https://github.com/cachethq/cachet
+  - 🔄 **Replaces**: Atlassian Statuspage, Status.io
+
+---
+
+## 67. Podcast Players & Radio Streaming
+
+- **[AntennaPod](https://antennapod.org/)** — Full-featured podcast manager and player for Android with direct RSS downloads, automatic caching, and zero tracking.
+  - 🌐 **Official Website**: https://antennapod.org/
+  - 💻 **Open Source Link**: https://github.com/AntennaPod/AntennaPod
+  - 🔄 **Replaces**: Apple Podcasts, Spotify Podcasts, Google Podcasts
+
+- **[Shortwave](https://gitlab.gnome.org/World/Shortwave)** — Internet radio player providing access to over 30,000 public radio stations with stream recording features.
+  - 🌐 **Official Website**: https://gitlab.gnome.org/World/Shortwave
+  - 💻 **Open Source Link**: https://gitlab.gnome.org/World/Shortwave
+  - 🔄 **Replaces**: TuneIn Radio, iHeartRadio
+
+- **[Podverse](https://podverse.fm/)** — Cross-platform open-source podcast app supporting Podcast 2.0 namespaces, video podcasts, and decentralized feed discovery.
+  - 🌐 **Official Website**: https://podverse.fm/
+  - 💻 **Open Source Link**: https://github.com/podverse
+  - 🔄 **Replaces**: Pocket Casts, Castbox
+
+---
+
+## 68. Home Inventory & Household Management
+
+- **[Homebox](https://homebox.software/)** — Inventory and organization system built specifically for home users to catalog electronics, appliances, warranty receipts, and serial numbers.
+  - 🌐 **Official Website**: https://homebox.software/
+  - 💻 **Open Source Link**: https://github.com/sysadminsmedia/homebox
+  - 🔄 **Replaces**: Sortly, Itemtopia, Nest Egg
+
+- **[Grocy](https://grocy.info/)** — Self-hosted web-based grocery and household management solution with barcode scanning, expiration tracking, and chores management.
+  - 🌐 **Official Website**: https://grocy.info/
+  - 💻 **Open Source Link**: https://github.com/grocy/grocy
+  - 🔄 **Replaces**: KitchenPal, Cozi, OurGroceries
+
+---
+
+## 69. Recipe Management & Meal Planning
+
+- **[Mealie](https://mealie.io/)** — Self-hosted recipe manager and meal planner with automated recipe scraping from URLs, interactive shopping lists, and meal calendars.
+  - 🌐 **Official Website**: https://mealie.io/
+  - 💻 **Open Source Link**: https://github.com/mealie-recipes/mealie
+  - 🔄 **Replaces**: Paprika Recipe Manager, Yummly, AnyList
+
+- **[Tandoor Recipes](https://tandoor.dev/)** — Open-source recipe manager that allows you to collect, organize, and plan meals with family members without commercial ads.
+  - 🌐 **Official Website**: https://tandoor.dev/
+  - 💻 **Open Source Link**: https://github.com/TandoorRecipes/recipes
+  - 🔄 **Replaces**: BigOven, Paprika
+
+---
+
+## 70. Family Tree & Genealogy
+
+- **[Gramps](https://gramps-project.org/)** — Comprehensive, offline genealogy software for hobbyist and professional genealogists with support for GEDCOM standards and research trees.
+  - 🌐 **Official Website**: https://gramps-project.org/
+  - 💻 **Open Source Link**: https://github.com/gramps-project/gramps
+  - 🔄 **Replaces**: Ancestry.com, MyHeritage, Family Tree Maker
+
+---
+
+## 71. Self-Hosted Application Dashboards & Startpages
+
+- **[Homarr](https://homarr.dev/)** — Customizable browser dashboard to organize home lab services, media players, and bookmarks in a responsive grid.
+  - 🌐 **Official Website**: https://homarr.dev/
+  - 💻 **Open Source Link**: https://github.com/ajnart/homarr
+  - 🔄 **Replaces**: Chrome New Tab extensions with tracking, Tablis
+
+- **[Homepage](https://gethomepage.dev/)** — Fast, secure, and modern application dashboard with live status widgets for Docker, Kubernetes, and network services.
+  - 🌐 **Official Website**: https://gethomepage.dev/
+  - 💻 **Open Source Link**: https://github.com/gethomepage/homepage
+  - 🔄 **Replaces**: Heimdall, Startpage commercial services
+
+- **[Dashy](https://dashy.to/)** — Ultimate server dashboard application with multi-page support, status monitoring, themes, and encrypted cloud backup options.
+  - 🌐 **Official Website**: https://dashy.to/
+  - 💻 **Open Source Link**: https://github.com/Lissy93/dashy
+  - 🔄 **Replaces**: Protopage, Netvibes
+
+---
+
+## 72. Privacy-Friendly Web Fonts & CDN Mirrors
+
+- **[Bunny Fonts](https://fonts.bunny.net/)** — Privacy-first, GDPR-compliant drop-in replacement for Google Fonts with zero tracking, logging, or advertising profiling.
+  - 🌐 **Official Website**: https://fonts.bunny.net/
+  - 💻 **Open Source Link**: https://github.com/bunnyway/bunnyfonts
+  - 🔄 **Replaces**: Google Fonts CDN, Adobe Typekit
+
+- **[Coollabs Fonts](https://fonts.coollabs.io/)** — Self-hostable, zero-tracking mirror for open-source fonts to eliminate third-party CDN requests in web applications.
+  - 🌐 **Official Website**: https://fonts.coollabs.io/
+  - 💻 **Open Source Link**: https://github.com/coollabsio/fonts
+  - 🔄 **Replaces**: Google Fonts API
+
+---
+
+## 73. System Monitors & Performance Profiling
+
+- **[btop](https://github.com/aristocratos/btop)** — Resource monitor that shows usage and stats for processor, memory, disks, network, and processes with beautiful terminal UI.
+  - 🌐 **Official Website**: https://github.com/aristocratos/btop
+  - 💻 **Open Source Link**: https://github.com/aristocratos/btop
+  - 🔄 **Replaces**: Windows Task Manager, Activity Monitor, iStat Menus
+
+- **[Stacer](https://github.com/oguzhaninan/Stacer)** — Open-source Linux system optimizer and monitoring tool to monitor system resources, manage startup apps, and clean caches.
+  - 🌐 **Official Website**: https://github.com/oguzhaninan/Stacer
+  - 💻 **Open Source Link**: https://github.com/oguzhaninan/Stacer
+  - 🔄 **Replaces**: CleanMyMac, Windows Optimizer tools
+
+---
+
+## 74. Photo Portfolio & Self-Hosted Galleries
+
+- **[Lychee](https://lychee.electerious.com/)** — Clean, modern photo-management server to upload, manage, and share photos privately or host public photography portfolios.
+  - 🌐 **Official Website**: https://lycheeorg.github.io/
+  - 💻 **Open Source Link**: https://github.com/LycheeOrg/Lychee
+  - 🔄 **Replaces**: SmugMug, 500px, Flickr Pro, Adobe Portfolio
+
+---
+
+## 75. Digital Audio Synthesizers & Sound Plugins (VST)
+
+- **[Surge XT](https://surge-synthesizer.github.io/)** — Free and open-source hybrid synthesizer featuring multiple synthesis techniques, flexible modulations, and MPE support.
+  - 🌐 **Official Website**: https://surge-synthesizer.github.io/
+  - 💻 **Open Source Link**: https://github.com/surge-synthesizer/surge
+  - 🔄 **Replaces**: Xfer Serum, Native Instruments Massive, Sylenth1
+
+- **[Vital](https://vital.audio/)** — Spectral warping wavetable synthesizer with visual modulation and open-source audio engine.
+  - 🌐 **Official Website**: https://vital.audio/
+  - 💻 **Open Source Link**: https://github.com/mtytel/vital
+  - 🔄 **Replaces**: Serum, Omnisphere
+
+---
+
+## 🗺️ Project Roadmap & Future Expansion
+
+To view upcoming milestones, researched candidates, and the plan for automated CI quality checks:
+👉 Read our comprehensive **[Project Roadmap & Expansion Plan](ROADMAP.md)**.
 
 ---
 
