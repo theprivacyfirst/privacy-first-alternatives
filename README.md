@@ -5,390 +5,1091 @@
 [![Privacy First](https://img.shields.io/badge/Privacy-First-9cf.svg)](#)
 [![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)](#)
 
-A curated, comprehensive directory of **150+ popular proprietary applications and digital services**, mapped directly to their **free, open-source (FOSS), and privacy-respecting alternatives**.
+A curated, comprehensive directory of **150+ popular proprietary applications and digital services**, mapped directly to their **free, open-source (FOSS), and privacy-first alternatives**.
 
-> **Mission**: Empower individuals, developers, and organizations to reclaim their digital sovereignty, minimize data profiling, and transition away from surveillance capitalism without sacrificing productivity.
+Each entry includes a clear description, official website link, open-source repository link, and the proprietary software it replaces.
 
 ---
 
 ## 📑 Table of Contents
 
-- [Legend & Criteria](#-legend--criteria)
-- [1. Web Browsers & Search Engines](#1-web-browsers--search-engines)
-- [2. Email, Calendar & Contacts](#2-email-calendar--contacts)
-- [3. Instant Messaging & Team Communication](#3-instant-messaging--team-communication)
-- [4. Video Conferencing & Screen Recording](#4-video-conferencing--screen-recording)
-- [5. Cloud Storage, File Sync & Sharing](#5-cloud-storage-file-sync--sharing)
-- [6. Notes, Knowledge Base & Documentation](#6-notes-knowledge-base--documentation)
-- [7. Office Suites, Spreadsheets & Presentations](#7-office-suites-spreadsheets--presentations)
-- [8. Project Management, Kanban & Issue Tracking](#8-project-management-kanban--issue-tracking)
-- [9. Password Managers & 2FA / Authentication](#9-password-managers--2fa--authentication)
-- [10. Operating Systems & Mobile ROMs](#10-operating-systems--mobile-roms)
-- [11. Media Streaming, Audio & Video Players](#11-media-streaming-audio--video-players)
-- [12. Photo Management & Creative Graphic Design](#12-photo-management--creative-graphic-design)
-- [13. Video Editing & Audio Production (DAW)](#13-video-editing--audio-production-daw)
-- [14. Social Networks, Community & Publishing](#14-social-networks-community--publishing)
-- [15. Developer Tools, Git & Hosting](#15-developer-tools-git--hosting)
-- [16. Web Analytics, Error Monitoring & SEO](#16-web-analytics-error-monitoring--seo)
-- [17. Finance, Budgeting & Invoicing](#17-finance-budgeting--invoicing)
-- [18. Maps, Navigation & Weather](#18-maps-navigation--weather)
-- [19. Translation, Writing & AI Assistants](#19-translation-writing--ai-assistants)
-- [20. DNS, VPN, Network & System Security](#20-dns-vpn-network--system-security)
-- [21. Home Automation & Smart Devices (IoT)](#21-home-automation--smart-devices-iot)
-- [22. RSS Readers, Bookmarks & Read-It-Later](#22-rss-readers-bookmarks--read-it-later)
-- [23. Forms, Surveys & Customer Support](#23-forms-surveys--customer-support)
-- [24. Remote Desktop, Virtualization & Terminal](#24-remote-desktop-virtualization--terminal)
-- [25. App Stores & Mobile Package Managers](#25-app-stores--mobile-package-managers)
-- [26. E-Commerce, CMS & Website Builders](#26-e-commerce-cms--website-builders)
+- [1. Web Browsers](#1-web-browsers)
+- [2. Search Engines](#2-search-engines)
+- [3. Email Clients & Secure Email Providers](#3-email-clients--secure-email-providers)
+- [4. Calendars & Meeting Scheduling](#4-calendars--meeting-scheduling)
+- [5. Instant Messaging & Chat Apps](#5-instant-messaging--chat-apps)
+- [6. Team Communication & Community Chat](#6-team-communication--community-chat)
+- [7. Video Conferencing & Screen Recording](#7-video-conferencing--screen-recording)
+- [8. Cloud Storage & File Synchronization](#8-cloud-storage--file-synchronization)
+- [9. Notes, Knowledge Base & PKM](#9-notes-knowledge-base--pkm)
+- [10. Office Suites & Document Collaboration](#10-office-suites--document-collaboration)
+- [11. PDF Viewers, Editors & Tools](#11-pdf-viewers-editors--tools)
+- [12. Project Management, Kanban & Issue Tracking](#12-project-management-kanban--issue-tracking)
+- [13. Password Managers](#13-password-managers)
+- [14. Two-Factor Authentication (2FA) & IAM](#14-two-factor-authentication-2fa--iam)
+- [15. Operating Systems (Desktop & Mobile)](#15-operating-systems-desktop--mobile)
+- [16. Music Streaming & Audio Players](#16-music-streaming--audio-players)
+- [17. Video Streaming, Players & Platforms](#17-video-streaming-players--platforms)
+- [18. Photo Management & Cloud Backups](#18-photo-management--cloud-backups)
+- [19. Graphic Design, Prototyping & 3D](#19-graphic-design-prototyping--3d)
+- [20. Image Editing & RAW Photo Processing](#20-image-editing--raw-photo-processing)
+- [21. Video Editing & VFX](#21-video-editing--vfx)
+- [22. Audio Production (DAW) & Sound Editing](#22-audio-production-daw--sound-editing)
+- [23. Social Networks & Decentralized Media](#23-social-networks--decentralized-media)
+- [24. Publishing, Blogging & Newsletters](#24-publishing-blogging--newsletters)
+- [25. Code Editors & IDEs](#25-code-editors--ides)
+- [26. Git Hosting & DevOps Platforms](#26-git-hosting--devops-platforms)
+- [27. API Clients & Developer Tools](#27-api-clients--developer-tools)
+- [28. Web Analytics & Error Monitoring](#28-web-analytics--error-monitoring)
+- [29. Personal Finance, Budgeting & Invoicing](#29-personal-finance-budgeting--invoicing)
+- [30. Maps & Turn-by-Turn Navigation](#30-maps--turn-by-turn-navigation)
+- [31. Weather Forecasts](#31-weather-forecasts)
+- [32. Translation & Writing Tools](#32-translation--writing-tools)
+- [33. Local AI Assistants & Copilots](#33-local-ai-assistants--copilots)
+- [34. DNS Resolvers, Firewalls & VPNs](#34-dns-resolvers-firewalls--vpns)
+- [35. Smart Home Automation & IoT](#35-smart-home-automation--iot)
+- [36. RSS Feed Readers & Read-It-Later](#36-rss-feed-readers--read-it-later)
+- [37. Forms, Surveys & Customer Support](#37-forms-surveys--customer-support)
+- [38. Remote Desktop & Virtualization](#38-remote-desktop--virtualization)
+- [39. App Stores & Package Management](#39-app-stores--package-management)
+- [40. E-Commerce & Website Builders](#40-e-commerce--website-builders)
 - [Contributing](#-contributing)
 - [License](#-license)
 
 ---
 
-## 🏷️ Legend & Criteria
+## 1. Web Browsers
 
-Each alternative is evaluated based on the following privacy and freedom standards:
+- **[Firefox](https://www.mozilla.org/firefox/)** — An independent, fast, feature-packed web browser built by Mozilla with strong built-in anti-tracking and privacy protections.
+  - 🌐 **Official Website**: https://www.mozilla.org/firefox/
+  - 💻 **Open Source Link**: https://hg.mozilla.org/mozilla-central/
+  - 🔄 **Replaces**: Google Chrome, Microsoft Edge, Apple Safari
 
-| Tag | Meaning |
-| :--- | :--- |
-| `[FOSS]` | Free and Open Source Software (GPL, AGPL, MIT, Apache 2.0, MPL, etc.) |
-| `[E2EE]` | End-to-End Encryption enabled by default or configurable |
-| `[Self-Hosted]` | Can be hosted on your own server, VPS, or home lab |
-| `[Decentralized]` | Peer-to-peer (P2P), federated (ActivityPub, Matrix), or distributed protocol |
-| `[Local-First]` | Works completely offline; data lives on your device in standard open formats |
-| `[Zero-Knowledge]` | Provider cannot decrypt, inspect, or sell your stored data |
+- **[LibreWolf](https://librewolf.net/)** — A custom fork of Firefox focused on privacy, security, and freedom with telemetry removed and anti-fingerprinting enabled out of the box.
+  - 🌐 **Official Website**: https://librewolf.net/
+  - 💻 **Open Source Link**: https://codeberg.org/librewolf/source
+  - 🔄 **Replaces**: Google Chrome, Microsoft Edge
 
----
+- **[Mullvad Browser](https://mullvad.net/en/browser)** — A privacy-focused browser developed by Mullvad and the Tor Project to minimize tracking and eliminate browser fingerprinting.
+  - 🌐 **Official Website**: https://mullvad.net/en/browser
+  - 💻 **Open Source Link**: https://github.com/mullvad/mullvad-browser
+  - 🔄 **Replaces**: Google Chrome, Microsoft Edge, Brave
 
-## 1. Web Browsers & Search Engines
+- **[Tor Browser](https://www.torproject.org/)** — The gold standard for anonymous web browsing, routing traffic through the decentralized Tor onion network.
+  - 🌐 **Official Website**: https://www.torproject.org/
+  - 💻 **Open Source Link**: https://gitlab.torproject.org/tpo/applications/tor-browser
+  - 🔄 **Replaces**: Google Chrome, Opera
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 1 | **Google Chrome** | • [Firefox](https://www.mozilla.org/firefox/) `[FOSS]`<br>• [Mullvad Browser](https://mullvad.net/en/browser) `[FOSS]`<br>• [LibreWolf](https://librewolf.net/) `[FOSS]` | No Google telemetry, anti-fingerprinting, hardened tracking protection by default. |
-| 2 | **Microsoft Edge** | • [Brave](https://brave.com/) `[FOSS]`<br>• [Chromium](https://www.chromium.org/) `[FOSS]`<br>• [Ungoogled-Chromium](https://github.com/ungoogled-software/ungoogled-chromium) `[FOSS]` | Complete removal of Microsoft & Google background services, ad/tracker blocker built in. |
-| 3 | **Apple Safari** | • [Ladybird](https://ladybird.org/) `[FOSS]`<br>• [Firefox](https://www.mozilla.org/firefox/) `[FOSS]` | Truly independent web engine with zero ecosystem lock-in and no advertising ties. |
-| 4 | **Google Search** | • [SearXNG](https://github.com/searxng/searxng) `[FOSS]` `[Self-Hosted]`<br>• [DuckDuckGo](https://duckduckgo.com/)<br>• [Brave Search](https://search.brave.com/)<br>• [Kagi](https://kagi.com/) *(Paid, Zero-Ads)* | Metasearch engine aggregating queries without IP logging, profiling, or search bubbles. |
-| 5 | **Microsoft Bing** | • [SearXNG](https://github.com/searxng/searxng) `[FOSS]` `[Self-Hosted]`<br>• [Mojeek](https://www.mojeek.com/) | Independent crawler index; zero tracking, non-manipulated algorithmic results. |
-| 6 | **Arc Browser / Opera** | • [Vivaldi](https://vivaldi.com/) *(Tracker-free)*<br>• [Floorp](https://floorp.app/) `[FOSS]` | Custom workspaces and vertical tabs built on top of Firefox with zero telemetric surveillance. |
+- **[Ungoogled-Chromium](https://github.com/ungoogled-software/ungoogled-chromium)** — Vanilla Chromium with all Google web service integrations, background telemetry, and pre-built binaries stripped out.
+  - 🌐 **Official Website**: https://ungoogled-software.github.io/
+  - 💻 **Open Source Link**: https://github.com/ungoogled-software/ungoogled-chromium
+  - 🔄 **Replaces**: Google Chrome, Microsoft Edge
 
----
-
-## 2. Email, Calendar & Contacts
-
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 7 | **Google Gmail** | • [Proton Mail](https://proton.me/mail) `[FOSS Clients]` `[E2EE]` `[Zero-Knowledge]`<br>• [Tuta Mail](https://tuta.com/) `[FOSS]` `[E2EE]`<br>• [Mailcow](https://mailcow.email/) `[FOSS]` `[Self-Hosted]` | Zero-access encryption; emails are encrypted at rest; strict Swiss/German privacy laws. |
-| 8 | **Microsoft Outlook** | • [Thunderbird](https://www.thunderbird.net/) `[FOSS]` `[Local-First]`<br>• [Roundcube](https://roundcube.net/) `[FOSS]` `[Self-Hosted]`<br>• [K-9 Mail](https://k9mail.app/) `[FOSS]` | Standalone desktop/mobile client without telemetry or cloud sync tracking. |
-| 9 | **Yahoo Mail** | • [Fastmail](https://www.fastmail.com/) *(Privacy-focused)*<br>• [Posteo](https://posteo.de/)<br>• [Mailbox.org](https://mailbox.org/) | Ad-free, sustainable email providers with no profiling and clean IMAP/CardDAV support. |
-| 10 | **Google Calendar** | • [Proton Calendar](https://proton.me/calendar) `[E2EE]`<br>• [Nextcloud Calendar](https://nextcloud.com/) `[FOSS]` `[Self-Hosted]`<br>• [Radicale](https://radicale.org/) `[FOSS]` `[Self-Hosted]` | CalDAV standard; encrypted schedules, attendees, and locations. |
-| 11 | **Calendly / Doodle** | • [Cal.com](https://cal.com/) `[FOSS]` `[Self-Hosted]`<br>• [Rallly](https://rallly.co/) `[FOSS]` `[Self-Hosted]` | Self-hostable scheduling infrastructure, white-label, no invasive attendee cookies. |
-| 12 | **Google Contacts / Apple Address Book** | • [Nextcloud Contacts](https://nextcloud.com/) `[FOSS]` `[Self-Hosted]`<br>• [EteSync](https://www.etesync.com/) `[FOSS]` `[E2EE]` | End-to-end encrypted contacts, sync via open CardDAV/vCard standards. |
+- **[Brave Browser](https://brave.com/)** — Chromium-based browser with built-in Shields that automatically block trackers, ads, and fingerprinting attempts.
+  - 🌐 **Official Website**: https://brave.com/
+  - 💻 **Open Source Link**: https://github.com/brave/brave-browser
+  - 🔄 **Replaces**: Google Chrome, Microsoft Edge, Opera
 
 ---
 
-## 3. Instant Messaging & Team Communication
+## 2. Search Engines
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 13 | **WhatsApp** | • [Signal](https://signal.org/) `[FOSS]` `[E2EE]`<br>• [SimpleX Chat](https://simplex.chat/) `[FOSS]` `[E2EE]`<br>• [Briar](https://briarproject.org/) `[FOSS]` `[P2P]` | Open-source Signal protocol; SimpleX requires zero user identifiers (no phone number/ID). |
-| 14 | **Telegram** | • [Session](https://getsession.org/) `[FOSS]` `[E2EE]` `[Decentralized]`<br>• [Matrix / Element](https://element.io/) `[FOSS]` `[E2EE]` `[Federated]` | Onion-routed network (Session) or federated protocol (Matrix) with E2EE on by default. |
-| 15 | **Facebook Messenger** | • [Signal](https://signal.org/) `[FOSS]` `[E2EE]`<br>• [Mumble](https://www.mumble.info/) `[FOSS]` `[Self-Hosted]` | Completely independent from Meta graph tracking, zero contact harvesting. |
-| 16 | **Slack** | • [Mattermost](https://mattermost.com/) `[FOSS]` `[Self-Hosted]`<br>• [Zulip](https://zulip.com/) `[FOSS]` `[Self-Hosted]`<br>• [Rocket.Chat](https://rocket.chat/) `[FOSS]` `[Self-Hosted]` | Self-hosted team workspace, threaded discussions, enterprise compliance on your terms. |
-| 17 | **Discord** | • [Revolt](https://revolt.chat/) `[FOSS]` `[Self-Hosted]`<br>• [Matrix / Element](https://element.io/) `[FOSS]` `[Federated]`<br>• [Mumble](https://www.mumble.info/) `[FOSS]` | Freedom from Tencent/Discord data harvesting, bot moderation without privacy compromises. |
-| 18 | **Microsoft Teams (Chat)** | • [Nextcloud Talk](https://nextcloud.com/talk/) `[FOSS]` `[Self-Hosted]` `[E2EE]`<br>• [Mattermost](https://mattermost.com/) `[FOSS]` | Internal company communications stay strictly within your own intranet/VPS infrastructure. |
-| 19 | **Skype / Viber / Line** | • [Jami](https://jami.net/) `[FOSS]` `[P2P]` `[E2EE]`<br>• [Tox](https://tox.chat/) `[FOSS]` `[P2P]` `[E2EE]` | Distributed peer-to-peer voice and video calls without any centralized server routing. |
-| 20 | **WeChat** | • [Briar](https://briarproject.org/) `[FOSS]` `[P2P]`<br>• [SimpleX Chat](https://simplex.chat/) `[FOSS]` | Censorship-resistant, operates via Tor and Bluetooth mesh if Internet is cut off. |
+- **[SearXNG](https://searxng.org/)** — A privacy-respecting, hackable metasearch engine that aggregates results from dozens of search engines without profiling users.
+  - 🌐 **Official Website**: https://searxng.org/
+  - 💻 **Open Source Link**: https://github.com/searxng/searxng
+  - 🔄 **Replaces**: Google Search, Microsoft Bing, Yahoo Search
 
----
+- **[Whoogle Search](https://github.com/benbusby/whoogle-search)** — A self-hosted metasearch engine giving Google search results with zero ads, trackers, cookies, or IP logging.
+  - 🌐 **Official Website**: https://github.com/benbusby/whoogle-search
+  - 💻 **Open Source Link**: https://github.com/benbusby/whoogle-search
+  - 🔄 **Replaces**: Google Search
 
-## 4. Video Conferencing & Screen Recording
+- **[DuckDuckGo](https://duckduckgo.com/)** — Mainstream privacy search engine that does not track your search history or build advertising profiles.
+  - 🌐 **Official Website**: https://duckduckgo.com/
+  - 💻 **Open Source Link**: https://github.com/duckduckgo (Open source apps & extensions)
+  - 🔄 **Replaces**: Google Search, Microsoft Bing
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 21 | **Zoom** | • [Jitsi Meet](https://meet.jit.si/) `[FOSS]` `[Self-Hosted]` `[E2EE]`<br>• [BigBlueButton](https://bigbluebutton.org/) `[FOSS]` `[Self-Hosted]` | No accounts required, browser-based WebRTC, self-hostable with end-to-end encryption. |
-| 22 | **Google Meet** | • [Jitsi Meet](https://meet.jit.si/) `[FOSS]` `[Self-Hosted]`<br>• [Nextcloud Talk](https://nextcloud.com/talk/) `[FOSS]` | No Google account needed; no AI training on video/audio streams. |
-| 23 | **Cisco Webex / GoToMeeting** | • [BigBlueButton](https://bigbluebutton.org/) `[FOSS]` `[Self-Hosted]`<br>• [LiveKit](https://livekit.io/) `[FOSS]` `[Self-Hosted]` | Professional breakout rooms, whiteboarding, and multi-user presentations for universities/teams. |
-| 24 | **Loom / Vidyard** | • [Cap](https://cap.so/) `[FOSS]` `[Self-Hosted]`<br>• [OBS Studio](https://obsproject.com/) `[FOSS]`<br>• [Kooha](https://github.com/SeaDve/Kooha) `[FOSS]` | Record and share quick video updates without sending proprietary screen captures to 3rd parties. |
+- **[Brave Search](https://search.brave.com/)** — A completely independent web search index that delivers private queries without tracking or ad-profiling algorithms.
+  - 🌐 **Official Website**: https://search.brave.com/
+  - 💻 **Open Source Link**: https://github.com/brave
+  - 🔄 **Replaces**: Google Search, Microsoft Bing
 
 ---
 
-## 5. Cloud Storage, File Sync & Sharing
+## 3. Email Clients & Secure Email Providers
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 25 | **Google Drive** | • [Nextcloud](https://nextcloud.com/) `[FOSS]` `[Self-Hosted]` `[E2EE]`<br>• [Seafile](https://www.seafile.com/) `[FOSS]` `[Self-Hosted]`<br>• [Proton Drive](https://proton.me/drive) `[E2EE]` | Full data ownership; instant sync clients for desktop/mobile, granular permission controls. |
-| 26 | **Dropbox** | • [Syncthing](https://syncthing.net/) `[FOSS]` `[P2P]` `[Local-First]`<br>• [Nextcloud](https://nextcloud.com/) `[FOSS]`<br>• [Filen](https://filen.io/) `[FOSS Clients]` `[Zero-Knowledge]` | Continuous peer-to-peer sync directly between devices without intermediate cloud servers. |
-| 27 | **Microsoft OneDrive** | • [OwnCloud Infinite Scale](https://owncloud.com/infinite-scale/) `[FOSS]` `[Self-Hosted]`<br>• [Seafile](https://www.seafile.com/) `[FOSS]` | High-performance Go/Microservices architecture, reliable block-level syncing. |
-| 28 | **Box / WeTransfer** | • [Send (Fork of Firefox Send)](https://github.com/timvisee/send) `[FOSS]` `[Self-Hosted]` `[E2EE]`<br>• [Pingvin Share](https://github.com/stonith404/pingvin-share) `[FOSS]` `[Self-Hosted]` | Time-expiring, password-protected encrypted file transfer links. |
-| 29 | **Apple iCloud Drive** | • [Nextcloud](https://nextcloud.com/) `[FOSS]` `[Self-Hosted]`<br>• [Cryptomator](https://cryptomator.org/) `[FOSS]` `[Client-side Encryption]` | Encrypt any cloud storage client-side with AES-256 before uploading. |
-| 30 | **Backblaze / Carbonite** | • [BorgBackup](https://www.borgbackup.org/) `[FOSS]` `[E2EE]`<br>• [Restic](https://restic.net/) `[FOSS]` `[E2EE]`<br>• [Kopia](https://kopia.io/) `[FOSS]` `[E2EE]` | Deduplicated, authenticated, client-side encrypted backup solutions for local or remote targets. |
+- **[Thunderbird](https://www.thunderbird.net/)** — Free and open-source desktop email, calendar, and contacts client that gives you full offline control over your messages.
+  - 🌐 **Official Website**: https://www.thunderbird.net/
+  - 💻 **Open Source Link**: https://github.com/thundernest/thunderbird-desktop
+  - 🔄 **Replaces**: Microsoft Outlook, Apple Mail
 
----
+- **[K-9 Mail](https://k9mail.app/)** — Open-source email client for Android that supports multiple accounts, OpenPGP encryption, and IMAP push email.
+  - 🌐 **Official Website**: https://k9mail.app/
+  - 💻 **Open Source Link**: https://github.com/thunderbird/thunderbird-android
+  - 🔄 **Replaces**: Gmail Android App, Outlook Mobile
 
-## 6. Notes, Knowledge Base & Documentation
+- **[Proton Mail](https://proton.me/mail)** — Switzerland-based encrypted email service offering zero-access encryption and end-to-end PGP email protection.
+  - 🌐 **Official Website**: https://proton.me/mail
+  - 💻 **Open Source Link**: https://github.com/ProtonMail
+  - 🔄 **Replaces**: Google Gmail, Microsoft Outlook.com, Yahoo Mail
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 31 | **Notion** | • [AppFlowy](https://www.appflowy.io/) `[FOSS]` `[Local-First]`<br>• [AFFiNE](https://affine.pro/) `[FOSS]` `[Local-First]`<br>• [Anytype](https://anytype.io/) `[FOSS]` `[Local-First]` `[P2P]` | Block-based databases, kanban, and wikis with data stored locally on your disk. |
-| 32 | **Evernote** | • [Joplin](https://joplinapp.org/) `[FOSS]` `[E2EE]` `[Local-First]`<br>• [Notesnook](https://notesnook.com/) `[FOSS]` `[E2EE]`<br>• [Standard Notes](https://standardnotes.com/) `[FOSS]` `[E2EE]` | Markdown notes, cross-platform syncing with zero-knowledge AES-256 encryption. |
-| 33 | **Microsoft OneNote** | • [Trilium Notes](https://github.com/zadam/trilium) `[FOSS]` `[Self-Hosted]` `[Local-First]`<br>• [Xournal++](https://xournalpp.github.io/) `[FOSS]` *(Handwriting/Stylus)* | Hierarchical tree-based note organization, rich mind-mapping, offline-first. |
-| 34 | **Google Keep** | • [Memos](https://usememos.com/) `[FOSS]` `[Self-Hosted]`<br>• [Carnet](https://getcarnet.app/) `[FOSS]`<br>• [Joplin](https://joplinapp.org/) `[FOSS]` | Lightweight privacy-respecting scratchpad with tags, pinned notes, and attachments. |
-| 35 | **Apple Notes** | • [Notesnook](https://notesnook.com/) `[FOSS]` `[E2EE]`<br>• [Joplin](https://joplinapp.org/) `[FOSS]` | Open formats (Markdown/JSON) preventing vendor lock-in to Apple ecosystem. |
-| 36 | **Roam Research / Obsidian** | • [Logseq](https://logseq.com/) `[FOSS]` `[Local-First]`<br>• [Foam](https://foambubble.github.io/foam/) `[FOSS]` | Bidirectional linking, outline-based personal knowledge graph stored in local plain Markdown. |
-| 37 | **Confluence** | • [BookStack](https://www.bookstackapp.com/) `[FOSS]` `[Self-Hosted]`<br>• [Wiki.js](https://js.wiki/) `[FOSS]` `[Self-Hosted]`<br>• [Outline](https://www.getoutline.com/) `[FOSS]` `[Self-Hosted]` | Beautiful structured company documentation, versioning, Git storage integration. |
+- **[Tuta Mail](https://tuta.com/)** — German-based encrypted email service with automatic end-to-end encryption for emails, subject lines, attachments, and calendars.
+  - 🌐 **Official Website**: https://tuta.com/
+  - 💻 **Open Source Link**: https://github.com/tutao/tutanota
+  - 🔄 **Replaces**: Google Gmail, Yahoo Mail
 
----
+- **[Roundcube](https://roundcube.net/)** — Browser-based multilingual IMAP client with an application-like user interface for self-hosted mail servers.
+  - 🌐 **Official Website**: https://roundcube.net/
+  - 💻 **Open Source Link**: https://github.com/roundcube/roundcubemail
+  - 🔄 **Replaces**: Webmail interfaces of Gmail and Outlook
 
-## 7. Office Suites, Spreadsheets & Presentations
-
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 38 | **Microsoft Word / Excel / PowerPoint** | • [LibreOffice](https://www.libreoffice.org/) `[FOSS]` `[Local-First]`<br>• [OnlyOffice Desktop](https://www.onlyoffice.com/) `[FOSS]` | Full offline compatibility with `.docx`, `.xlsx`, `.pptx` without Microsoft account requirements. |
-| 39 | **Google Docs / Sheets / Slides** | • [CryptPad](https://cryptpad.org/) `[FOSS]` `[E2EE]` `[Zero-Knowledge]`<br>• [Nextcloud Office (Collabora)](https://www.collaboraoffice.com/) `[FOSS]` `[Self-Hosted]`<br>• [OnlyOffice Workspace](https://www.onlyoffice.com/) `[FOSS]` | Real-time collaborative document editing with zero-knowledge encryption in the browser. |
-| 40 | **Adobe Acrobat Reader / Pro** | • [Okular](https://okular.kde.org/) `[FOSS]`<br>• [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) `[FOSS]` `[Self-Hosted]`<br>• [PDF Arranger](https://github.com/pdfarranger/pdfarranger) `[FOSS]` | Complete suite for viewing, signing, merging, splitting, OCR, and editing PDFs locally. |
-| 41 | **Airtable** | • [NocoDB](https://nocodb.com/) `[FOSS]` `[Self-Hosted]`<br>• [Baserow](https://baserow.io/) `[FOSS]` `[Self-Hosted]`<br>• [Grist](https://www.getgrist.com/) `[FOSS]` `[Self-Hosted]` | Turn any PostgreSQL/MySQL database into a smart relational spreadsheet/Airtable GUI. |
+- **[Mailcow: dockerized](https://mailcow.email/)** — A complete, modern, open-source email server suite with SOGo groupware, spam filtering, and admin dashboard.
+  - 🌐 **Official Website**: https://mailcow.email/
+  - 💻 **Open Source Link**: https://github.com/mailcow/mailcow-dockerized
+  - 🔄 **Replaces**: Google Workspace Mail, Microsoft Exchange
 
 ---
 
-## 8. Project Management, Kanban & Issue Tracking
+## 4. Calendars & Meeting Scheduling
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 42 | **Trello** | • [Planka](https://planka.app/) `[FOSS]` `[Self-Hosted]`<br>• [Wekan](https://wekan.github.io/) `[FOSS]` `[Self-Hosted]`<br>• [Focalboard](https://www.focalboard.com/) `[FOSS]` | Simple, collaborative kanban boards hosted internally without Atlassian data tracking. |
-| 43 | **Jira / Asana** | • [Plane](https://plane.so/) `[FOSS]` `[Self-Hosted]`<br>• [Taiga](https://taiga.io/) `[FOSS]` `[Self-Hosted]`<br>• [OpenProject](https://www.openproject.org/) `[FOSS]` `[Self-Hosted]` | Agile sprints, issue tracking, Gantt charts, roadmaps; complete enterprise self-hosting. |
-| 44 | **Monday.com / ClickUp** | • [Plane](https://plane.so/) `[FOSS]`<br>• [Leantime](https://leantime.io/) `[FOSS]` `[Self-Hosted]` | Lean project management system designed for non-technical and cross-functional teams. |
-| 45 | **Linear** | • [Plane](https://plane.so/) `[FOSS]` `[Self-Hosted]`<br>• [AppFlowy](https://www.appflowy.io/) `[FOSS]` | High-speed, keyboard-centric issue tracking and roadmapping without cloud lock-in. |
+- **[Cal.com](https://cal.com/)** — Open-source scheduling infrastructure that lets people book meetings without tracking cookies or corporate data sharing.
+  - 🌐 **Official Website**: https://cal.com/
+  - 💻 **Open Source Link**: https://github.com/calcom/cal.com
+  - 🔄 **Replaces**: Calendly, Doodle
 
----
+- **[Proton Calendar](https://proton.me/calendar)** — End-to-end encrypted calendar app that keeps event titles, participants, locations, and descriptions completely private.
+  - 🌐 **Official Website**: https://proton.me/calendar
+  - 💻 **Open Source Link**: https://github.com/ProtonMail/WebClients
+  - 🔄 **Replaces**: Google Calendar, Microsoft Outlook Calendar
 
-## 9. Password Managers & 2FA / Authentication
+- **[Rallly](https://rallly.co/)** — Collaborative meeting polling and scheduling platform for groups to vote on dates without registration or tracking.
+  - 🌐 **Official Website**: https://rallly.co/
+  - 💻 **Open Source Link**: https://github.com/lukevella/rallly
+  - 🔄 **Replaces**: Doodle, When2meet
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 46 | **1Password** | • [Bitwarden](https://bitwarden.com/) `[FOSS]` `[Zero-Knowledge]`<br>• [Vaultwarden](https://github.com/dani-garcia/vaultwarden) `[FOSS]` `[Self-Hosted]`<br>• [KeePassXC](https://keepassxc.org/) `[FOSS]` `[Local-First]` | Audited zero-knowledge architecture, Argon2id hashing, lightweight self-hostable server. |
-| 47 | **LastPass** | • [Bitwarden](https://bitwarden.com/) `[FOSS]` `[Zero-Knowledge]`<br>• [Passbolt](https://www.passbolt.com/) `[FOSS]` `[Self-Hosted]` `[E2EE]` | Open-source codebases, avoiding repeated proprietary centralized cloud breaches. |
-| 48 | **Dashlane / Keeper** | • [KeePassXC](https://keepassxc.org/) `[FOSS]` `[Local-First]`<br>• [Proton Pass](https://proton.me/pass) `[FOSS Clients]` `[E2EE]` | Encrypted `.kdbx` file stored completely under user control, offline master password security. |
-| 49 | **Google Authenticator** | • [Aegis Authenticator (Android)](https://getaegis.com/) `[FOSS]`<br>• [Ente Auth](https://ente.io/auth/) `[FOSS]` `[E2EE]`<br>• [2FAS](https://2fas.com/) `[FOSS]` | Encrypted automated backups, biometric lock, zero Google account synchronization telemetry. |
-| 50 | **Authy (Twilio)** | • [Ente Auth](https://ente.io/auth/) `[FOSS]` `[E2EE]`<br>• [Aegis Authenticator](https://getaegis.com/) `[FOSS]`<br>• [FreeOTP](https://freeotp.github.io/) `[FOSS]` | End-to-end encrypted multi-device sync with unexportable tokens eliminated; no SMS leak risks. |
-| 51 | **Okta / Duo Security / Auth0** | • [Keycloak](https://www.keycloak.org/) `[FOSS]` `[Self-Hosted]`<br>• [Authelia](https://www.authelia.com/) `[FOSS]` `[Self-Hosted]`<br>• [Zitadel](https://zitadel.com/) `[FOSS]` `[Self-Hosted]` | Identity and Access Management (IAM), OpenID Connect/OAuth2, MFA portal on your private servers. |
-
----
-
-## 10. Operating Systems & Mobile ROMs
-
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 52 | **Microsoft Windows 11** | • [Fedora Workstation](https://fedoraproject.org/) `[FOSS]`<br>• [Debian](https://www.debian.org/) `[FOSS]`<br>• [Linux Mint](https://linuxmint.com/) `[FOSS]`<br>• [Ubuntu](https://ubuntu.com/) `[FOSS]` | Zero built-in Recall AI screen scraping, zero forced ads, complete software freedom. |
-| 53 | **Apple macOS** | • [Fedora Linux](https://fedoraproject.org/) `[FOSS]`<br>• [Pop!_OS](https://pop.system76.com/) `[FOSS]`<br>• [NixOS](https://nixos.org/) `[FOSS]` | Reproducible packages, no Apple Gatekeeper telemetry, user root authority. |
-| 54 | **Stock Android (Google Play)** | • [GrapheneOS](https://grapheneos.org/) `[FOSS]`<br>• [CalyxOS](https://calyxos.org/) `[FOSS]`<br>• [LineageOS](https://lineageos.org/) `[FOSS]`<br>• [/e/OS](https://e.foundation/) `[FOSS]` | Hardened memory allocator, sandboxed Google Play, per-connection MAC spoofing, no IMEI tracking. |
-| 55 | **Apple iOS** | • [GrapheneOS (on Pixel)](https://grapheneos.org/) `[FOSS]`<br>• [PostmarketOS](https://postmarketos.org/) `[FOSS]` | Independent mobile OS free from Apple app sandbox restrictions, sideloading freely supported. |
-| 56 | **Google ChromeOS** | • [FydeOS / openFyde](https://openfyde.io/) `[FOSS]`<br>• [ChromeOS Flex Alternatives (Linux Mint)](https://linuxmint.com/) | Cloud-native experience without forced school/corporate Google device management. |
-| 57 | **Tails / Whonix (Security OS)** | • [Tails OS](https://tails.net/) `[FOSS]`<br>• [Qubes OS](https://www.qubes-os.org/) `[FOSS]` | Amnesic routing through Tor; compartmented VMs isolating each app in hardware security domains. |
+- **[Radicale](https://radicale.org/)** — Lightweight CalDAV (calendar) and CardDAV (contacts) server that stores schedules locally in standard formats.
+  - 🌐 **Official Website**: https://radicale.org/
+  - 💻 **Open Source Link**: https://github.com/Kozea/Radicale
+  - 🔄 **Replaces**: Google Calendar Sync, Apple iCloud Calendar
 
 ---
 
-## 11. Media Streaming, Audio & Video Players
+## 5. Instant Messaging & Chat Apps
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 58 | **Spotify** | • [Spotube](https://spotube.krtirtho.dev/) `[FOSS]`<br>• [Navidrome](https://www.navidrome.org/) `[FOSS]` `[Self-Hosted]`<br>• [Feishin](https://github.com/jeffvli/feishin) `[FOSS]`<br>• [Funkwhale](https://funkwhale.audio/) `[FOSS]` `[Federated]` | Self-hosted personal music library streaming via Subsonic protocol, no behavior profiling. |
-| 59 | **Apple Music** | • [Jellyfin](https://jellyfin.org/) `[FOSS]` `[Self-Hosted]`<br>• [Symfonium / Finamp](https://github.com/UnicornsOnLSD/finamp) `[FOSS]` | Lossless FLAC/ALAC streaming directly from your home NAS with high-fidelity mobile apps. |
-| 60 | **YouTube (Client)** | • [NewPipe (Android)](https://newpipe.net/) `[FOSS]`<br>• [FreeTube (Desktop)](https://freetubeapp.io/) `[FOSS]`<br>• [Invidious](https://invidious.io/) `[FOSS]` `[Self-Hosted]`<br>• [Piped](https://piped.video/) `[FOSS]` | Watch and subscribe without Google accounts; zero ads, no trackers, local subscriptions. |
-| 61 | **YouTube Music** | • [ViMusic](https://github.com/vfsfitvnm/ViMusic) `[FOSS]`<br>• [Innertune](https://github.com/z-huang/InnerTune) `[FOSS]`<br>• [RiMusic](https://rimusic.xyz/) `[FOSS]` | Ad-free audio background playback, offline caching, zero listening habits reported to Google. |
-| 62 | **Netflix / Disney+ / Plex** | • [Jellyfin](https://jellyfin.org/) `[FOSS]` `[Self-Hosted]` | Fully open-source media streaming server with zero premium paywalls, telemetry, or remote DRM checks. |
-| 63 | **Twitch** | • [Owncast](https://owncast.online/) `[FOSS]` `[Self-Hosted]`<br>• [Streamlink](https://streamlink.github.io/) `[FOSS]` | Independent live streaming platform you control; no Amazon ads or tracker scripts. |
-| 64 | **SoundCloud** | • [Funkwhale](https://funkwhale.audio/) `[FOSS]` `[Federated]`<br>• [Audius](https://audius.co/) | Decentralized audio sharing on ActivityPub; creators own their catalog and listener relationships. |
-| 65 | **Shazam / SoundHound** | • [SongRec](https://github.com/marin-m/SongRec) `[FOSS]`<br>• [AudD](https://audd.io/) | Lightweight audio recognition client without location tracking or targeted advertising IDs. |
-| 66 | **Apple Podcasts / Google Podcasts** | • [AntennaPod](https://antennapod.org/) `[FOSS]`<br>• [Pocket Casts](https://github.com/Automattic/pocket-casts-android) `[FOSS Clients]`<br>• [Podverse](https://podverse.fm/) `[FOSS]` | Direct RSS feed parsing; no centralized intermediaries tracking episodes or timestamps. |
+- **[Signal](https://signal.org/)** — Non-profit, state-of-the-art secure messaging app offering end-to-end encrypted chats, voice, and video calls with zero metadata logging.
+  - 🌐 **Official Website**: https://signal.org/
+  - 💻 **Open Source Link**: https://github.com/signalapp
+  - 🔄 **Replaces**: WhatsApp, Facebook Messenger, WeChat
 
----
+- **[SimpleX Chat](https://simplex.chat/)** — The first chat network that operates without user-identifying numbers, usernames, or IP metadata tracking.
+  - 🌐 **Official Website**: https://simplex.chat/
+  - 💻 **Open Source Link**: https://github.com/simplex-chat/simplex-chat
+  - 🔄 **Replaces**: WhatsApp, Telegram
 
-## 12. Photo Management & Creative Graphic Design
+- **[Session](https://getsession.org/)** — Decentralized, end-to-end encrypted messenger that routes messages through an onion-routed node network with no phone number needed.
+  - 🌐 **Official Website**: https://getsession.org/
+  - 💻 **Open Source Link**: https://github.com/oxen-io/session-desktop
+  - 🔄 **Replaces**: Telegram, WhatsApp, Viber
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 67 | **Google Photos** | • [Immich](https://immich.app/) `[FOSS]` `[Self-Hosted]`<br>• [Ente Photos](https://ente.io/) `[FOSS]` `[E2EE]`<br>• [PhotoPrism](https://photoprism.app/) `[FOSS]` `[Self-Hosted]` | On-device/self-hosted facial recognition, object detection, automatic timeline backup without Google training on your faces. |
-| 68 | **Apple Photos (iCloud)** | • [Immich](https://immich.app/) `[FOSS]` `[Self-Hosted]`<br>• [Ente Photos](https://ente.io/) `[FOSS]` `[E2EE]` | End-to-end encrypted backup; accessible from Linux, Windows, Android, and Web. |
-| 69 | **Adobe Photoshop** | • [GIMP](https://www.gimp.org/) `[FOSS]` `[Local-First]`<br>• [Krita](https://krita.org/) `[FOSS]` `[Local-First]`<br>• [Photopea](https://www.photopea.com/) *(Local In-Browser)* | Full layer editing, CMYK support, advanced brush engine without Creative Cloud DRM or recurring fees. |
-| 70 | **Adobe Illustrator** | • [Inkscape](https://inkscape.org/) `[FOSS]` `[Local-First]`<br>• [Penpot](https://penpot.app/) `[FOSS]` `[Self-Hosted]` | Vector illustration adhering to native W3C SVG standards; zero vendor format lock-in. |
-| 71 | **Adobe Lightroom** | • [Darktable](https://www.darktable.org/) `[FOSS]` `[Local-First]`<br>• [RawTherapee](https://www.rawtherapee.com/) `[FOSS]` `[Local-First]`<br>• [DigiKam](https://www.digikam.org/) `[FOSS]` | Non-destructive RAW photo development, color grading, and complete photo catalog management. |
-| 72 | **Adobe InDesign** | • [Scribus](https://www.scribus.net/) `[FOSS]` `[Local-First]` | Professional desktop publishing (DTP), CMYK separations, PDF/X output, ICC color management. |
-| 73 | **Figma** | • [Penpot](https://penpot.app/) `[FOSS]` `[Self-Hosted]` | Open-source design and prototyping tool for teams, based on open web standards (SVG/CSS). |
-| 74 | **Canva** | • [Penpot](https://penpot.app/) `[FOSS]` `[Self-Hosted]`<br>• [Polotno Studio](https://studio.polotno.com/) `[Local-First]` | Create social media graphics and marketing collateral without uploading brand assets to cloud analytics. |
-| 75 | **Autodesk 3ds Max / Maya** | • [Blender](https://www.blender.org/) `[FOSS]` `[Local-First]` | World-class 3D modeling, sculpting, animation, simulation, rendering, and compositing pipeline. |
+- **[Briar](https://briarproject.org/)** — Peer-to-peer messaging app designed for activists and journalists, operating over Tor, Wi-Fi, or Bluetooth mesh without the Internet.
+  - 🌐 **Official Website**: https://briarproject.org/
+  - 💻 **Open Source Link**: https://code.briarproject.org/briar/briar
+  - 🔄 **Replaces**: WhatsApp, SMS, WeChat
+
+- **[Jami](https://jami.net/)** — GNU peer-to-peer audio/video calls, messaging, and screen sharing with no central servers holding personal credentials.
+  - 🌐 **Official Website**: https://jami.net/
+  - 💻 **Open Source Link**: https://git.jami.net/savoirfairelinux/jami-client-qt
+  - 🔄 **Replaces**: Skype, Viber, FaceTime
 
 ---
 
-## 13. Video Editing & Audio Production (DAW)
+## 6. Team Communication & Community Chat
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 76 | **Adobe Premiere Pro** | • [Kdenlive](https://kdenlive.org/) `[FOSS]` `[Local-First]`<br>• [Shotcut](https://shotcut.org/) `[FOSS]` `[Local-First]`<br>• [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) *(Freeware)* | Multi-track timeline editing, GPU acceleration, keyframe animations, audio mixing without telemetry. |
-| 77 | **Adobe After Effects** | • [Natron](https://natrongithub.github.io/) `[FOSS]` `[Local-First]`<br>• [Blender (Compositor & VFX)](https://www.blender.org/) `[FOSS]` | Node-based digital compositing and visual effects pipeline for films and motion graphics. |
-| 78 | **Apple Final Cut Pro** | • [Kdenlive](https://kdenlive.org/) `[FOSS]` `[Local-First]`<br>• [OpenShot](https://www.openshot.org/) `[FOSS]` | Cross-platform video editing with high-performance MLT engine, open file format storage. |
-| 79 | **Apple Logic Pro / FL Studio / Ableton** | • [Ardour](https://ardour.org/) `[FOSS]` `[Local-First]`<br>• [LMMS](https://lmms.io/) `[FOSS]` `[Local-First]`<br>• [Zrythm](https://www.zrythm.org/) `[FOSS]` | Professional Digital Audio Workstation (DAW), VST/LV2 plugin support, MIDI sequencer. |
-| 80 | **Audacity (post-telemetry) / Adobe Audition** | • [Tenacity](https://tenacityaudio.org/) `[FOSS]` `[Local-First]`<br>• [Audacium](https://github.com/audacium/audacium) `[FOSS]` | Telemetry-stripped community forks of Audacity with pure local waveform editing and zero analytics. |
-| 81 | **HandBrake / Adobe Media Encoder** | • [HandBrake](https://handbrake.fr/) `[FOSS]` `[Local-First]`<br>• [FFmpeg](https://ffmpeg.org/) `[FOSS]` `[Local-First]` | The universal standard for transcoding video/audio formats locally with hardware NVENC/VAAPI codecs. |
+- **[Matrix / Element](https://element.io/)** — Decentralized, federated open protocol for secure, real-time encrypted team communication and voice/video rooms.
+  - 🌐 **Official Website**: https://element.io/
+  - 💻 **Open Source Link**: https://github.com/element-hq/element-web
+  - 🔄 **Replaces**: Discord, Slack, Microsoft Teams
 
----
+- **[Mattermost](https://mattermost.com/)** — Self-hosted collaboration and messaging platform designed for technical and enterprise operations teams.
+  - 🌐 **Official Website**: https://mattermost.com/
+  - 💻 **Open Source Link**: https://github.com/mattermost/mattermost
+  - 🔄 **Replaces**: Slack, Microsoft Teams
 
-## 14. Social Networks, Community & Publishing
+- **[Zulip](https://zulip.com/)** — Powerful team chat application combining the speed of real-time messaging with the organizational structure of email threads.
+  - 🌐 **Official Website**: https://zulip.com/
+  - 💻 **Open Source Link**: https://github.com/zulip/zulip
+  - 🔄 **Replaces**: Slack, Microsoft Teams
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 82 | **Twitter / X** | • [Mastodon](https://joinmastodon.org/) `[FOSS]` `[Federated]`<br>• [Bluesky](https://bsky.app/) `[AT Protocol]` `[Open Source]`<br>• [Nostr / Damus / Amethyst](https://nostr.com/) `[Decentralized]` | No algorithm-driven outrage bait, no shadowbanning, user-owned social graphs over open protocols. |
-| 83 | **Reddit** | • [Lemmy](https://join-lemmy.org/) `[FOSS]` `[Federated]`<br>• [Kbin / Mbin](https://fedia.io/) `[FOSS]` `[Federated]` | Fediverse-connected link aggregator and forum discussions; communities run by volunteers, not corporate ads. |
-| 84 | **Instagram** | • [Pixelfed](https://pixelfed.org/) `[FOSS]` `[Federated]` | Photo sharing on ActivityPub; zero facial biometrics indexing, chronological feed, no targeted ad reels. |
-| 85 | **Facebook** | • [Friendica](https://friendi.ca/) `[FOSS]` `[Federated]`<br>• [Hubzilla](https://hubzilla.org/) `[FOSS]` `[Federated]` | Social networking with rich access control lists, interconnected with the entire Fediverse. |
-| 86 | **TikTok** | • [Loops](https://loops.video/) `[FOSS]` `[Federated]`<br>• [PeerTube (Shorts)](https://joinpeertube.org/) `[FOSS]` | Decentralized short-form video sharing without Chinese or US surveillance apparatus monitoring habits. |
-| 87 | **LinkedIn** | • [GitLab / GitHub Profiles](https://github.com)<br>• [Fediverse Professional Circles](https://joinmastodon.org/) | Public portfolios, open-source contributions, and verified personal websites replace corporate resume surveillance. |
-| 88 | **Medium / Substack** | • [Ghost](https://ghost.org/) `[FOSS]` `[Self-Hosted]`<br>• [WriteFreely](https://writefreely.org/) `[FOSS]` `[Federated]`<br>• [WordPress.org](https://wordpress.org/) `[FOSS]` | Own your subscriber mailing list, payments, and articles without platform gatekeepers or paywalls. |
-| 89 | **Goodreads (Amazon)** | • [Hardcover](https://hardcover.app/)<br>• [BookWyrm](https://joinbookwyrm.com/) `[FOSS]` `[Federated]`<br>• [OpenLibrary](https://openlibrary.org/) `[FOSS]` | Track reading habits without feeding Amazon’s e-commerce recommendations and profiling. |
-| 90 | **Letterboxd** | • [Serializd](https://www.serializd.com/)<br>• [Ryot](https://github.com/IgnisDa/ryot) `[FOSS]` `[Self-Hosted]` | Self-hosted tracker for movies, TV shows, video games, books, and fitness in one private dashboard. |
+- **[Revolt](https://revolt.chat/)** — User-first community chat platform offering organized text channels, voice chat, and bot support built without tracking.
+  - 🌐 **Official Website**: https://revolt.chat/
+  - 💻 **Open Source Link**: https://github.com/revoltchat
+  - 🔄 **Replaces**: Discord
 
----
-
-## 15. Developer Tools, Git & Hosting
-
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 91 | **Microsoft VS Code (Proprietary Build)** | • [VSCodium](https://vscodium.com/) `[FOSS]`<br>• [Zed](https://zed.dev/) `[FOSS]`<br>• [Helix](https://helix-editor.com/) `[FOSS]`<br>• [Neovim](https://neovim.io/) `[FOSS]` | Community binaries of VS Code with Microsoft telemetry, tracker tokens, and call-homes completely stripped. |
-| 92 | **GitHub (Microsoft)** | • [Forgejo](https://forgejo.org/) `[FOSS]` `[Self-Hosted]`<br>• [Gitea](https://gitea.com/) `[FOSS]` `[Self-Hosted]`<br>• [GitLab CE](https://about.gitlab.com/) `[FOSS]` `[Self-Hosted]`<br>• [SourceHut](https://sourcehut.org/) `[FOSS]` | Lightweight self-hosted git repos, issue trackers, CI/CD runners, and software release distribution. |
-| 93 | **Docker Desktop** | • [Podman / Podman Desktop](https://podman-desktop.io/) `[FOSS]`<br>• [OrbStack](https://orbstack.dev/)<br>• [Rancher Desktop](https://rancherdesktop.io/) `[FOSS]` | Rootless, daemonless container engine compatible with Docker CLI without telemetry or licensing constraints. |
-| 94 | **Postman** | • [Hoppscotch](https://hoppscotch.com/) `[FOSS]` `[Self-Hosted]`<br>• [Bruno](https://www.usebruno.com/) `[FOSS]` `[Local-First]`<br>• [Insomnia](https://insomnia.rest/) `[FOSS]` | Local-first API client; collections stored directly in plain Git repo text files without forced cloud login. |
-| 95 | **Vercel / Netlify / Heroku** | • [Coolify](https://coolify.io/) `[FOSS]` `[Self-Hosted]`<br>• [Dokku](https://dokku.com/) `[FOSS]` `[Self-Hosted]`<br>• [CapRover](https://caprover.com/) `[FOSS]` `[Self-Hosted]` | An open-source, self-hosted PaaS alternative to deploy any stack or static site to your own server in 1 click. |
-| 96 | **Datadog / New Relic** | • [Signoz](https://signoz.io/) `[FOSS]` `[Self-Hosted]`<br>• [Prometheus & Grafana](https://grafana.com/) `[FOSS]` `[Self-Hosted]`<br>• [Uptime Kuma](https://github.com/louislam/uptime-kuma) `[FOSS]` | Full-stack APM, metrics, distributed traces, and status pages hosted on your private cloud. |
-| 97 | **Sentry (Cloud)** | • [GlitchTip](https://glitchtip.com/) `[FOSS]` `[Self-Hosted]`<br>• [Sentry Self-Hosted](https://github.com/getsentry/self-hosted) `[FOSS]` | Error tracking and crash reporting software compatible with standard Sentry SDKs. |
+- **[Rocket.Chat](https://rocket.chat/)** — Secure, open-source omni-channel messaging platform compliant with HIPAA, GDPR, and enterprise sovereignty requirements.
+  - 🌐 **Official Website**: https://rocket.chat/
+  - 💻 **Open Source Link**: https://github.com/RocketChat/Rocket.Chat
+  - 🔄 **Replaces**: Slack, Microsoft Teams
 
 ---
 
-## 16. Web Analytics, Error Monitoring & SEO
+## 7. Video Conferencing & Screen Recording
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 98 | **Google Analytics (GA4)** | • [Plausible Analytics](https://plausible.io/) `[FOSS]` `[Self-Hosted]`<br>• [Umami](https://umami.is/) `[FOSS]` `[Self-Hosted]`<br>• [Matomo](https://matomo.org/) `[FOSS]` `[Self-Hosted]` | Lightweight (<1KB script), GDPR/CCPA compliant without cookies; no cross-site user fingerprinting. |
-| 99 | **Mixpanel / Amplitude** | • [PostHog](https://posthog.com/) `[FOSS]` `[Self-Hosted]` | Product analytics, event funnels, user session replays, and feature flags hosted completely on your infrastructure. |
-| 100 | **Hotjar / Crazy Egg** | • [PostHog Session Recording](https://posthog.com/) `[FOSS]`<br>• [Clarity Alternatives (Matomo Heatmaps)](https://matomo.org/) | On-premise heatmaps and session recordings with sensitive field masking for strict compliance. |
-| 101 | **Segment (Twilio)** | • [RudderStack](https://www.rudderstack.com/) `[FOSS]` `[Self-Hosted]`<br>• [Jitsu](https://jitsu.com/) `[FOSS]` `[Self-Hosted]` | Customer Data Platform (CDP) routing events without selling or analyzing user payloads. |
-| 102 | **Ahrefs / Semrush** | • [Ahrefs Webmaster Tools *(Free tier)*]<br>• [OpenSEO / Local CLI Audit Scripts](https://github.com) | Run crawler audits locally using headless browsers rather than sharing web architectures with data brokers. |
+- **[Jitsi Meet](https://meet.jit.si/)** — 100% open source, fully encrypted video conferencing tool you can use every day without ever needing an account.
+  - 🌐 **Official Website**: https://meet.jit.si/
+  - 💻 **Open Source Link**: https://github.com/jitsi/jitsi-meet
+  - 🔄 **Replaces**: Zoom, Google Meet, Cisco Webex
 
----
+- **[BigBlueButton](https://bigbluebutton.org/)** — Professional virtual classroom and web conferencing system equipped with whiteboards, breakout rooms, and polls.
+  - 🌐 **Official Website**: https://bigbluebutton.org/
+  - 💻 **Open Source Link**: https://github.com/bigbluebutton/bigbluebutton
+  - 🔄 **Replaces**: Zoom, Cisco Webex, Microsoft Teams Meetings
 
-## 17. Finance, Budgeting & Invoicing
+- **[Cap](https://cap.so/)** — Open-source Loom alternative that enables instant screen and camera recording, sharing, and transcription on your own terms.
+  - 🌐 **Official Website**: https://cap.so/
+  - 💻 **Open Source Link**: https://github.com/CapSoftware/Cap
+  - 🔄 **Replaces**: Loom, Vidyard
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 103 | **YNAB (You Need A Budget)** | • [Actual Budget](https://actualbudget.org/) `[FOSS]` `[Self-Hosted]` `[Local-First]` `[E2EE]` | Zero-based budgeting with 100% local-first SQLite storage, optional encrypted sync. |
-| 104 | **Mint / Quicken / Rocket Money** | • [Firefly III](https://www.firefly-iii.org/) `[FOSS]` `[Self-Hosted]`<br>• [Maybe Finance](https://github.com/maybe-finance/maybe) `[FOSS]` `[Self-Hosted]` | Self-hosted personal finance manager, double-entry bookkeeping, recurring expense tracking. |
-| 105 | **Intuit QuickBooks / FreshBooks** | • [Invoice Ninja](https://invoiceninja.com/) `[FOSS]` `[Self-Hosted]`<br>• [Crater](https://craterapp.com/) `[FOSS]` `[Self-Hosted]`<br>• [Akaunting](https://akaunting.com/) `[FOSS]` `[Self-Hosted]` | Invoicing, client portal, expense management, time tracking hosted on your private server. |
-| 106 | **PayPal / Venmo / Cash App** | • [Bitcoin / Monero (P2P Cryptocurrency)](https://getmonero.org/) `[FOSS]` `[P2P]`<br>• [BTCPay Server](https://btcpayserver.org/) `[FOSS]` `[Self-Hosted]` | Non-custodial, direct payment settlements with zero intermediaries capable of freezing funds or tracking purchases. |
-| 107 | **Stripe (Payment Gateway)** | • [BTCPay Server](https://btcpayserver.org/) `[FOSS]` `[Self-Hosted]`<br>• [WooCommerce Payments](https://woocommerce.com/) `[FOSS]` | Accept direct customer payments without paying arbitrary middleman transaction processing fees. |
-| 108 | **Expensify / Concur** | • [Firefly III](https://www.firefly-iii.org/) `[FOSS]`<br>• [Invoice Ninja](https://invoiceninja.com/) `[FOSS]` | Track receipts and expenses without uploading personal travel itineraries to corporate brokers. |
-
----
-
-## 18. Maps, Navigation & Weather
-
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 109 | **Google Maps** | • [OpenStreetMap](https://www.openstreetmap.org/) `[FOSS]`<br>• [Organic Maps](https://organicmaps.app/) `[FOSS]` `[Local-First]`<br>• [OsmAnd](https://osmand.net/) `[FOSS]` `[Local-First]` | Offline vector maps, hiking trails, cycling routes, zero battery drain from constant background telemetry. |
-| 110 | **Apple Maps / Waze** | • [Organic Maps](https://organicmaps.app/) `[FOSS]`<br>• [OsmAnd](https://osmand.net/) `[FOSS]`<br>• [Magic Earth](https://www.magicearth.com/) *(Privacy-first)* | Turn-by-turn navigation with zero location logging or persistent user route history. |
-| 111 | **AccuWeather / The Weather Channel** | • [Breezy Weather](https://github.com/breezy-weather/breezy-weather) `[FOSS]`<br>• [Open-Meteo](https://open-meteo.com/) `[FOSS API]`<br>• [Geometric Weather](https://github.com/WangDaYaa/GeometricWeather) `[FOSS]` | Accurate forecasts using national meteorological open data; zero advertising SDKs or GPS location reselling. |
+- **[OBS Studio](https://obsproject.com/)** — Free and open-source software for video recording and live streaming with full local scene control and zero telemetry.
+  - 🌐 **Official Website**: https://obsproject.com/
+  - 💻 **Open Source Link**: https://github.com/obsproject/obs-studio
+  - 🔄 **Replaces**: Camtasia, Loom, XSplit
 
 ---
 
-## 19. Translation, Writing & AI Assistants
+## 8. Cloud Storage & File Synchronization
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 112 | **Google Translate** | • [LibreTranslate](https://libretranslate.com/) `[FOSS]` `[Self-Hosted]`<br>• [Bergamot (Firefox Translations)](https://browser.mt/) `[FOSS]` `[Local-First]` | Translations processed 100% on your local CPU/GPU inside the browser without transmitting text to cloud servers. |
-| 113 | **DeepL (Proprietary)** | • [LibreTranslate](https://libretranslate.com/) `[FOSS]` `[Self-Hosted]`<br>• [Opus-MT](https://github.com/Helsinki-NLP/Opus-MT) `[FOSS]` | Open-source neural machine translation models that can be run on private offline hardware. |
-| 114 | **Grammarly** | • [LanguageTool](https://languagetool.org/) `[FOSS]` `[Self-Hosted]`<br>• [Vale](https://vale.sh/) `[FOSS]` `[Local-First]` | Grammar, style, and spell checking that can run as a local server; no keystroke logging. |
-| 115 | **OpenAI ChatGPT / Microsoft Copilot** | • [Ollama](https://ollama.com/) `[FOSS]` `[Local-First]`<br>• [Open WebUI](https://openwebui.com/) `[FOSS]` `[Self-Hosted]`<br>• [LM Studio](https://lmstudio.ai/) `[Local-First]`<br>• [LocalAI](https://localai.io/) `[FOSS]` `[Self-Hosted]` | Run Llama 3, Mistral, Gemma locally on your own GPU; zero prompt retention or training on confidential data. |
-| 116 | **GitHub Copilot** | • [Continue.dev](https://continue.dev/) `[FOSS]`<br>• [Tabby](https://tabbyml.github.io/tabby/) `[FOSS]` `[Self-Hosted]`<br>• [Aider](https://aider.chat/) `[FOSS]` | AI code auto-completion and chat connecting to local Ollama models or private API endpoints. |
+- **[Nextcloud](https://nextcloud.com/)** — Comprehensive self-hosted productivity platform providing secure file sync, office document editing, calendar, and contacts.
+  - 🌐 **Official Website**: https://nextcloud.com/
+  - 💻 **Open Source Link**: https://github.com/nextcloud/server
+  - 🔄 **Replaces**: Google Drive, Dropbox, Microsoft OneDrive, Box
 
----
+- **[Syncthing](https://syncthing.net/)** — Continuous peer-to-peer file synchronization program that syncs files directly across devices over encrypted connections.
+  - 🌐 **Official Website**: https://syncthing.net/
+  - 💻 **Open Source Link**: https://github.com/syncthing/syncthing
+  - 🔄 **Replaces**: Dropbox, Resilio Sync, Google Drive
 
-## 20. DNS, VPN, Network & System Security
+- **[Seafile](https://www.seafile.com/)** — Enterprise-grade open-source file sync and sharing solution with high-speed block syncing, file locking, and encryption.
+  - 🌐 **Official Website**: https://www.seafile.com/
+  - 💻 **Open Source Link**: https://github.com/haiwen/seafile
+  - 🔄 **Replaces**: Dropbox, Box, Google Drive
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 117 | **Google DNS (8.8.8.8) / Cloudflare (1.1.1.1)** | • [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) `[FOSS]` `[Self-Hosted]`<br>• [Pi-hole](https://pi-hole.net/) `[FOSS]` `[Self-Hosted]`<br>• [Quad9 (9.9.9.9)](https://www.quad9.net/) *(Swiss Non-Profit)*<br>• [Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | Network-wide ad, tracker, and malware blocking via encrypted DoH/DoT; zero query logging. |
-| 118 | **ExpressVPN / NordVPN / CyberGhost** | • [Mullvad VPN](https://mullvad.net/) *(No account numbers, cash accepted)*<br>• [IVPN](https://www.ivpn.net/) `[FOSS Clients]`<br>• [WireGuard](https://www.wireguard.com/) `[FOSS]` `[Self-Hosted]`<br>• [Proton VPN](https://protonvpn.com/) `[FOSS Clients]` | Audited no-logs policies; open-source clients; WireGuard protocol support, cash/crypto payment options. |
-| 119 | **Symantec / Norton / McAfee Antivirus** | • [ClamAV](https://www.clamav.net/) `[FOSS]`<br>• Built-in Linux Kernel Security (`AppArmor`, `SELinux`, `Firejail`) `[FOSS]` | Open-source antivirus engine without scam subscription renewals or kernel-level telemetry. |
-| 120 | **Little Snitch / GlassWire** | • [OpenSnitch](https://github.com/evilsocket/opensnitch) `[FOSS]`<br>• [Portmaster](https://safing.io/) `[FOSS]`<br>• [LuLu (macOS)](https://objective-see.org/products/lulu.html) `[FOSS]` | Application-level interactive firewall alerting you whenever any background app calls home. |
-| 121 | **Cloudflare WARP / Tailscale (Proprietary Core)** | • [Headscale](https://headscale.net/) `[FOSS]` `[Self-Hosted]`<br>• [Netmaker](https://www.netmaker.io/) `[FOSS]` `[Self-Hosted]`<br>• [WireGuard](https://www.wireguard.com/) `[FOSS]` | Open-source self-hosted control plane for WireGuard mesh networks without reliance on corporate servers. |
+- **[Filen](https://filen.io/)** — Next-generation cloud storage service with client-side end-to-end encryption and open-source mobile and desktop clients.
+  - 🌐 **Official Website**: https://filen.io/
+  - 💻 **Open Source Link**: https://github.com/FilenCloudDienste
+  - 🔄 **Replaces**: Google Drive, Dropbox, Apple iCloud
 
----
+- **[Cryptomator](https://cryptomator.org/)** — Multi-platform transparent client-side encryption utility for your files before they get uploaded to any cloud provider.
+  - 🌐 **Official Website**: https://cryptomator.org/
+  - 💻 **Open Source Link**: https://github.com/cryptomator/cryptomator
+  - 🔄 **Replaces**: Boxcryptor, AxCrypt
 
-## 21. Home Automation & Smart Devices (IoT)
+- **[BorgBackup](https://www.borgbackup.org/)** — Deduplicating, authenticated, and encrypted backup program supporting local and remote backup destinations.
+  - 🌐 **Official Website**: https://www.borgbackup.org/
+  - 💻 **Open Source Link**: https://github.com/borgbackup/borg
+  - 🔄 **Replaces**: Backblaze, Carbonite, Acronis True Image
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 122 | **Google Home / Nest** | • [Home Assistant](https://www.home-assistant.io/) `[FOSS]` `[Local-First]` `[Self-Hosted]`<br>• [OpenHAB](https://www.openhab.org/) `[FOSS]` `[Self-Hosted]` | Controls smart lights, thermostats, and sensors 100% locally over Zigbee/Z-Wave/Matter without internet access. |
-| 123 | **Amazon Alexa / Echo** | • [Home Assistant Voice PE](https://www.home-assistant.io/voice-pe/) `[FOSS]` `[Local-First]`<br>• [Rhasspy](https://rhasspy.readthedocs.io/) `[FOSS]` `[Local-First]` | Voice processing handled entirely on local hardware (Whisper/Piper); no audio recordings sent to cloud. |
-| 124 | **Apple HomeKit** | • [Home Assistant](https://www.home-assistant.io/) `[FOSS]`<br>• [Scrypted](https://www.scrypted.app/) `[FOSS]` | Bridge any non-certified camera or device into local automation without proprietary ecosystem locks. |
-| 125 | **Ring / Nest Cam / Arlo** | • [Frigate NVR](https://frigate.video/) `[FOSS]` `[Self-Hosted]` `[Local-First]`<br>• [Scrypted NVR](https://www.scrypted.app/)<br>• [ZoneMinder](https://zoneminder.com/) `[FOSS]` | Real-time AI object/person detection with Google Coral TPU running entirely within your home network. |
-| 126 | **IFTTT / Zapier** | • [n8n](https://n8n.io/) `[Fair-Code]` `[Self-Hosted]`<br>• [Node-RED](https://nodered.org/) `[FOSS]` `[Self-Hosted]`<br>• [Activepieces](https://www.activepieces.com/) `[FOSS]` `[Self-Hosted]` | Build sophisticated workflow automations across APIs without exposing secret keys to third-party services. |
-
----
-
-## 22. RSS Readers, Bookmarks & Read-It-Later
-
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 127 | **Pocket (Mozilla / Advert-Integrated)** | • [Wallabag](https://wallabag.org/) `[FOSS]` `[Self-Hosted]`<br>• [Omnivore](https://github.com/omnivore-app/omnivore) `[FOSS]`<br>• [Karakeep](https://github.com/karakeep-app/karakeep) `[FOSS]` | Save articles, clean reader view, sync across devices without sponsored content or reading metrics. |
-| 128 | **Instapaper** | • [Wallabag](https://wallabag.org/) `[FOSS]` `[Self-Hosted]`<br>• [Readeck](https://readeck.org/) `[FOSS]` `[Self-Hosted]` | Archive web pages, highlights, and annotations stored in an open SQLite database. |
-| 129 | **Feedly** | • [FreshRSS](https://freshrss.org/) `[FOSS]` `[Self-Hosted]`<br>• [Miniflux](https://miniflux.app/) `[FOSS]` `[Self-Hosted]`<br>• [NetNewsWire](https://netnewswire.com/) `[FOSS]` `[Local-First]` | High-speed RSS/Atom newsfeed readers without algorithmic curation, sponsored stories, or tracking. |
-| 130 | **Raindrop.io** | • [Linkwarden](https://linkwarden.app/) `[FOSS]` `[Self-Hosted]`<br>• [Shiori](https://github.com/go-shiori/shiori) `[FOSS]` `[Self-Hosted]`<br>• [Hoarder](https://hoarder.app/) `[FOSS]` `[Self-Hosted]` | Collaborative bookmark manager with automatic webpage archiving (PDF & screenshot snapshots). |
+- **[Restic](https://restic.net/)** — Fast, secure, and verifiable backup tool using cryptography to guarantee confidentiality and integrity of your data.
+  - 🌐 **Official Website**: https://restic.net/
+  - 💻 **Open Source Link**: https://github.com/restic/restic
+  - 🔄 **Replaces**: Backblaze, Carbonite
 
 ---
 
-## 23. Forms, Surveys & Customer Support
+## 9. Notes, Knowledge Base & PKM
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 131 | **Google Forms** | • [CryptPad Forms](https://cryptpad.org/) `[FOSS]` `[E2EE]`<br>• [Nextcloud Forms](https://nextcloud.com/) `[FOSS]` `[Self-Hosted]`<br>• [LimeSurvey](https://www.limesurvey.org/) `[FOSS]` `[Self-Hosted]` | Collect responses with end-to-end encryption; respondents' data is never scanned or profiled. |
-| 132 | **Typeform** | • [Formbricks](https://formbricks.com/) `[FOSS]` `[Self-Hosted]`<br>• [Tally](https://tally.so/) *(Privacy-conscious)*<br>• [OhMyForm](https://ohmyform.com/) `[FOSS]` `[Self-Hosted]` | Beautiful conversational forms with conditional logic, self-hosted to comply with GDPR/HIPAA. |
-| 133 | **SurveyMonkey** | • [LimeSurvey](https://www.limesurvey.org/) `[FOSS]` `[Self-Hosted]`<br>• [Formbricks](https://formbricks.com/) `[FOSS]` | Academic and enterprise-grade survey logic, quota management, statistical charts. |
-| 134 | **Zendesk / Freshdesk** | • [Chatwoot](https://www.chatwoot.com/) `[FOSS]` `[Self-Hosted]`<br>• [FreeScout](https://freescout.net/) `[FOSS]` `[Self-Hosted]`<br>• [Zammad](https://zammad.com/) `[FOSS]` `[Self-Hosted]` | Multi-channel customer support, live chat widget, email ticketing with complete data sovereignty. |
-| 135 | **Intercom / Drift** | • [Chatwoot](https://www.chatwoot.com/) `[FOSS]` `[Self-Hosted]`<br>• [Chaskiq](https://chaskiq.io/) `[FOSS]` `[Self-Hosted]` | Live customer messaging on websites without third-party tracking cookies or browser fingerprinting. |
+- **[AppFlowy](https://www.appflowy.io/)** — An open-source, local-first alternative to Notion that gives you full control of your data, wikis, and project boards.
+  - 🌐 **Official Website**: https://www.appflowy.io/
+  - 💻 **Open Source Link**: https://github.com/AppFlowy-IO/AppFlowy
+  - 🔄 **Replaces**: Notion, Coda, Slite
+
+- **[AFFiNE](https://affine.pro/)** — An all-in-one workspace with integrated docs, whiteboards, and database tables built on a privacy-first, local-first foundation.
+  - 🌐 **Official Website**: https://affine.pro/
+  - 💻 **Open Source Link**: https://github.com/toeverything/AFFiNE
+  - 🔄 **Replaces**: Notion, Miro, Monday.com
+
+- **[Anytype](https://anytype.io/)** — Local-first, peer-to-peer operating environment for notes, tasks, and personal knowledge graphs secured with zero-knowledge keys.
+  - 🌐 **Official Website**: https://anytype.io/
+  - 💻 **Open Source Link**: https://github.com/anyproto/anytype-ts
+  - 🔄 **Replaces**: Notion, Obsidian Sync, Evernote
+
+- **[Joplin](https://joplinapp.org/)** — Open-source note-taking and to-do application supporting Markdown, multimedia attachments, and end-to-end encrypted synchronization.
+  - 🌐 **Official Website**: https://joplinapp.org/
+  - 💻 **Open Source Link**: https://github.com/laurent22/joplin
+  - 🔄 **Replaces**: Evernote, Microsoft OneNote, Apple Notes
+
+- **[Logseq](https://logseq.com/)** — Privacy-first, open-source knowledge management and outlining platform operating on local plain-text Markdown and Org-mode files.
+  - 🌐 **Official Website**: https://logseq.com/
+  - 💻 **Open Source Link**: https://github.com/logseq/logseq
+  - 🔄 **Replaces**: Roam Research, Obsidian, Notion
+
+- **[Notesnook](https://notesnook.com/)** — Fully open-source, zero-knowledge encrypted note-taking app with seamless cross-platform syncing and no tracking.
+  - 🌐 **Official Website**: https://notesnook.com/
+  - 💻 **Open Source Link**: https://github.com/streetwriters/notesnook
+  - 🔄 **Replaces**: Evernote, Apple Notes, Google Keep
+
+- **[Memos](https://usememos.com/)** — A lightweight, privacy-first, self-hosted memo hub and scratchpad to quickly capture thoughts and ideas.
+  - 🌐 **Official Website**: https://usememos.com/
+  - 💻 **Open Source Link**: https://github.com/usememos/memos
+  - 🔄 **Replaces**: Google Keep, Twitter personal bookmarks
+
+- **[Trilium Notes](https://github.com/zadam/trilium)** — Hierarchical note-taking application designed for building large personal knowledge bases with mind-mapping and tree views.
+  - 🌐 **Official Website**: https://github.com/zadam/trilium
+  - 💻 **Open Source Link**: https://github.com/zadam/trilium
+  - 🔄 **Replaces**: Microsoft OneNote, Evernote
 
 ---
 
-## 24. Remote Desktop, Virtualization & Terminal
+## 10. Office Suites & Document Collaboration
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 136 | **TeamViewer** | • [RustDesk](https://rustdesk.com/) `[FOSS]` `[Self-Hosted Relay]` `[E2EE]`<br>• [Remmina](https://remmina.org/) `[FOSS]` | End-to-end encrypted remote desktop; configure your own rendezvous/relay server with no time limits. |
-| 137 | **AnyDesk** | • [RustDesk](https://rustdesk.com/) `[FOSS]` `[Self-Hosted]` `[E2EE]`<br>• [Apache Guacamole](https://guacamole.apache.org/) `[FOSS]` `[Self-Hosted]` | Clientless remote desktop gateway accessible via any standard HTML5 web browser. |
-| 138 | **VMware Workstation / Parallels** | • [QEMU / KVM / Virt-Manager](https://virt-manager.org/) `[FOSS]`<br>• [VirtualBox](https://www.virtualbox.org/) `[FOSS]`<br>• [Proxmox VE](https://www.proxmox.com/) `[FOSS]` `[Self-Hosted]` | Bare-metal hypervisor performance, enterprise VM and LXC container management without proprietary licenses. |
-| 139 | **PuTTY / SecureCRT** | • [Tabby Terminal](https://tabby.sh/) `[FOSS]`<br>• [Alacritty](https://alacritty.org/) `[FOSS]`<br>• [Ghostty](https://ghostty.org/) `[FOSS]` | Modern GPU-accelerated terminal emulators with integrated SSH profile and key management. |
+- **[LibreOffice](https://www.libreoffice.org/)** — Full-featured desktop office productivity suite (Writer, Calc, Impress) compatible with Microsoft Office formats.
+  - 🌐 **Official Website**: https://www.libreoffice.org/
+  - 💻 **Open Source Link**: https://git.libreoffice.org/core
+  - 🔄 **Replaces**: Microsoft Office (Word, Excel, PowerPoint)
+
+- **[OnlyOffice](https://www.onlyoffice.com/)** — Collaborative office suite offering online and offline document editors with high compatibility for MS Office files.
+  - 🌐 **Official Website**: https://www.onlyoffice.com/
+  - 💻 **Open Source Link**: https://github.com/ONLYOFFICE/DesktopEditors
+  - 🔄 **Replaces**: Microsoft 365, Google Docs, Google Sheets
+
+- **[CryptPad](https://cryptpad.org/)** — End-to-end encrypted real-time collaborative suite featuring rich text, spreadsheets, slides, whiteboards, and forms.
+  - 🌐 **Official Website**: https://cryptpad.org/
+  - 💻 **Open Source Link**: https://github.com/cryptpad/cryptpad
+  - 🔄 **Replaces**: Google Docs, Google Sheets, Google Slides
+
+- **[NocoDB](https://nocodb.com/)** — Open-source smart relational database spreadsheet that connects to any database and provides an Airtable-like interface.
+  - 🌐 **Official Website**: https://nocodb.com/
+  - 💻 **Open Source Link**: https://github.com/nocodb/nocodb
+  - 🔄 **Replaces**: Airtable, SmartSheet
+
+- **[Baserow](https://baserow.io/)** — Open-source, no-code relational database and database GUI that gives you full control over your business data.
+  - 🌐 **Official Website**: https://baserow.io/
+  - 💻 **Open Source Link**: https://gitlab.com/baserow/baserow
+  - 🔄 **Replaces**: Airtable
 
 ---
 
-## 25. App Stores & Mobile Package Managers
+## 11. PDF Viewers, Editors & Tools
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 140 | **Google Play Store** | • [F-Droid](https://f-droid.org/) `[FOSS]`<br>• [Aurora Store](https://auroraoss.com/) `[FOSS]`<br>• [Droid-ify](https://github.com/Droid-ify/client) `[FOSS]` | F-Droid provides strictly audited FOSS packages; Aurora Store allows anonymous Play Store installs. |
-| 141 | **Apple App Store** | • [AltStore](https://altstore.io/) `[FOSS]`<br>• [SideStore](https://sidestore.io/) `[FOSS]` | Sideload open-source apps without jailbreaking using personal developer certificates. |
-| 142 | **Microsoft Store** | • [Winget](https://github.com/microsoft/winget-cli) `[FOSS]`<br>• [Scoop](https://scoop.sh/) `[FOSS]`<br>• [Chocolatey](https://chocolatey.org/) `[FOSS]` | Command-line package management that installs software directly without telemetry-laden storefront apps. |
+- **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** — Robust, locally hosted web application that lets you split, merge, convert, OCR, watermark, and sign PDF files.
+  - 🌐 **Official Website**: https://stirlingpdf.com/
+  - 💻 **Open Source Link**: https://github.com/Stirling-Tools/Stirling-PDF
+  - 🔄 **Replaces**: Adobe Acrobat Pro, Smallpdf, iLovePDF
+
+- **[Okular](https://okular.kde.org/)** — Universal document viewer by KDE supporting PDFs, e-books, comic books, images, and digital signatures.
+  - 🌐 **Official Website**: https://okular.kde.org/
+  - 💻 **Open Source Link**: https://invent.kde.org/graphics/okular
+  - 🔄 **Replaces**: Adobe Acrobat Reader, Foxit PDF
+
+- **[PDF Arranger](https://github.com/pdfarranger/pdfarranger)** — Small, clean desktop utility to reorder, crop, merge, and delete pages from PDF documents locally.
+  - 🌐 **Official Website**: https://github.com/pdfarranger/pdfarranger
+  - 💻 **Open Source Link**: https://github.com/pdfarranger/pdfarranger
+  - 🔄 **Replaces**: Adobe Acrobat Page Organizer
 
 ---
 
-## 26. E-Commerce, CMS & Website Builders
+## 12. Project Management, Kanban & Issue Tracking
 
-| # | Proprietary / Big Tech Software | Open Source & Privacy-First Alternative(s) | Highlights & Features |
-| :- | :--- | :--- | :--- |
-| 143 | **Shopify / BigCommerce** | • [MedusaJS](https://medusajs.com/) `[FOSS]` `[Self-Hosted]`<br>• [WooCommerce](https://woocommerce.com/) `[FOSS]` `[Self-Hosted]`<br>• [Saleor](https://saleor.io/) `[FOSS]` `[Self-Hosted]` | Headless e-commerce engine with full database ownership; zero transaction fees deducted by platforms. |
-| 144 | **Squarespace / Wix / Webflow** | • [Ghost](https://ghost.org/) `[FOSS]` `[Self-Hosted]`<br>• [WordPress.org](https://wordpress.org/) `[FOSS]` `[Self-Hosted]`<br>• [Hugo / Astro](https://astro.build/) `[FOSS]` | Static site generators producing blazing fast, cookie-free HTML without proprietary vendor lock-in. |
-| 145 | **Sublime Text (Proprietary)** | • [VSCodium](https://vscodium.com/) `[FOSS]`<br>• [Lapce](https://lapce.dev/) `[FOSS]`<br>• [Zed](https://zed.dev/) `[FOSS]` | Lightning fast native Rust-based code editors with modern tree-sitter syntax highlighting. |
-| 146 | **CamScanner / Adobe Scan** | • [Docutain](https://docutain.com/)<br>• [OSS Document Scanner](https://github.com/SecUSo/privacy-friendly-document-scanner) `[FOSS]`<br>• [Genius Scan](https://thegrizzlylabs.com/) | Scans, crops, and performs OCR on receipts and documents 100% on-device without cloud upload. |
-| 147 | **Grammarly / Language Checkers** | • [LanguageTool](https://languagetool.org/) `[FOSS]` `[Self-Hosted]` | Multilingual grammar and style checker that can run on an offline home server or local machine. |
-| 148 | **Linktree / Beacons** | • [LittleLink](https://littlelink.io/) `[FOSS]` `[Self-Hosted]`<br>• [Lnk.Bio Alternatives](https://github.com) | A clean, ultra-lightweight link landing page without marketing trackers or pixel surveillance. |
-| 149 | **GoodNotes / Notability** | • [Rnote](https://rnote.flathub.org/) `[FOSS]` `[Local-First]`<br>• [Xournal++](https://xournalpp.github.io/) `[FOSS]` `[Local-First]` | Vector-based sketching, PDF annotation, stylus handwriting input stored in open formats. |
-| 150 | **Strava / Fitbit / Apple Health** | • [RunnerUp](https://github.com/jonasoreland/runnerup) `[FOSS]` `[Local-First]`<br>• [Gadgetbridge](https://gadgetbridge.org/) `[FOSS]` `[Local-First]` | Connect smartwatches and fitness trackers directly to your phone without uploading health biometrics to Big Tech clouds. |
+- **[Plane](https://plane.so/)** — Open-source project management tool to track issues, epics, cycles, and product roadmaps with modern UI.
+  - 🌐 **Official Website**: https://plane.so/
+  - 💻 **Open Source Link**: https://github.com/makeplane/plane
+  - 🔄 **Replaces**: Jira, Linear, Asana
+
+- **[Taiga](https://taiga.io/)** — Project management platform for cross-functional agile teams supporting Scrum, Kanban, and issue tracking.
+  - 🌐 **Official Website**: https://taiga.io/
+  - 💻 **Open Source Link**: https://github.com/taigaio
+  - 🔄 **Replaces**: Jira, Trello, Asana
+
+- **[Planka](https://planka.app/)** — Real-time collaborative kanban board for teams and personal task management with self-hosting support.
+  - 🌐 **Official Website**: https://planka.app/
+  - 💻 **Open Source Link**: https://github.com/plankanban/planka
+  - 🔄 **Replaces**: Trello
+
+- **[OpenProject](https://www.openproject.org/)** — Enterprise-ready open-source project management software supporting classic, agile, and hybrid projects.
+  - 🌐 **Official Website**: https://www.openproject.org/
+  - 💻 **Open Source Link**: https://github.com/opf/openproject
+  - 🔄 **Replaces**: Microsoft Project, Monday.com, Jira
+
+---
+
+## 13. Password Managers
+
+- **[Bitwarden](https://bitwarden.com/)** — Audited, open-source password manager with cross-platform apps, password sharing, passkeys, and zero-knowledge encryption.
+  - 🌐 **Official Website**: https://bitwarden.com/
+  - 💻 **Open Source Link**: https://github.com/bitwarden/server
+  - 🔄 **Replaces**: LastPass, 1Password, Dashlane
+
+- **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** — Lightweight, single-binary Rust implementation of the Bitwarden server API, ideal for home servers and VPS.
+  - 🌐 **Official Website**: https://github.com/dani-garcia/vaultwarden
+  - 💻 **Open Source Link**: https://github.com/dani-garcia/vaultwarden
+  - 🔄 **Replaces**: Bitwarden official cloud, 1Password, LastPass
+
+- **[KeePassXC](https://keepassxc.org/)** — Community-driven, offline desktop password manager that stores your credentials in an encrypted local `.kdbx` vault file.
+  - 🌐 **Official Website**: https://keepassxc.org/
+  - 💻 **Open Source Link**: https://github.com/keepassxreboot/keepassxc
+  - 🔄 **Replaces**: 1Password, LastPass, RoboForm
+
+- **[Proton Pass](https://proton.me/pass)** — End-to-end encrypted password and identity manager with email alias masking and two-factor code generation.
+  - 🌐 **Official Website**: https://proton.me/pass
+  - 💻 **Open Source Link**: https://github.com/protonpass
+  - 🔄 **Replaces**: 1Password, Dashlane
+
+---
+
+## 14. Two-Factor Authentication (2FA) & IAM
+
+- **[Aegis Authenticator](https://getaegis.com/)** — Free, secure, and open-source 2FA authenticator app for Android with encrypted backups and biometric locking.
+  - 🌐 **Official Website**: https://getaegis.com/
+  - 💻 **Open Source Link**: https://github.com/beemdevelopment/Aegis
+  - 🔄 **Replaces**: Google Authenticator, Authy
+
+- **[Ente Auth](https://ente.io/auth/)** — Cross-platform, end-to-end encrypted 2FA app with cloud sync across Android, iOS, desktop, and web.
+  - 🌐 **Official Website**: https://ente.io/auth/
+  - 💻 **Open Source Link**: https://github.com/ente-io/ente
+  - 🔄 **Replaces**: Authy, Google Authenticator, Duo
+
+- **[2FAS](https://2fas.com/)** — Privacy-first, open-source two-factor authenticator app with browser extension pairing for one-tap logins.
+  - 🌐 **Official Website**: https://2fas.com/
+  - 💻 **Open Source Link**: https://github.com/twofas
+  - 🔄 **Replaces**: Google Authenticator, Microsoft Authenticator
+
+- **[Keycloak](https://www.keycloak.org/)** — Open-source identity and access management solution providing single sign-on (SSO), LDAP, and user federation.
+  - 🌐 **Official Website**: https://www.keycloak.org/
+  - 💻 **Open Source Link**: https://github.com/keycloak/keycloak
+  - 🔄 **Replaces**: Okta, Auth0, Ping Identity
+
+- **[Authelia](https://www.authelia.com/)** — Open-source authentication and authorization server providing two-factor authentication and single sign-on for reverse proxies.
+  - 🌐 **Official Website**: https://www.authelia.com/
+  - 💻 **Open Source Link**: https://github.com/authelia/authelia
+  - 🔄 **Replaces**: Okta, Duo Security
+
+---
+
+## 15. Operating Systems (Desktop & Mobile)
+
+- **[Fedora Workstation](https://fedoraproject.org/)** — Polished, cutting-edge, general-purpose Linux operating system offering pure GNOME with zero commercial telemetry.
+  - 🌐 **Official Website**: https://fedoraproject.org/
+  - 💻 **Open Source Link**: https://src.fedoraproject.org/
+  - 🔄 **Replaces**: Microsoft Windows 11, Apple macOS
+
+- **[Debian](https://www.debian.org/)** — Rock-solid, universal operating system composed entirely of free software maintained by an independent global community.
+  - 🌐 **Official Website**: https://www.debian.org/
+  - 💻 **Open Source Link**: https://salsa.debian.org/
+  - 🔄 **Replaces**: Microsoft Windows 11
+
+- **[Linux Mint](https://linuxmint.com/)** — Beginner-friendly desktop Linux distribution with an intuitive interface, great hardware support, and no invasive tracking.
+  - 🌐 **Official Website**: https://linuxmint.com/
+  - 💻 **Open Source Link**: https://github.com/linuxmint
+  - 🔄 **Replaces**: Microsoft Windows 10/11
+
+- **[GrapheneOS](https://grapheneos.org/)** — Hardened, privacy- and security-focused mobile operating system with sandboxed Google Play compatibility for Google Pixel phones.
+  - 🌐 **Official Website**: https://grapheneos.org/
+  - 💻 **Open Source Link**: https://github.com/GrapheneOS
+  - 🔄 **Replaces**: Stock Google Android, Apple iOS
+
+- **[CalyxOS](https://calyxos.org/)** — Privacy-by-design Android mobile operating system with microG support and automated encrypted backup functionality.
+  - 🌐 **Official Website**: https://calyxos.org/
+  - 💻 **Open Source Link**: https://gitlab.com/CalyxOS
+  - 🔄 **Replaces**: Stock Android, Apple iOS
+
+- **[Tails OS](https://tails.net/)** — Portable amnesic live operating system that routes all Internet connections exclusively through Tor and leaves zero traces on disk.
+  - 🌐 **Official Website**: https://tails.net/
+  - 💻 **Open Source Link**: https://gitlab.tails.boum.org/tails/tails
+  - 🔄 **Replaces**: Commercial forensic systems, Windows-to-Go
+
+- **[Qubes OS](https://www.qubes-os.org/)** — Security-oriented operating system that implements security-by-isolation by isolating each app in its own Xen hypervisor VM.
+  - 🌐 **Official Website**: https://www.qubes-os.org/
+  - 💻 **Open Source Link**: https://github.com/QubesOS
+  - 🔄 **Replaces**: Windows Enterprise, macOS
+
+---
+
+## 16. Music Streaming & Audio Players
+
+- **[Spotube](https://spotube.krtirtho.dev/)** — Open-source Spotify client that streams audio tracks without ads using public YouTube and Spotify API metadata.
+  - 🌐 **Official Website**: https://spotube.krtirtho.dev/
+  - 💻 **Open Source Link**: https://github.com/KRTirtho/spotube
+  - 🔄 **Replaces**: Spotify Desktop/Mobile app
+
+- **[Navidrome](https://www.navidrome.org/)** — Lightweight, modern, self-hosted music server and streamer compatible with all Subsonic-compatible mobile apps.
+  - 🌐 **Official Website**: https://www.navidrome.org/
+  - 💻 **Open Source Link**: https://github.com/navidrome/navidrome
+  - 🔄 **Replaces**: Spotify, Apple Music, YouTube Music
+
+- **[Jellyfin (Music)](https://jellyfin.org/)** — Media streaming server that organizes and streams your personal music library in lossless FLAC/ALAC formats.
+  - 🌐 **Official Website**: https://jellyfin.org/
+  - 💻 **Open Source Link**: https://github.com/jellyfin/jellyfin
+  - 🔄 **Replaces**: Apple Music, Plex Pass
+
+- **[Funkwhale](https://funkwhale.audio/)** — Community-driven, federated audio platform to upload, stream, and discover music and podcasts across the Fediverse.
+  - 🌐 **Official Website**: https://funkwhale.audio/
+  - 💻 **Open Source Link**: https://dev.funkwhale.audio/funkwhale/funkwhale
+  - 🔄 **Replaces**: SoundCloud, Bandcamp, Spotify
+
+- **[VLC Media Player](https://www.videolan.org/vlc/)** — Universal, open-source multimedia player that plays virtually any video, audio, or streaming protocol completely offline.
+  - 🌐 **Official Website**: https://www.videolan.org/vlc/
+  - 💻 **Open Source Link**: https://code.videolan.org/videolan/vlc
+  - 🔄 **Replaces**: Windows Media Player, QuickTime
+
+---
+
+## 17. Video Streaming, Players & Platforms
+
+- **[Jellyfin](https://jellyfin.org/)** — The free software media system that puts you in control of managing and streaming movies, shows, and live TV to any screen.
+  - 🌐 **Official Website**: https://jellyfin.org/
+  - 💻 **Open Source Link**: https://github.com/jellyfin/jellyfin
+  - 🔄 **Replaces**: Netflix, Plex, Emby
+
+- **[FreeTube](https://freetubeapp.io/)** — An open-source desktop YouTube player focused on privacy, with local subscriptions, playlists, and zero advertisements.
+  - 🌐 **Official Website**: https://freetubeapp.io/
+  - 💻 **Open Source Link**: https://github.com/FreeTubeApp/FreeTube
+  - 🔄 **Replaces**: YouTube Web/Desktop app
+
+- **[NewPipe](https://newpipe.net/)** — Lightweight open-source Android YouTube frontend that streams videos and audio in the background without Google Play Services.
+  - 🌐 **Official Website**: https://newpipe.net/
+  - 💻 **Open Source Link**: https://github.com/TeamNewPipe/NewPipe
+  - 🔄 **Replaces**: YouTube Android App, YouTube Premium
+
+- **[Invidious](https://invidious.io/)** — Alternative, lightweight, open-source web frontend for YouTube with no Google tracking, no ads, and self-hosting capability.
+  - 🌐 **Official Website**: https://invidious.io/
+  - 💻 **Open Source Link**: https://github.com/iv-org/invidious
+  - 🔄 **Replaces**: YouTube website
+
+- **[PeerTube](https://joinpeertube.org/)** — Decentralized, federated video platform powered by ActivityPub and peer-to-peer streaming to broadcast video independently.
+  - 🌐 **Official Website**: https://joinpeertube.org/
+  - 💻 **Open Source Link**: https://github.com/Chocobozzz/PeerTube
+  - 🔄 **Replaces**: YouTube, Vimeo, Dailymotion
+
+- **[Owncast](https://owncast.online/)** — Standalone open-source live video and chat server for self-hosted streaming, completely independent of corporate platforms.
+  - 🌐 **Official Website**: https://owncast.online/
+  - 💻 **Open Source Link**: https://github.com/owncast/owncast
+  - 🔄 **Replaces**: Twitch, YouTube Live
+
+---
+
+## 18. Photo Management & Cloud Backups
+
+- **[Immich](https://immich.app/)** — Self-hosted photo and video backup solution with high-performance mobile apps, timeline view, album sharing, and on-device ML tagging.
+  - 🌐 **Official Website**: https://immich.app/
+  - 💻 **Open Source Link**: https://github.com/immich-app/immich
+  - 🔄 **Replaces**: Google Photos, Apple Photos (iCloud)
+
+- **[Ente Photos](https://ente.io/)** — Fully end-to-end encrypted photo storage service where your pictures and video memories are inaccessible to anyone but you.
+  - 🌐 **Official Website**: https://ente.io/
+  - 💻 **Open Source Link**: https://github.com/ente-io/ente
+  - 🔄 **Replaces**: Google Photos, Apple iCloud Photos, Amazon Photos
+
+- **[PhotoPrism](https://photoprism.app/)** — AI-powered photo management app for decentralized web; browse, organize, and categorize images locally using deep learning.
+  - 🌐 **Official Website**: https://photoprism.app/
+  - 💻 **Open Source Link**: https://github.com/photoprism/photoprism
+  - 🔄 **Replaces**: Google Photos, Flickr
+
+- **[DigiKam](https://www.digikam.org/)** — Advanced open-source digital photo management application with professional RAW import, tagging, geo-location, and editing tools.
+  - 🌐 **Official Website**: https://www.digikam.org/
+  - 💻 **Open Source Link**: https://invent.kde.org/graphics/digikam
+  - 🔄 **Replaces**: Adobe Lightroom Catalog, Apple Photos
+
+---
+
+## 19. Graphic Design, Prototyping & 3D
+
+- **[Penpot](https://penpot.app/)** — Open-source, web-based design and prototyping platform built on native web standards (SVG/CSS) for cross-functional teams.
+  - 🌐 **Official Website**: https://penpot.app/
+  - 💻 **Open Source Link**: https://github.com/penpot/penpot
+  - 🔄 **Replaces**: Figma, Adobe XD, Sketch, Canva
+
+- **[Inkscape](https://inkscape.org/)** — Professional vector graphics editor for Linux, Windows, and macOS adhering strictly to the W3C SVG file standard.
+  - 🌐 **Official Website**: https://inkscape.org/
+  - 💻 **Open Source Link**: https://gitlab.com/inkscape/inkscape
+  - 🔄 **Replaces**: Adobe Illustrator, CorelDRAW
+
+- **[Blender](https://www.blender.org/)** — Free and open-source 3D creation suite supporting modeling, rigging, animation, simulation, rendering, compositing, and video editing.
+  - 🌐 **Official Website**: https://www.blender.org/
+  - 💻 **Open Source Link**: https://projects.blender.org/blender/blender
+  - 🔄 **Replaces**: Autodesk Maya, 3ds Max, Cinema 4D
+
+- **[Scribus](https://www.scribus.net/)** — Open-source desktop publishing layout software for creating magazines, newsletters, brochures, and print-ready PDF/X-3 documents.
+  - 🌐 **Official Website**: https://www.scribus.net/
+  - 💻 **Open Source Link**: https://github.com/scribusproject/scribus
+  - 🔄 **Replaces**: Adobe InDesign, QuarkXPress
+
+---
+
+## 20. Image Editing & RAW Photo Processing
+
+- **[GIMP](https://www.gimp.org/)** — Cross-platform image manipulation program providing high-end photo retouching, image composition, and graphic authoring offline.
+  - 🌐 **Official Website**: https://www.gimp.org/
+  - 💻 **Open Source Link**: https://gitlab.gnome.org/GNOME/gimp
+  - 🔄 **Replaces**: Adobe Photoshop
+
+- **[Krita](https://krita.org/)** — Professional, free, and open-source digital painting application designed by artists for concept artists, illustrators, and matte painters.
+  - 🌐 **Official Website**: https://krita.org/
+  - 💻 **Open Source Link**: https://invent.kde.org/graphics/krita
+  - 🔄 **Replaces**: Adobe Photoshop, Corel Painter, Procreate
+
+- **[Darktable](https://www.darktable.org/)** — Open-source photography workflow application and non-destructive RAW developer managing digital negatives in an accelerated database.
+  - 🌐 **Official Website**: https://www.darktable.org/
+  - 💻 **Open Source Link**: https://github.com/darktable-org/darktable
+  - 🔄 **Replaces**: Adobe Lightroom, Capture One
+
+- **[RawTherapee](https://rawtherapee.com/)** — Powerful non-destructive RAW photo processing software providing cutting-edge demosaicing and color manipulation algorithms.
+  - 🌐 **Official Website**: https://rawtherapee.com/
+  - 💻 **Open Source Link**: https://github.com/Beep6581/RawTherapee
+  - 🔄 **Replaces**: Adobe Lightroom
+
+---
+
+## 21. Video Editing & VFX
+
+- **[Kdenlive](https://kdenlive.org/)** — Non-linear multi-track video editor built on MLT and FFmpeg supporting 4K timelines, color correction, effects, and audio mixing.
+  - 🌐 **Official Website**: https://kdenlive.org/
+  - 💻 **Open Source Link**: https://invent.kde.org/multimedia/kdenlive
+  - 🔄 **Replaces**: Adobe Premiere Pro, Apple Final Cut Pro
+
+- **[Shotcut](https://shotcut.org/)** — Cross-platform video editor supporting hundreds of audio and video formats, multi-format timelines, and GPU acceleration.
+  - 🌐 **Official Website**: https://shotcut.org/
+  - 💻 **Open Source Link**: https://github.com/mltframework/shotcut
+  - 🔄 **Replaces**: Adobe Premiere Pro, Sony Vegas Pro
+
+- **[Natron](https://natrongithub.github.io/)** — Powerful node-based digital compositor for visual effects and motion graphics, offering OpenFX plugin architecture.
+  - 🌐 **Official Website**: https://natrongithub.github.io/
+  - 💻 **Open Source Link**: https://github.com/NatronGitHub/Natron
+  - 🔄 **Replaces**: Adobe After Effects, Nuke
+
+- **[HandBrake](https://handbrake.fr/)** — Multi-platform open-source video transcoder to convert video from nearly any format to modern MP4, MKV, or WebM codecs.
+  - 🌐 **Official Website**: https://handbrake.fr/
+  - 💻 **Open Source Link**: https://github.com/HandBrake/HandBrake
+  - 🔄 **Replaces**: Adobe Media Encoder, Wondershare UniConverter
+
+---
+
+## 22. Audio Production (DAW) & Sound Editing
+
+- **[Ardour](https://ardour.org/)** — Professional Digital Audio Workstation to record, edit, and mix multi-track audio and MIDI projects on Linux, macOS, and Windows.
+  - 🌐 **Official Website**: https://ardour.org/
+  - 💻 **Open Source Link**: https://github.com/Ardour/ardour
+  - 🔄 **Replaces**: Avid Pro Tools, Apple Logic Pro, Ableton Live
+
+- **[LMMS](https://lmms.io/)** — Open-source music creation software allowing you to produce beats, synthesize melodies, and automate effects with a beat-bassline editor.
+  - 🌐 **Official Website**: https://lmms.io/
+  - 💻 **Open Source Link**: https://github.com/LMMS/lmms
+  - 🔄 **Replaces**: FL Studio, GarageBand
+
+- **[Tenacity](https://tenacityaudio.org/)** — Privacy-respecting, community-maintained fork of Audacity that removes all telemetric data collection and network pings.
+  - 🌐 **Official Website**: https://tenacityaudio.org/
+  - 💻 **Open Source Link**: https://github.com/tenacityteam/tenacity
+  - 🔄 **Replaces**: Adobe Audition, Audacity (proprietary telemetry builds)
+
+---
+
+## 23. Social Networks & Decentralized Media
+
+- **[Mastodon](https://joinmastodon.org/)** — Decentralized, ad-free microblogging social network powered by open protocols (ActivityPub) without algorithmic manipulation.
+  - 🌐 **Official Website**: https://joinmastodon.org/
+  - 💻 **Open Source Link**: https://github.com/mastodon/mastodon
+  - 🔄 **Replaces**: Twitter / X, Threads
+
+- **[Lemmy](https://join-lemmy.org/)** — Federated link aggregation, link voting, and discussion forum platform built for community ownership on the Fediverse.
+  - 🌐 **Official Website**: https://join-lemmy.org/
+  - 💻 **Open Source Link**: https://github.com/LemmyNet/lemmy
+  - 🔄 **Replaces**: Reddit
+
+- **[Pixelfed](https://pixelfed.org/)** — Federated photo and short-clip sharing platform on ActivityPub without ads, tracking pixels, or algorithmic feed distortion.
+  - 🌐 **Official Website**: https://pixelfed.org/
+  - 💻 **Open Source Link**: https://github.com/pixelfed/pixelfed
+  - 🔄 **Replaces**: Instagram, Flickr
+
+- **[Bluesky](https://bsky.app/)** — Social network built on the open, decentralized AT Protocol allowing users to choose their own algorithms and federate data.
+  - 🌐 **Official Website**: https://bsky.app/
+  - 💻 **Open Source Link**: https://github.com/bluesky-social/social-app
+  - 🔄 **Replaces**: Twitter / X
+
+- **[BookWyrm](https://joinbookwyrm.com/)** — Social reading, book review, and reading-challenge tracking platform connected to the Fediverse without commercial profiling.
+  - 🌐 **Official Website**: https://joinbookwyrm.com/
+  - 💻 **Open Source Link**: https://github.com/bookwyrm-social/bookwyrm
+  - 🔄 **Replaces**: Goodreads (Amazon)
+
+---
+
+## 24. Publishing, Blogging & Newsletters
+
+- **[Ghost](https://ghost.org/)** — Modern, open-source publishing platform and newsletter engine that puts you in complete control of your members, content, and payments.
+  - 🌐 **Official Website**: https://ghost.org/
+  - 💻 **Open Source Link**: https://github.com/TryGhost/Ghost
+  - 🔄 **Replaces**: Medium, Substack
+
+- **[WordPress.org](https://wordpress.org/)** — The original open-source content management system powering customizable websites, blogs, and portals on private servers.
+  - 🌐 **Official Website**: https://wordpress.org/
+  - 💻 **Open Source Link**: https://github.com/WordPress/WordPress
+  - 🔄 **Replaces**: Squarespace, Wix, Medium
+
+- **[WriteFreely](https://writefreely.org/)** — Distraction-free, decentralized blogging platform focused on plain writing and connected to the Fediverse.
+  - 🌐 **Official Website**: https://writefreely.org/
+  - 💻 **Open Source Link**: https://github.com/writefreely/writefreely
+  - 🔄 **Replaces**: Medium, Substack
+
+---
+
+## 25. Code Editors & IDEs
+
+- **[VSCodium](https://vscodium.com/)** — Free/libre community-driven distribution of Microsoft VS Code compiled with telemetry, trackers, and proprietary licenses removed.
+  - 🌐 **Official Website**: https://vscodium.com/
+  - 💻 **Open Source Link**: https://github.com/VSCodium/vscodium
+  - 🔄 **Replaces**: Visual Studio Code (Microsoft binary)
+
+- **[Zed](https://zed.dev/)** — Blazing fast, multiplayer code editor written in Rust with GPU acceleration and native language server protocol (LSP) integration.
+  - 🌐 **Official Website**: https://zed.dev/
+  - 💻 **Open Source Link**: https://github.com/zed-industries/zed
+  - 🔄 **Replaces**: VS Code, Sublime Text
+
+- **[Neovim](https://neovim.io/)** — Highly extensible, modal, terminal-based text editor built for extreme speed, custom Lua scripting, and complete privacy.
+  - 🌐 **Official Website**: https://neovim.io/
+  - 💻 **Open Source Link**: https://github.com/neovim/neovim
+  - 🔄 **Replaces**: VS Code, Sublime Text
+
+- **[Helix](https://helix-editor.com/)** — Post-modern modal text editor written in Rust with built-in Tree-sitter syntax highlighting and multi-cursor support out of the box.
+  - 🌐 **Official Website**: https://helix-editor.com/
+  - 💻 **Open Source Link**: https://github.com/helix-editor/helix
+  - 🔄 **Replaces**: VS Code, Sublime Text
+
+---
+
+## 26. Git Hosting & DevOps Platforms
+
+- **[Forgejo](https://forgejo.org/)** — Beyond-corporate, community-governed lightweight Git software forge providing code hosting, code review, issues, and CI runners.
+  - 🌐 **Official Website**: https://forgejo.org/
+  - 💻 **Open Source Link**: https://codeberg.org/forgejo/forgejo
+  - 🔄 **Replaces**: GitHub, GitLab SaaS
+
+- **[Gitea](https://gitea.com/)** — Painless self-hosted all-in-one software development service written in Go with very low hardware resource usage.
+  - 🌐 **Official Website**: https://gitea.com/
+  - 💻 **Open Source Link**: https://github.com/go-gitea/gitea
+  - 🔄 **Replaces**: GitHub, Bitbucket
+
+- **[GitLab Community Edition (CE)](https://about.gitlab.com/)** — Complete open-source DevOps platform with git repositories, robust CI/CD pipelines, container registries, and issue boards.
+  - 🌐 **Official Website**: https://about.gitlab.com/
+  - 💻 **Open Source Link**: https://gitlab.com/gitlab-org/gitlab-foss
+  - 🔄 **Replaces**: GitHub Enterprise, Bitbucket Pipelines
+
+- **[Coolify](https://coolify.io/)** — Self-hostable, all-in-one Platform-as-a-Service (PaaS) to deploy applications, databases, and Docker containers to your own servers.
+  - 🌐 **Official Website**: https://coolify.io/
+  - 💻 **Open Source Link**: https://github.com/coollabsio/coolify
+  - 🔄 **Replaces**: Vercel, Netlify, Heroku, Render
+
+---
+
+## 27. API Clients & Developer Tools
+
+- **[Bruno](https://www.usebruno.com/)** — Fast and Git-friendly open-source API client that saves collections in plain text files directly inside your code repo.
+  - 🌐 **Official Website**: https://www.usebruno.com/
+  - 💻 **Open Source Link**: https://github.com/usebruno/bruno
+  - 🔄 **Replaces**: Postman, Insomnia
+
+- **[Hoppscotch](https://hoppscotch.com/)** — Lightweight, web-based API development ecosystem for REST, GraphQL, and WebSocket testing with zero tracking.
+  - 🌐 **Official Website**: https://hoppscotch.com/
+  - 💻 **Open Source Link**: https://github.com/hoppscotch/hoppscotch
+  - 🔄 **Replaces**: Postman, Paw
+
+- **[Podman](https://podman.io/)** — Rootless, daemonless container engine for developing, managing, and running OCI containers and pods without background services.
+  - 🌐 **Official Website**: https://podman.io/
+  - 💻 **Open Source Link**: https://github.com/containers/podman
+  - 🔄 **Replaces**: Docker Desktop
+
+---
+
+## 28. Web Analytics & Error Monitoring
+
+- **[Plausible Analytics](https://plausible.io/)** — Lightweight (< 1 KB) open-source web analytics without cookies and fully compliant with GDPR, CCPA, and PECR.
+  - 🌐 **Official Website**: https://plausible.io/
+  - 💻 **Open Source Link**: https://github.com/plausible/analytics
+  - 🔄 **Replaces**: Google Analytics (GA4)
+
+- **[Umami](https://umami.is/)** — Simple, fast, privacy-focused alternative to Google Analytics that collects no personal data and requires no cookie consent banners.
+  - 🌐 **Official Website**: https://umami.is/
+  - 💻 **Open Source Link**: https://github.com/umami-software/umami
+  - 🔄 **Replaces**: Google Analytics
+
+- **[Matomo](https://matomo.org/)** — Comprehensive, ethical web analytics platform giving you 100% data ownership, heatmaps, session recordings, and custom funnels.
+  - 🌐 **Official Website**: https://matomo.org/
+  - 💻 **Open Source Link**: https://github.com/matomo-org/matomo
+  - 🔄 **Replaces**: Google Analytics, Hotjar, Adobe Analytics
+
+- **[PostHog](https://posthog.com/)** — Self-hostable product operating suite combining session replays, product analytics, feature flags, and A/B testing on your own cloud.
+  - 🌐 **Official Website**: https://posthog.com/
+  - 💻 **Open Source Link**: https://github.com/PostHog/posthog
+  - 🔄 **Replaces**: Mixpanel, Amplitude, Hotjar, LaunchDarkly
+
+- **[GlitchTip](https://glitchtip.com/)** — Open-source error tracking software compatible with standard Sentry client libraries to monitor app crashes privately.
+  - 🌐 **Official Website**: https://glitchtip.com/
+  - 💻 **Open Source Link**: https://gitlab.com/glitchtip/glitchtip
+  - 🔄 **Replaces**: Sentry Cloud, Rollbar, Bugsnag
+
+- **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** — Self-hosted monitoring tool that pings HTTP, TCP, DNS, and SSL certificates with customizable public status pages.
+  - 🌐 **Official Website**: https://uptime.kuma.pet/
+  - 💻 **Open Source Link**: https://github.com/louislam/uptime-kuma
+  - 🔄 **Replaces**: Pingdom, Better Uptime, Statuspage
+
+---
+
+## 29. Personal Finance, Budgeting & Invoicing
+
+- **[Actual Budget](https://actualbudget.org/)** — Privacy-first, local-first personal budgeting tool implementing envelope-budgeting methodology with zero-knowledge synchronization.
+  - 🌐 **Official Website**: https://actualbudget.org/
+  - 💻 **Open Source Link**: https://github.com/actualbudget/actual
+  - 🔄 **Replaces**: YNAB (You Need A Budget), Mint
+
+- **[Firefly III](https://www.firefly-iii.org/)** — Free and open-source personal finance manager that uses double-entry accounting to help track transactions, budgets, and savings.
+  - 🌐 **Official Website**: https://www.firefly-iii.org/
+  - 💻 **Open Source Link**: https://github.com/firefly-iii/firefly-iii
+  - 🔄 **Replaces**: Mint, Quicken, Rocket Money
+
+- **[Invoice Ninja](https://invoiceninja.com/)** — Suite of invoicing, expense management, time-tracking, and online payment processing tools for freelancers and businesses.
+  - 🌐 **Official Website**: https://invoiceninja.com/
+  - 💻 **Open Source Link**: https://github.com/invoiceninja/invoiceninja
+  - 🔄 **Replaces**: Intuit QuickBooks, FreshBooks, Wave
+
+- **[BTCPay Server](https://btcpayserver.org/)** — Self-hosted, open-source cryptocurrency payment processor with zero transaction fees and no third-party custody of keys.
+  - 🌐 **Official Website**: https://btcpayserver.org/
+  - 💻 **Open Source Link**: https://github.com/btcpayserver/btcpayserver
+  - 🔄 **Replaces**: BitPay, Stripe (for crypto payments), PayPal
+
+---
+
+## 30. Maps & Turn-by-Turn Navigation
+
+- **[Organic Maps](https://organicmaps.app/)** — Fast, offline, detailed vector maps and turn-by-turn navigation for drivers, cyclists, and hikers with zero data collection.
+  - 🌐 **Official Website**: https://organicmaps.app/
+  - 💻 **Open Source Link**: https://github.com/organicmaps/organicmaps
+  - 🔄 **Replaces**: Google Maps, Apple Maps, Waze
+
+- **[OsmAnd](https://osmand.net/)** — Offline world map navigation app based on OpenStreetMap data with routing, trip recording, contour lines, and GPX track support.
+  - 🌐 **Official Website**: https://osmand.net/
+  - 💻 **Open Source Link**: https://github.com/osmandapp/OsmAnd
+  - 🔄 **Replaces**: Google Maps, Garmin GPS
+
+- **[OpenStreetMap](https://www.openstreetmap.org/)** — The collaborative, community-built, free editable map of the entire world released under an open data license.
+  - 🌐 **Official Website**: https://www.openstreetmap.org/
+  - 💻 **Open Source Link**: https://github.com/openstreetmap/openstreetmap-website
+  - 🔄 **Replaces**: Google Maps, Mapbox
+
+---
+
+## 31. Weather Forecasts
+
+- **[Breezy Weather](https://github.com/breezy-weather/breezy-weather)** — Clean, customizable, and modern open-source Android weather application without tracking libraries or ads.
+  - 🌐 **Official Website**: https://github.com/breezy-weather/breezy-weather
+  - 💻 **Open Source Link**: https://github.com/breezy-weather/breezy-weather
+  - 🔄 **Replaces**: AccuWeather, The Weather Channel
+
+- **[Open-Meteo](https://open-meteo.com/)** — Open-source weather API providing high-resolution weather models, temperature forecasts, and solar radiation data without API keys or tracking.
+  - 🌐 **Official Website**: https://open-meteo.com/
+  - 💻 **Open Source Link**: https://github.com/open-meteo/open-meteo
+  - 🔄 **Replaces**: Dark Sky (defunct), Weather Underground, OpenWeatherMap
+
+---
+
+## 32. Translation & Writing Tools
+
+- **[LibreTranslate](https://libretranslate.com/)** — Free, open-source, and 100% self-hosted machine translation API and web interface powered by the Argos Translate engine.
+  - 🌐 **Official Website**: https://libretranslate.com/
+  - 💻 **Open Source Link**: https://github.com/LibreTranslate/LibreTranslate
+  - 🔄 **Replaces**: Google Translate, Microsoft Translator
+
+- **[LanguageTool](https://languagetool.org/)** — Multilingual grammar, style, and spell checker that can be run on your local computer without sending text to corporate clouds.
+  - 🌐 **Official Website**: https://languagetool.org/
+  - 💻 **Open Source Link**: https://github.com/languagetool-org/languagetool
+  - 🔄 **Replaces**: Grammarly, ProWritingAid
+
+---
+
+## 33. Local AI Assistants & Copilots
+
+- **[Ollama](https://ollama.com/)** — Effortlessly get up and running with large language models (Llama 3, Mistral, Gemma, Phi) locally on your own GPU without cloud dependencies.
+  - 🌐 **Official Website**: https://ollama.com/
+  - 💻 **Open Source Link**: https://github.com/ollama/ollama
+  - 🔄 **Replaces**: OpenAI ChatGPT API, Claude API
+
+- **[Open WebUI](https://openwebui.com/)** — User-friendly, feature-packed local web interface for Ollama and OpenAI-compatible LLMs with full chat history kept on your device.
+  - 🌐 **Official Website**: https://openwebui.com/
+  - 💻 **Open Source Link**: https://github.com/open-webui/open-webui
+  - 🔄 **Replaces**: ChatGPT Web Interface, Microsoft Copilot
+
+- **[Continue.dev](https://continue.dev/)** — Leading open-source AI code assistant extension for VS Code and JetBrains that connects directly to local or private AI models.
+  - 🌐 **Official Website**: https://continue.dev/
+  - 💻 **Open Source Link**: https://github.com/continuedev/continue
+  - 🔄 **Replaces**: GitHub Copilot, Tabnine
+
+- **[Aider](https://aider.chat/)** — AI pair-programming tool in your terminal that writes and commits code directly to your local Git repository.
+  - 🌐 **Official Website**: https://aider.chat/
+  - 💻 **Open Source Link**: https://github.com/Aider-AI/aider
+  - 🔄 **Replaces**: GitHub Copilot Workspace, Cursor
+
+---
+
+## 34. DNS Resolvers, Firewalls & VPNs
+
+- **[Pi-hole](https://pi-hole.net/)** — Network-wide DNS sinkhole that blocks advertisements and tracker domains on every phone, laptop, and smart TV on your network.
+  - 🌐 **Official Website**: https://pi-hole.net/
+  - 💻 **Open Source Link**: https://github.com/pi-hole/pi-hole
+  - 🔄 **Replaces**: ISP Default DNS, Google DNS (8.8.8.8)
+
+- **[AdGuard Home](https://adguard.com/en/adguard-home/overview.html)** — Network-wide software for blocking ads and tracking with native support for DNS-over-HTTPS and DNS-over-TLS encryption.
+  - 🌐 **Official Website**: https://adguard.com/en/adguard-home/overview.html
+  - 💻 **Open Source Link**: https://github.com/AdguardTeam/AdGuardHome
+  - 🔄 **Replaces**: Google Public DNS, Cloudflare 1.1.1.1
+
+- **[WireGuard](https://www.wireguard.com/)** — Extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography directly in the operating system kernel.
+  - 🌐 **Official Website**: https://www.wireguard.com/
+  - 💻 **Open Source Link**: https://git.zx2c4.com/wireguard-tools/
+  - 🔄 **Replaces**: OpenVPN, proprietary corporate VPNs
+
+- **[Mullvad VPN](https://mullvad.net/)** — Privacy-oriented VPN provider that issues random numeric accounts with no email, name, or phone number required, accepting cash payments.
+  - 🌐 **Official Website**: https://mullvad.net/
+  - 💻 **Open Source Link**: https://github.com/mullvad/mullvadvpn-app
+  - 🔄 **Replaces**: ExpressVPN, NordVPN, CyberGhost
+
+- **[OpenSnitch](https://github.com/evilsocket/opensnitch)** — Port of Little Snitch application-level firewall to Linux, prompting you whenever an outgoing network connection is attempted.
+  - 🌐 **Official Website**: https://github.com/evilsocket/opensnitch
+  - 💻 **Open Source Link**: https://github.com/evilsocket/opensnitch
+  - 🔄 **Replaces**: Little Snitch, GlassWire
+
+- **[Portmaster](https://safing.io/)** — Application-level privacy companion and firewall that monitors all network activities and enforces encrypted DNS per app.
+  - 🌐 **Official Website**: https://safing.io/
+  - 💻 **Open Source Link**: https://github.com/safing/portmaster
+  - 🔄 **Replaces**: Little Snitch, Windows Defender Firewall
+
+---
+
+## 35. Smart Home Automation & IoT
+
+- **[Home Assistant](https://www.home-assistant.io/)** — Open-source home automation hub that puts local control, zero internet dependency, and privacy first.
+  - 🌐 **Official Website**: https://www.home-assistant.io/
+  - 💻 **Open Source Link**: https://github.com/home-assistant/core
+  - 🔄 **Replaces**: Google Home / Nest, Amazon Alexa, Apple HomeKit
+
+- **[Frigate NVR](https://frigate.video/)** — Complete, local video surveillance system with real-time AI object detection (people, cars, animals) running on hardware TPUs.
+  - 🌐 **Official Website**: https://frigate.video/
+  - 💻 **Open Source Link**: https://github.com/blakeblackshear/frigate
+  - 🔄 **Replaces**: Ring, Nest Cam, Arlo
+
+- **[n8n](https://n8n.io/)** — Fair-code workflow automation platform that lets you connect APIs, sync databases, and automate workflows hosted in your own environment.
+  - 🌐 **Official Website**: https://n8n.io/
+  - 💻 **Open Source Link**: https://github.com/n8n-io/n8n
+  - 🔄 **Replaces**: Zapier, Make (Integromat), IFTTT
+
+- **[Node-RED](https://nodered.org/)** — Low-code visual event-driven programming tool for wiring together hardware devices, APIs, and online services locally.
+  - 🌐 **Official Website**: https://nodered.org/
+  - 💻 **Open Source Link**: https://github.com/node-red/node-red
+  - 🔄 **Replaces**: IFTTT, Zapier
+
+---
+
+## 36. RSS Feed Readers & Read-It-Later
+
+- **[Wallabag](https://wallabag.org/)** — Self-hostable application for saving and archiving web articles to read offline later with clean readability mode.
+  - 🌐 **Official Website**: https://wallabag.org/
+  - 💻 **Open Source Link**: https://github.com/wallabag/wallabag
+  - 🔄 **Replaces**: Pocket, Instapaper
+
+- **[FreshRSS](https://freshrss.org/)** — Fast, self-hostable RSS and Atom feed aggregator that can handle tens of thousands of subscriptions easily on modest hardware.
+  - 🌐 **Official Website**: https://freshrss.org/
+  - 💻 **Open Source Link**: https://github.com/FreshRSS/FreshRSS
+  - 🔄 **Replaces**: Feedly, NewsBlur
+
+- **[Miniflux](https://miniflux.app/)** — Minimalist, lightning fast, opinionated feed reader written in Go with an optimized reading UI and zero analytics.
+  - 🌐 **Official Website**: https://miniflux.app/
+  - 💻 **Open Source Link**: https://github.com/miniflux/v2
+  - 🔄 **Replaces**: Feedly, Inoreader
+
+- **[Linkwarden](https://linkwarden.app/)** — Collaborative, open-source bookmark manager to collect, organize, and archive web pages and PDFs automatically.
+  - 🌐 **Official Website**: https://linkwarden.app/
+  - 💻 **Open Source Link**: https://github.com/linkwarden/linkwarden
+  - 🔄 **Replaces**: Raindrop.io, Pocket
+
+---
+
+## 37. Forms, Surveys & Customer Support
+
+- **[Formbricks](https://formbricks.com/)** — Privacy-first open-source survey and feedback platform to gather in-product micro-surveys without third-party data tracking.
+  - 🌐 **Official Website**: https://formbricks.com/
+  - 💻 **Open Source Link**: https://github.com/formbricks/formbricks
+  - 🔄 **Replaces**: Typeform, SurveyMonkey
+
+- **[LimeSurvey](https://www.limesurvey.org/)** — Enterprise-ready open-source survey tool with complex branching logic, quotas, and granular data control.
+  - 🌐 **Official Website**: https://www.limesurvey.org/
+  - 💻 **Open Source Link**: https://github.com/LimeSurvey/LimeSurvey
+  - 🔄 **Replaces**: Qualtrics, SurveyMonkey, Google Forms
+
+- **[Chatwoot](https://www.chatwoot.com/)** — Customer engagement and support platform with omnichannel inboxes (live chat, email, social) hosted on your infrastructure.
+  - 🌐 **Official Website**: https://www.chatwoot.com/
+  - 💻 **Open Source Link**: https://github.com/chatwoot/chatwoot
+  - 🔄 **Replaces**: Intercom, Zendesk, Drift
+
+- **[FreeScout](https://freescout.net/)** — Lightweight, self-hosted open-source help desk and shared inbox solution built with PHP/Laravel.
+  - 🌐 **Official Website**: https://freescout.net/
+  - 💻 **Open Source Link**: https://github.com/freescout-helpdesk/freescout
+  - 🔄 **Replaces**: Zendesk, Help Scout, Freshdesk
+
+---
+
+## 38. Remote Desktop & Virtualization
+
+- **[RustDesk](https://rustdesk.com/)** — Open-source remote desktop client and server software written in Rust with full end-to-end encryption and self-hosted relays.
+  - 🌐 **Official Website**: https://rustdesk.com/
+  - 💻 **Open Source Link**: https://github.com/rustdesk/rustdesk
+  - 🔄 **Replaces**: TeamViewer, AnyDesk
+
+- **[Apache Guacamole](https://guacamole.apache.org/)** — Clientless HTML5 remote desktop gateway supporting standard protocols like VNC, RDP, and SSH inside your browser.
+  - 🌐 **Official Website**: https://guacamole.apache.org/
+  - 💻 **Open Source Link**: https://github.com/apache/guacamole-server
+  - 🔄 **Replaces**: TeamViewer, LogMeIn
+
+- **[Proxmox VE](https://www.proxmox.com/)** — Complete open-source enterprise virtualization platform integrating KVM hypervisors, LXC containers, and software-defined storage.
+  - 🌐 **Official Website**: https://www.proxmox.com/
+  - 💻 **Open Source Link**: https://git.proxmox.com/
+  - 🔄 **Replaces**: VMware ESXi / Workstation, Microsoft Hyper-V
+
+- **[Remmina](https://remmina.org/)** — Fast, feature-rich remote desktop client for POSIX-based operating systems supporting RDP, VNC, SPICE, and SSH.
+  - 🌐 **Official Website**: https://remmina.org/
+  - 💻 **Open Source Link**: https://gitlab.com/Remmina/Remmina
+  - 🔄 **Replaces**: Microsoft Remote Desktop, AnyDesk
+
+---
+
+## 39. App Stores & Package Management
+
+- **[F-Droid](https://f-droid.org/)** — Installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform with audited build recipes.
+  - 🌐 **Official Website**: https://f-droid.org/
+  - 💻 **Open Source Link**: https://gitlab.com/fdroid/fdroidclient
+  - 🔄 **Replaces**: Google Play Store
+
+- **[Aurora Store](https://auroraoss.com/)** — Anonymous open-source client for Google's Play Store enabling app downloads without logging in with a personal Google account.
+  - 🌐 **Official Website**: https://auroraoss.com/
+  - 💻 **Open Source Link**: https://gitlab.com/AuroraOSS/AuroraStore
+  - 🔄 **Replaces**: Google Play Store
+
+- **[AltStore](https://altstore.io/)** — An alternative iOS app store that allows sideloading of open-source apps using your own developer Apple ID without jailbreaking.
+  - 🌐 **Official Website**: https://altstore.io/
+  - 💻 **Open Source Link**: https://github.com/AltStoreIO/AltStore
+  - 🔄 **Replaces**: Apple App Store
+
+---
+
+## 40. E-Commerce & Website Builders
+
+- **[MedusaJS](https://medusajs.com/)** — Modern, modular headless open-source commerce platform built with Node.js providing complete customization and database control.
+  - 🌐 **Official Website**: https://medusajs.com/
+  - 💻 **Open Source Link**: https://github.com/medusajs/medusa
+  - 🔄 **Replaces**: Shopify, BigCommerce
+
+- **[WooCommerce](https://woocommerce.com/)** — Customizable, open-source e-commerce solution built on WordPress empowering merchants with full ownership of store data.
+  - 🌐 **Official Website**: https://woocommerce.com/
+  - 💻 **Open Source Link**: https://github.com/woocommerce/woocommerce
+  - 🔄 **Replaces**: Shopify, Squarespace Commerce
+
+- **[Saleor](https://saleor.io/)** — Ultra-fast, composable, headless GraphQL-first e-commerce engine for delivering scalable digital storefront experiences.
+  - 🌐 **Official Website**: https://saleor.io/
+  - 💻 **Open Source Link**: https://github.com/saleor/saleor
+  - 🔄 **Replaces**: Shopify Plus, Adobe Commerce (Magento)
 
 ---
 
@@ -398,10 +1099,13 @@ Contributions are warmly welcome! We want this list to remain the most up-to-dat
 
 1. **Fork the Repository**
 2. **Create a Feature Branch** (`git checkout -b feature/add-alternative`)
-3. **Ensure Quality Standards**:
-   - The alternative must be **actively maintained**.
-   - Must be **Open Source (FOSS)** or provide verified **End-to-End Encryption (E2EE) / Zero-Knowledge** architecture.
-   - Must not bundle covert telemetry, adware, or data-collection trackers.
+3. **Format Entry Consistently**:
+   ```markdown
+   - **[Tool Name](Official URL)** — Clear 1-2 sentence description.
+     - 🌐 **Official Website**: https://...
+     - 💻 **Open Source Link**: https://github.com/...
+     - 🔄 **Replaces**: Proprietary Software Names
+   ```
 4. **Commit Your Changes** (`git commit -m "Add AppName alternative for ProprietaryApp"`)
 5. **Push and Open a Pull Request**
 
