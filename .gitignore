@@ -1,0 +1,12 @@
+# Cloned repositories & dependencies
+best-foss-alternatives/
+node_modules/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+.idea/
+.vscode/
