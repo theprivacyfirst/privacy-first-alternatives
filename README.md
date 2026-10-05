@@ -5,7 +5,7 @@
 [![Privacy First](https://img.shields.io/badge/Privacy-First-9cf.svg)](#)
 [![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)](#)
 
-A curated, comprehensive directory of **150+ popular proprietary applications and digital services**, mapped directly to their **free, open-source (FOSS), and privacy-first alternatives**.
+A curated, comprehensive directory of **200+ popular proprietary applications and digital services**, mapped directly to their **free, open-source (FOSS), and privacy-first alternatives**.
 
 Each entry includes a clear description, official website link, open-source repository link, and the proprietary software it replaces.
 
@@ -16,43 +16,60 @@ Each entry includes a clear description, official website link, open-source repo
 - [1. Web Browsers](#1-web-browsers)
 - [2. Search Engines](#2-search-engines)
 - [3. Email Clients & Secure Email Providers](#3-email-clients--secure-email-providers)
-- [4. Calendars & Meeting Scheduling](#4-calendars--meeting-scheduling)
-- [5. Instant Messaging & Chat Apps](#5-instant-messaging--chat-apps)
-- [6. Team Communication & Community Chat](#6-team-communication--community-chat)
-- [7. Video Conferencing & Screen Recording](#7-video-conferencing--screen-recording)
-- [8. Cloud Storage & File Synchronization](#8-cloud-storage--file-synchronization)
-- [9. Notes, Knowledge Base & PKM](#9-notes-knowledge-base--pkm)
-- [10. Office Suites & Document Collaboration](#10-office-suites--document-collaboration)
-- [11. PDF Viewers, Editors & Tools](#11-pdf-viewers-editors--tools)
-- [12. Project Management, Kanban & Issue Tracking](#12-project-management-kanban--issue-tracking)
-- [13. Password Managers](#13-password-managers)
-- [14. Two-Factor Authentication (2FA) & IAM](#14-two-factor-authentication-2fa--iam)
-- [15. Operating Systems (Desktop & Mobile)](#15-operating-systems-desktop--mobile)
-- [16. Music Streaming & Audio Players](#16-music-streaming--audio-players)
-- [17. Video Streaming, Players & Platforms](#17-video-streaming-players--platforms)
-- [18. Photo Management & Cloud Backups](#18-photo-management--cloud-backups)
-- [19. Graphic Design, Prototyping & 3D](#19-graphic-design-prototyping--3d)
-- [20. Image Editing & RAW Photo Processing](#20-image-editing--raw-photo-processing)
-- [21. Video Editing & VFX](#21-video-editing--vfx)
-- [22. Audio Production (DAW) & Sound Editing](#22-audio-production-daw--sound-editing)
-- [23. Social Networks & Decentralized Media](#23-social-networks--decentralized-media)
-- [24. Publishing, Blogging & Newsletters](#24-publishing-blogging--newsletters)
-- [25. Code Editors & IDEs](#25-code-editors--ides)
-- [26. Git Hosting & DevOps Platforms](#26-git-hosting--devops-platforms)
-- [27. API Clients & Developer Tools](#27-api-clients--developer-tools)
-- [28. Web Analytics & Error Monitoring](#28-web-analytics--error-monitoring)
-- [29. Personal Finance, Budgeting & Invoicing](#29-personal-finance-budgeting--invoicing)
-- [30. Maps & Turn-by-Turn Navigation](#30-maps--turn-by-turn-navigation)
-- [31. Weather Forecasts](#31-weather-forecasts)
-- [32. Translation & Writing Tools](#32-translation--writing-tools)
-- [33. Local AI Assistants & Copilots](#33-local-ai-assistants--copilots)
-- [34. DNS Resolvers, Firewalls & VPNs](#34-dns-resolvers-firewalls--vpns)
-- [35. Smart Home Automation & IoT](#35-smart-home-automation--iot)
-- [36. RSS Feed Readers & Read-It-Later](#36-rss-feed-readers--read-it-later)
-- [37. Forms, Surveys & Customer Support](#37-forms-surveys--customer-support)
-- [38. Remote Desktop & Virtualization](#38-remote-desktop--virtualization)
-- [39. App Stores & Package Management](#39-app-stores--package-management)
-- [40. E-Commerce & Website Builders](#40-e-commerce--website-builders)
+- [4. Email Aliasing & Privacy Forwarding](#4-email-aliasing--privacy-forwarding)
+- [5. Calendars & Meeting Scheduling](#5-calendars--meeting-scheduling)
+- [6. Instant Messaging & Chat Apps](#6-instant-messaging--chat-apps)
+- [7. Team Communication & Community Chat](#7-team-communication--community-chat)
+- [8. Video Conferencing & Screen Recording](#8-video-conferencing--screen-recording)
+- [9. Cloud Storage & File Synchronization](#9-cloud-storage--file-synchronization)
+- [10. Local File Sharing & P2P Transfer](#10-local-file-sharing--p2p-transfer)
+- [11. Notes, Knowledge Base & PKM](#11-notes-knowledge-base--pkm)
+- [12. Office Suites & Document Collaboration](#12-office-suites--document-collaboration)
+- [13. PDF Viewers, Editors & Tools](#13-pdf-viewers-editors--tools)
+- [14. Document Archiving, Scanning & Paperless Offices](#14-document-archiving-scanning--paperless-offices)
+- [15. Diagramming, Whiteboards & Mind Mapping](#15-diagramming-whiteboards--mind-mapping)
+- [16. Project Management, Kanban & Issue Tracking](#16-project-management-kanban--issue-tracking)
+- [17. Password Managers](#17-password-managers)
+- [18. Two-Factor Authentication (2FA) & IAM](#18-two-factor-authentication-2fa--iam)
+- [19. Operating Systems (Desktop & Mobile)](#19-operating-systems-desktop--mobile)
+- [20. Music Streaming & Audio Players](#20-music-streaming--audio-players)
+- [21. Video Streaming, Players & Platforms](#21-video-streaming-players--platforms)
+- [22. E-Book Readers, Managers & Audiobooks](#22-e-book-readers-managers--audiobooks)
+- [23. Photo Management & Cloud Backups](#23-photo-management--cloud-backups)
+- [24. Graphic Design, Prototyping & 3D](#24-graphic-design-prototyping--3d)
+- [25. Image Editing & RAW Photo Processing](#25-image-editing--raw-photo-processing)
+- [26. Video Editing & VFX](#26-video-editing--vfx)
+- [27. Audio Production (DAW) & Sound Editing](#27-audio-production-daw--sound-editing)
+- [28. Social Networks & Decentralized Media](#28-social-networks--decentralized-media)
+- [29. Publishing, Blogging & Newsletters](#29-publishing-blogging--newsletters)
+- [30. Code Editors & IDEs](#30-code-editors--ides)
+- [31. Git Hosting & DevOps Platforms](#31-git-hosting--devops-platforms)
+- [32. API Clients & Developer Tools](#32-api-clients--developer-tools)
+- [33. Web Analytics & Error Monitoring](#33-web-analytics--error-monitoring)
+- [34. Personal Finance, Budgeting & Invoicing](#34-personal-finance-budgeting--invoicing)
+- [35. Maps & Turn-by-Turn Navigation](#35-maps--turn-by-turn-navigation)
+- [36. Weather Forecasts](#36-weather-forecasts)
+- [37. Translation & Writing Tools](#37-translation--writing-tools)
+- [38. Local AI Assistants & Copilots](#38-local-ai-assistants--copilots)
+- [39. Speech-to-Text & Local Audio Transcription](#39-speech-to-text--local-audio-transcription)
+- [40. DNS Resolvers, Firewalls & VPNs](#40-dns-resolvers-firewalls--vpns)
+- [41. Router OS, Hardware Firewalls & Network Storage](#41-router-os-hardware-firewalls--network-storage)
+- [42. File Encryption, Containers & Metadata Sanitization](#42-file-encryption-containers--metadata-sanitization)
+- [43. Encrypted Pastebins & Ephemeral Text](#43-encrypted-pastebins--ephemeral-text)
+- [44. Mobile Keyboards & Input Methods](#44-mobile-keyboards--input-methods)
+- [45. Smart Home Automation & IoT](#45-smart-home-automation--iot)
+- [46. RSS Feed Readers & Read-It-Later](#46-rss-feed-readers--read-it-later)
+- [47. Torrent Clients & Download Accelerators](#47-torrent-clients--download-accelerators)
+- [48. Time Tracking & Digital Wellbeing](#48-time-tracking--digital-wellbeing)
+- [49. Application Launchers & Search Utilities](#49-application-launchers--search-utilities)
+- [50. Screenshots & Screen Annotation](#50-screenshots--screen-annotation)
+- [51. Clipboard Managers](#51-clipboard-managers)
+- [52. Flashcards & Spaced Repetition Learning](#52-flashcards--spaced-repetition-learning)
+- [53. Gaming Launchers & Storefronts](#53-gaming-launchers--storefronts)
+- [54. Forms, Surveys & Customer Support](#54-forms-surveys--customer-support)
+- [55. Remote Desktop & Virtualization](#55-remote-desktop--virtualization)
+- [56. App Stores & Package Management](#56-app-stores--package-management)
+- [57. E-Commerce & Website Builders](#57-e-commerce--website-builders)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -95,6 +112,16 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://github.com/azoklesoftware
   - 🔄 **Replaces**: Google Chrome, Microsoft Edge, Apple Safari
 
+- **[Floorp](https://floorp.app/)** — Highly customizable, privacy-oriented Japanese Firefox fork with vertical tabs, workspaces, and zero data telemetry.
+  - 🌐 **Official Website**: https://floorp.app/
+  - 💻 **Open Source Link**: https://github.com/Floorp-Projects/Floorp
+  - 🔄 **Replaces**: Arc Browser, Vivaldi, Google Chrome
+
+- **[Ladybird](https://ladybird.org/)** — A brand-new, completely independent web browser and engine built from scratch with no Google or Mozilla code, financed entirely by donations.
+  - 🌐 **Official Website**: https://ladybird.org/
+  - 💻 **Open Source Link**: https://github.com/LadybirdBrowser/ladybird
+  - 🔄 **Replaces**: Google Chrome, Apple Safari
+
 ---
 
 ## 2. Search Engines
@@ -109,9 +136,14 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://github.com/benbusby/whoogle-search
   - 🔄 **Replaces**: Google Search
 
+- **[Azokle Search](https://search.azokle.com)** — Privacy-first search engine providing unbiased results without user tracking, query logging, or targeted advertising profiles.
+  - 🌐 **Official Website**: https://search.azokle.com
+  - 💻 **Open Source Link**: https://github.com/azoklesoftware
+  - 🔄 **Replaces**: Google Search, Microsoft Bing, Yahoo Search
+
 - **[DuckDuckGo](https://duckduckgo.com/)** — Mainstream privacy search engine that does not track your search history or build advertising profiles.
   - 🌐 **Official Website**: https://duckduckgo.com/
-  - 💻 **Open Source Link**: https://github.com/duckduckgo (Open source apps & extensions)
+  - 💻 **Open Source Link**: https://github.com/duckduckgo
   - 🔄 **Replaces**: Google Search, Microsoft Bing
 
 - **[Brave Search](https://search.brave.com/)** — A completely independent web search index that delivers private queries without tracking or ad-profiling algorithms.
@@ -119,10 +151,10 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://github.com/brave
   - 🔄 **Replaces**: Google Search, Microsoft Bing
 
-- **[Azokle Search](https://search.azokle.com)** — Privacy-first search engine providing unbiased results without user tracking, query logging, or targeted advertising profiles.
-  - 🌐 **Official Website**: https://search.azokle.com
-  - 💻 **Open Source Link**: https://github.com/azoklesoftware
-  - 🔄 **Replaces**: Google Search, Microsoft Bing, Yahoo Search
+- **[Mojeek](https://www.mojeek.com/)** — Truly independent, crawler-based search engine with its own index of billions of pages, with an uncompromising no-tracking privacy policy.
+  - 🌐 **Official Website**: https://www.mojeek.com/
+  - 💻 **Open Source Link**: https://github.com/mojeek
+  - 🔄 **Replaces**: Google Search, Microsoft Bing
 
 ---
 
@@ -160,7 +192,26 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 4. Calendars & Meeting Scheduling
+## 4. Email Aliasing & Privacy Forwarding
+
+- **[SimpleLogin](https://simplelogin.io/)** — Open-source email aliasing service by Proton that creates throwaway email addresses to shield your real inbox from spam and tracking.
+  - 🌐 **Official Website**: https://simplelogin.io/
+  - 💻 **Open Source Link**: https://github.com/simple-login/app
+  - 🔄 **Replaces**: Apple Hide My Email, IronVest (Abine Blur)
+
+- **[Addy.io](https://addy.io/)** (formerly AnonAddy) — Open-source anonymous email forwarding service allowing users to create forwarding aliases with custom domains and PGP encryption.
+  - 🌐 **Official Website**: https://addy.io/
+  - 💻 **Open Source Link**: https://github.com/anonaddy/anonaddy
+  - 🔄 **Replaces**: Apple Hide My Email, Firefox Relay Premium
+
+- **[Firefox Relay](https://relay.firefox.com/)** — Privacy service from Mozilla that generates email masks and phone number masks to prevent real contact exposure.
+  - 🌐 **Official Website**: https://relay.firefox.com/
+  - 💻 **Open Source Link**: https://github.com/mozilla/fx-private-relay
+  - 🔄 **Replaces**: Apple Hide My Email
+
+---
+
+## 5. Calendars & Meeting Scheduling
 
 - **[Cal.com](https://cal.com/)** — Open-source scheduling infrastructure that lets people book meetings without tracking cookies or corporate data sharing.
   - 🌐 **Official Website**: https://cal.com/
@@ -184,7 +235,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 5. Instant Messaging & Chat Apps
+## 6. Instant Messaging & Chat Apps
 
 - **[Signal](https://signal.org/)** — Non-profit, state-of-the-art secure messaging app offering end-to-end encrypted chats, voice, and video calls with zero metadata logging.
   - 🌐 **Official Website**: https://signal.org/
@@ -211,9 +262,14 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://git.jami.net/savoirfairelinux/jami-client-qt
   - 🔄 **Replaces**: Skype, Viber, FaceTime
 
+- **[Threema](https://threema.ch/)** — Swiss privacy messenger with open-source client apps, requiring no phone number or email address to register.
+  - 🌐 **Official Website**: https://threema.ch/
+  - 💻 **Open Source Link**: https://github.com/threema-ch
+  - 🔄 **Replaces**: WhatsApp, Telegram, Signal
+
 ---
 
-## 6. Team Communication & Community Chat
+## 7. Team Communication & Community Chat
 
 - **[Matrix / Element](https://element.io/)** — Decentralized, federated open protocol for secure, real-time encrypted team communication and voice/video rooms.
   - 🌐 **Official Website**: https://element.io/
@@ -240,9 +296,14 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://github.com/RocketChat/Rocket.Chat
   - 🔄 **Replaces**: Slack, Microsoft Teams
 
+- **[Mumble](https://www.mumble.info/)** — Low-latency, high-quality voice chat application primarily intended for gamers and remote podcasting teams.
+  - 🌐 **Official Website**: https://www.mumble.info/
+  - 💻 **Open Source Link**: https://github.com/mumble-voip/mumble
+  - 🔄 **Replaces**: Discord Voice, TeamSpeak
+
 ---
 
-## 7. Video Conferencing & Screen Recording
+## 8. Video Conferencing & Screen Recording
 
 - **[Jitsi Meet](https://meet.jit.si/)** — 100% open source, fully encrypted video conferencing tool you can use every day without ever needing an account.
   - 🌐 **Official Website**: https://meet.jit.si/
@@ -266,7 +327,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 8. Cloud Storage & File Synchronization
+## 9. Cloud Storage & File Synchronization
 
 - **[Nextcloud](https://nextcloud.com/)** — Comprehensive self-hosted productivity platform providing secure file sync, office document editing, calendar, and contacts.
   - 🌐 **Official Website**: https://nextcloud.com/
@@ -303,9 +364,38 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://github.com/restic/restic
   - 🔄 **Replaces**: Backblaze, Carbonite
 
+- **[Kopia](https://kopia.io/)** — Cross-platform open-source backup tool with fast snapshotting, client-side encryption, compression, and deduplication.
+  - 🌐 **Official Website**: https://kopia.io/
+  - 💻 **Open Source Link**: https://github.com/kopia/kopia
+  - 🔄 **Replaces**: Backblaze, CrashPlan
+
 ---
 
-## 9. Notes, Knowledge Base & PKM
+## 10. Local File Sharing & P2P Transfer
+
+- **[LocalSend](https://localsend.org/)** — Open-source cross-platform alternative to AirDrop that lets you share files and messages securely across devices on your local network.
+  - 🌐 **Official Website**: https://localsend.org/
+  - 💻 **Open Source Link**: https://github.com/localsend/localsend
+  - 🔄 **Replaces**: Apple AirDrop, Google Quick Share, Nearby Share, SHAREit
+
+- **[PairDrop](https://pairdrop.net/)** — Browser-based, local-network and internet peer-to-peer file sharing inspired by Apple's AirDrop, requiring zero app installations.
+  - 🌐 **Official Website**: https://pairdrop.net/
+  - 💻 **Open Source Link**: https://github.com/schlagmichdoch/pairdrop
+  - 🔄 **Replaces**: Apple AirDrop, Snapdrop, SendAnywhere
+
+- **[Croc](https://schollz.com/tinker/croc/)** — Easily and securely send things from one computer to another using end-to-end encrypted relay code phrases in terminal.
+  - 🌐 **Official Website**: https://schollz.com/tinker/croc/
+  - 💻 **Open Source Link**: https://github.com/schollz/croc
+  - 🔄 **Replaces**: Magic Wormhole, WeTransfer CLI
+
+- **[Wormhole](https://wormhole.app/)** — End-to-end encrypted file transfer service allowing instant, streaming file uploads with expiring links.
+  - 🌐 **Official Website**: https://wormhole.app/
+  - 💻 **Open Source Link**: https://github.com/sunlightlabs/wormhole
+  - 🔄 **Replaces**: WeTransfer, TransferNow, Sendspace
+
+---
+
+## 11. Notes, Knowledge Base & PKM
 
 - **[AppFlowy](https://www.appflowy.io/)** — An open-source, local-first alternative to Notion that gives you full control of your data, wikis, and project boards.
   - 🌐 **Official Website**: https://www.appflowy.io/
@@ -337,6 +427,11 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://github.com/streetwriters/notesnook
   - 🔄 **Replaces**: Evernote, Apple Notes, Google Keep
 
+- **[Standard Notes](https://standardnotes.com/)** — End-to-end encrypted digital safe for notes, spreadsheets, and tasks with 100-year longevity guarantees.
+  - 🌐 **Official Website**: https://standardnotes.com/
+  - 💻 **Open Source Link**: https://github.com/standardnotes
+  - 🔄 **Replaces**: Evernote, Microsoft OneNote, Google Keep
+
 - **[Memos](https://usememos.com/)** — A lightweight, privacy-first, self-hosted memo hub and scratchpad to quickly capture thoughts and ideas.
   - 🌐 **Official Website**: https://usememos.com/
   - 💻 **Open Source Link**: https://github.com/usememos/memos
@@ -349,7 +444,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 10. Office Suites & Document Collaboration
+## 12. Office Suites & Document Collaboration
 
 - **[LibreOffice](https://www.libreoffice.org/)** — Full-featured desktop office productivity suite (Writer, Calc, Impress) compatible with Microsoft Office formats.
   - 🌐 **Official Website**: https://www.libreoffice.org/
@@ -376,9 +471,14 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://gitlab.com/baserow/baserow
   - 🔄 **Replaces**: Airtable
 
+- **[Grist](https://www.getgrist.com/)** — Modern relational spreadsheet that combines the flexibility of a spreadsheet with the robustness of a database, fully open source.
+  - 🌐 **Official Website**: https://www.getgrist.com/
+  - 💻 **Open Source Link**: https://github.com/gristlabs/grist-core
+  - 🔄 **Replaces**: Airtable, Google Sheets
+
 ---
 
-## 11. PDF Viewers, Editors & Tools
+## 13. PDF Viewers, Editors & Tools
 
 - **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** — Robust, locally hosted web application that lets you split, merge, convert, OCR, watermark, and sign PDF files.
   - 🌐 **Official Website**: https://stirlingpdf.com/
@@ -397,7 +497,40 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 12. Project Management, Kanban & Issue Tracking
+## 14. Document Archiving, Scanning & Paperless Offices
+
+- **[Paperless-ngx](https://docs.paperless-ngx.com/)** — Supercharged document management system that indexes, OCRs, tags, and archives all your physical papers digitally on your own server.
+  - 🌐 **Official Website**: https://docs.paperless-ngx.com/
+  - 💻 **Open Source Link**: https://github.com/paperless-ngx/paperless-ngx
+  - 🔄 **Replaces**: CamScanner, Adobe Scan, Evernote Scannable, Neat
+
+- **[Docspell](https://docspell.org/)** — Personal document organizer that automatically analyzes, tags, and organizes incoming scanned files and emails.
+  - 🌐 **Official Website**: https://docspell.org/
+  - 💻 **Open Source Link**: https://github.com/eikek/docspell
+  - 🔄 **Replaces**: CamScanner, DocuWare
+
+---
+
+## 15. Diagramming, Whiteboards & Mind Mapping
+
+- **[Excalidraw](https://excalidraw.com/)** — Virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel, with end-to-end encryption.
+  - 🌐 **Official Website**: https://excalidraw.com/
+  - 💻 **Open Source Link**: https://github.com/excalidraw/excalidraw
+  - 🔄 **Replaces**: Miro, Mural, Lucidchart, Microsoft Whiteboard
+
+- **[Diagrams.net (Draw.io)](https://www.diagrams.net/)** — Security-first diagramming software that runs completely in your browser or desktop without storing your diagrams on external servers.
+  - 🌐 **Official Website**: https://www.diagrams.net/
+  - 💻 **Open Source Link**: https://github.com/jgraph/drawio-desktop
+  - 🔄 **Replaces**: Microsoft Visio, Lucidchart, Gliffy
+
+- **[PlantUML](https://plantuml.com/)** — Open-source tool allowing users to create UML diagrams, sequence diagrams, and architecture maps from plain text language.
+  - 🌐 **Official Website**: https://plantuml.com/
+  - 💻 **Open Source Link**: https://github.com/plantuml/plantuml
+  - 🔄 **Replaces**: Lucidchart, Enterprise Architect
+
+---
+
+## 16. Project Management, Kanban & Issue Tracking
 
 - **[Plane](https://plane.so/)** — Open-source project management tool to track issues, epics, cycles, and product roadmaps with modern UI.
   - 🌐 **Official Website**: https://plane.so/
@@ -421,7 +554,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 13. Password Managers
+## 17. Password Managers
 
 - **[Bitwarden](https://bitwarden.com/)** — Audited, open-source password manager with cross-platform apps, password sharing, passkeys, and zero-knowledge encryption.
   - 🌐 **Official Website**: https://bitwarden.com/
@@ -445,7 +578,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 14. Two-Factor Authentication (2FA) & IAM
+## 18. Two-Factor Authentication (2FA) & IAM
 
 - **[Azokle Authenticator](https://azokle.com/authenticator)** — Secure, open-source two-factor authentication (2FA) app keeping your TOTP tokens safe with zero telemetry.
   - 🌐 **Official Website**: https://azokle.com/authenticator
@@ -479,7 +612,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 15. Operating Systems (Desktop & Mobile)
+## 19. Operating Systems (Desktop & Mobile)
 
 - **[Fedora Workstation](https://fedoraproject.org/)** — Polished, cutting-edge, general-purpose Linux operating system offering pure GNOME with zero commercial telemetry.
   - 🌐 **Official Website**: https://fedoraproject.org/
@@ -518,7 +651,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 16. Music Streaming & Audio Players
+## 20. Music Streaming & Audio Players
 
 - **[Spotube](https://spotube.krtirtho.dev/)** — Open-source Spotify client that streams audio tracks without ads using public YouTube and Spotify API metadata.
   - 🌐 **Official Website**: https://spotube.krtirtho.dev/
@@ -547,7 +680,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 17. Video Streaming, Players & Platforms
+## 21. Video Streaming, Players & Platforms
 
 - **[Jellyfin](https://jellyfin.org/)** — The free software media system that puts you in control of managing and streaming movies, shows, and live TV to any screen.
   - 🌐 **Official Website**: https://jellyfin.org/
@@ -581,7 +714,26 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 18. Photo Management & Cloud Backups
+## 22. E-Book Readers, Managers & Audiobooks
+
+- **[Calibre](https://calibre-ebook.com/)** — Comprehensive e-book manager allowing you to organize, convert formats, edit metadata, and transfer books to e-readers offline.
+  - 🌐 **Official Website**: https://calibre-ebook.com/
+  - 💻 **Open Source Link**: https://github.com/kovidgoyal/calibre
+  - 🔄 **Replaces**: Amazon Kindle Desktop, Apple Books, Adobe Digital Editions
+
+- **[KOReader](https://koreader.rocks/)** — Versatile document and e-book viewer for E-Ink devices and Android supporting EPUB, PDF, DjVu, CBZ, and FB2 formats.
+  - 🌐 **Official Website**: https://koreader.rocks/
+  - 💻 **Open Source Link**: https://github.com/koreader/koreader
+  - 🔄 **Replaces**: Kindle Firmware, Kobo Reader OS
+
+- **[Audiobookshelf](https://www.audiobookshelf.org/)** — Self-hosted audiobook and podcast server with streaming mobile apps, progress sync, and multi-user support.
+  - 🌐 **Official Website**: https://www.audiobookshelf.org/
+  - 💻 **Open Source Link**: https://github.com/advplyr/audiobookshelf
+  - 🔄 **Replaces**: Audible (Amazon), Storytel, Scribd
+
+---
+
+## 23. Photo Management & Cloud Backups
 
 - **[Immich](https://immich.app/)** — Self-hosted photo and video backup solution with high-performance mobile apps, timeline view, album sharing, and on-device ML tagging.
   - 🌐 **Official Website**: https://immich.app/
@@ -605,7 +757,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 19. Graphic Design, Prototyping & 3D
+## 24. Graphic Design, Prototyping & 3D
 
 - **[Penpot](https://penpot.app/)** — Open-source, web-based design and prototyping platform built on native web standards (SVG/CSS) for cross-functional teams.
   - 🌐 **Official Website**: https://penpot.app/
@@ -629,7 +781,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 20. Image Editing & RAW Photo Processing
+## 25. Image Editing & RAW Photo Processing
 
 - **[GIMP](https://www.gimp.org/)** — Cross-platform image manipulation program providing high-end photo retouching, image composition, and graphic authoring offline.
   - 🌐 **Official Website**: https://www.gimp.org/
@@ -653,7 +805,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 21. Video Editing & VFX
+## 26. Video Editing & VFX
 
 - **[Kdenlive](https://kdenlive.org/)** — Non-linear multi-track video editor built on MLT and FFmpeg supporting 4K timelines, color correction, effects, and audio mixing.
   - 🌐 **Official Website**: https://kdenlive.org/
@@ -677,7 +829,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 22. Audio Production (DAW) & Sound Editing
+## 27. Audio Production (DAW) & Sound Editing
 
 - **[Ardour](https://ardour.org/)** — Professional Digital Audio Workstation to record, edit, and mix multi-track audio and MIDI projects on Linux, macOS, and Windows.
   - 🌐 **Official Website**: https://ardour.org/
@@ -696,7 +848,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 23. Social Networks & Decentralized Media
+## 28. Social Networks & Decentralized Media
 
 - **[Mastodon](https://joinmastodon.org/)** — Decentralized, ad-free microblogging social network powered by open protocols (ActivityPub) without algorithmic manipulation.
   - 🌐 **Official Website**: https://joinmastodon.org/
@@ -725,7 +877,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 24. Publishing, Blogging & Newsletters
+## 29. Publishing, Blogging & Newsletters
 
 - **[Ghost](https://ghost.org/)** — Modern, open-source publishing platform and newsletter engine that puts you in complete control of your members, content, and payments.
   - 🌐 **Official Website**: https://ghost.org/
@@ -744,7 +896,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 25. Code Editors & IDEs
+## 30. Code Editors & IDEs
 
 - **[VSCodium](https://vscodium.com/)** — Free/libre community-driven distribution of Microsoft VS Code compiled with telemetry, trackers, and proprietary licenses removed.
   - 🌐 **Official Website**: https://vscodium.com/
@@ -768,7 +920,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 26. Git Hosting & DevOps Platforms
+## 31. Git Hosting & DevOps Platforms
 
 - **[Forgejo](https://forgejo.org/)** — Beyond-corporate, community-governed lightweight Git software forge providing code hosting, code review, issues, and CI runners.
   - 🌐 **Official Website**: https://forgejo.org/
@@ -792,7 +944,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 27. API Clients & Developer Tools
+## 32. API Clients & Developer Tools
 
 - **[Bruno](https://www.usebruno.com/)** — Fast and Git-friendly open-source API client that saves collections in plain text files directly inside your code repo.
   - 🌐 **Official Website**: https://www.usebruno.com/
@@ -811,7 +963,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 28. Web Analytics & Error Monitoring
+## 33. Web Analytics & Error Monitoring
 
 - **[Plausible Analytics](https://plausible.io/)** — Lightweight (< 1 KB) open-source web analytics without cookies and fully compliant with GDPR, CCPA, and PECR.
   - 🌐 **Official Website**: https://plausible.io/
@@ -845,7 +997,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 29. Personal Finance, Budgeting & Invoicing
+## 34. Personal Finance, Budgeting & Invoicing
 
 - **[Actual Budget](https://actualbudget.org/)** — Privacy-first, local-first personal budgeting tool implementing envelope-budgeting methodology with zero-knowledge synchronization.
   - 🌐 **Official Website**: https://actualbudget.org/
@@ -869,7 +1021,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 30. Maps & Turn-by-Turn Navigation
+## 35. Maps & Turn-by-Turn Navigation
 
 - **[Organic Maps](https://organicmaps.app/)** — Fast, offline, detailed vector maps and turn-by-turn navigation for drivers, cyclists, and hikers with zero data collection.
   - 🌐 **Official Website**: https://organicmaps.app/
@@ -888,7 +1040,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 31. Weather Forecasts
+## 36. Weather Forecasts
 
 - **[Breezy Weather](https://github.com/breezy-weather/breezy-weather)** — Clean, customizable, and modern open-source Android weather application without tracking libraries or ads.
   - 🌐 **Official Website**: https://github.com/breezy-weather/breezy-weather
@@ -902,7 +1054,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 32. Translation & Writing Tools
+## 37. Translation & Writing Tools
 
 - **[LibreTranslate](https://libretranslate.com/)** — Free, open-source, and 100% self-hosted machine translation API and web interface powered by the Argos Translate engine.
   - 🌐 **Official Website**: https://libretranslate.com/
@@ -916,7 +1068,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 33. Local AI Assistants & Copilots
+## 38. Local AI Assistants & Copilots
 
 - **[Ollama](https://ollama.com/)** — Effortlessly get up and running with large language models (Llama 3, Mistral, Gemma, Phi) locally on your own GPU without cloud dependencies.
   - 🌐 **Official Website**: https://ollama.com/
@@ -940,7 +1092,21 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 34. DNS Resolvers, Firewalls & VPNs
+## 39. Speech-to-Text & Local Audio Transcription
+
+- **[Buzz](https://chidiwilliams.github.io/buzz/)** — Specialized desktop app powered by OpenAI's Whisper model running locally on your CPU/GPU to transcribe and translate audio files offline.
+  - 🌐 **Official Website**: https://chidiwilliams.github.io/buzz/
+  - 💻 **Open Source Link**: https://github.com/chidiwilliams/buzz
+  - 🔄 **Replaces**: Otter.ai, Descript, Trint
+
+- **[Subtitle Edit](https://www.nikse.dk/subtitleedit)** — Powerful open-source editor for video subtitles with integrated local Whisper speech recognition for automatic caption generation.
+  - 🌐 **Official Website**: https://www.nikse.dk/subtitleedit
+  - 💻 **Open Source Link**: https://github.com/SubtitleEdit/subtitleedit
+  - 🔄 **Replaces**: Cloud auto-captioning tools, Sonix
+
+---
+
+## 40. DNS Resolvers, Firewalls & VPNs
 
 - **[Pi-hole](https://pi-hole.net/)** — Network-wide DNS sinkhole that blocks advertisements and tracker domains on every phone, laptop, and smart TV on your network.
   - 🌐 **Official Website**: https://pi-hole.net/
@@ -974,7 +1140,78 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 35. Smart Home Automation & IoT
+## 41. Router OS, Hardware Firewalls & Network Storage
+
+- **[OPNsense](https://opnsense.org/)** — Open-source, easy-to-use and easy-to-build FreeBSD-based firewall and routing platform with enterprise stateful packet inspection and IPS.
+  - 🌐 **Official Website**: https://opnsense.org/
+  - 💻 **Open Source Link**: https://github.com/opnsense/core
+  - 🔄 **Replaces**: Cisco Meraki, Netgear Armor, Fortinet, SonicWall
+
+- **[OpenWrt](https://openwrt.org/)** — Linux operating system targeting embedded network devices and consumer Wi-Fi routers, replacing sluggish, untrusted vendor firmware.
+  - 🌐 **Official Website**: https://openwrt.org/
+  - 💻 **Open Source Link**: https://git.openwrt.org/openwrt/openwrt.git
+  - 🔄 **Replaces**: Stock TP-Link, Netgear, and Asus router firmware
+
+- **[TrueNAS SCALE](https://www.truenas.com/)** — Enterprise-grade open-source storage operating system with OpenZFS, Docker apps, and virtualization to manage local network drives.
+  - 🌐 **Official Website**: https://www.truenas.com/
+  - 💻 **Open Source Link**: https://github.com/truenas/middleware
+  - 🔄 **Replaces**: Synology DSM, QNAP QTS, Windows Server
+
+---
+
+## 42. File Encryption, Containers & Metadata Sanitization
+
+- **[VeraCrypt](https://www.veracrypt.fr/)** — Free open-source disk encryption software based on TrueCrypt for encrypting entire storage drives or creating encrypted file vaults.
+  - 🌐 **Official Website**: https://www.veracrypt.fr/
+  - 💻 **Open Source Link**: https://github.com/veracrypt/VeraCrypt
+  - 🔄 **Replaces**: Microsoft BitLocker, Apple FileVault, Symantec Encryption
+
+- **[Dangerzone](https://dangerzone.rocks/)** — Take untrusted PDFs, office documents, or images and safely convert them into sterile PDFs using disposable container sandboxes.
+  - 🌐 **Official Website**: https://dangerzone.rocks/
+  - 💻 **Open Source Link**: https://github.com/freedomofpress/dangerzone
+  - 🔄 **Replaces**: Adobe Acrobat Document Sanitizer, cloud anti-malware cleaners
+
+- **[Metadata Cleaner](https://metadatacleaner.rom1504.fr/)** — Python and GTK tool that removes hidden tracking metadata (GPS, author, serial numbers) from photos, PDFs, and media.
+  - 🌐 **Official Website**: https://metadatacleaner.rom1504.fr/
+  - 💻 **Open Source Link**: https://gitlab.com/rmnvgr/metadata-cleaner
+  - 🔄 **Replaces**: Proprietary Exif removal tools
+
+---
+
+## 43. Encrypted Pastebins & Ephemeral Text
+
+- **[PrivateBin](https://privatebin.info/)** — Minimalist, open-source online pastebin where the server has zero knowledge of pasted data (encrypted/decrypted directly in browser using AES-256).
+  - 🌐 **Official Website**: https://privatebin.info/
+  - 💻 **Open Source Link**: https://github.com/PrivateBin/PrivateBin
+  - 🔄 **Replaces**: Pastebin, Ghostbin, JustPaste.it
+
+- **[MicroBin](https://microbin.eu/)** — Super fast, lightweight, self-hosted pastebin service written in Rust with expiring links, encryption, and QR code sharing.
+  - 🌐 **Official Website**: https://microbin.eu/
+  - 💻 **Open Source Link**: https://github.com/szabodanika/microbin
+  - 🔄 **Replaces**: Pastebin, Hastebin
+
+---
+
+## 44. Mobile Keyboards & Input Methods
+
+- **[FUTO Keyboard](https://keyboard.futo.org/)** — Completely offline, privacy-first mobile keyboard featuring on-device voice dictation and modern word prediction without network permissions.
+  - 🌐 **Official Website**: https://keyboard.futo.org/
+  - 💻 **Open Source Link**: https://gitlab.futo.org/videoproductions/futo-keyboard
+  - 🔄 **Replaces**: Google Gboard, Microsoft SwiftKey, Apple Keyboard
+
+- **[HeliBoard](https://github.com/Helium314/HeliBoard)** — Customizable, open-source Android keyboard that requires no internet permissions, ensuring zero keystrokes ever leave your device.
+  - 🌐 **Official Website**: https://github.com/Helium314/HeliBoard
+  - 💻 **Open Source Link**: https://github.com/Helium314/HeliBoard
+  - 🔄 **Replaces**: Google Gboard, Microsoft SwiftKey
+
+- **[AnySoftKeyboard](https://anysoftkeyboard.github.io/)** — Open-source multilingual keyboard for Android with emoji support, gestures, themes, and strict privacy controls.
+  - 🌐 **Official Website**: https://anysoftkeyboard.github.io/
+  - 💻 **Open Source Link**: https://github.com/AnySoftKeyboard/AnySoftKeyboard
+  - 🔄 **Replaces**: Google Gboard, Samsung Keyboard
+
+---
+
+## 45. Smart Home Automation & IoT
 
 - **[Home Assistant](https://www.home-assistant.io/)** — Open-source home automation hub that puts local control, zero internet dependency, and privacy first.
   - 🌐 **Official Website**: https://www.home-assistant.io/
@@ -998,7 +1235,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 36. RSS Feed Readers & Read-It-Later
+## 46. RSS Feed Readers & Read-It-Later
 
 - **[Wallabag](https://wallabag.org/)** — Self-hostable application for saving and archiving web articles to read offline later with clean readability mode.
   - 🌐 **Official Website**: https://wallabag.org/
@@ -1022,7 +1259,130 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 37. Forms, Surveys & Customer Support
+## 47. Torrent Clients & Download Accelerators
+
+- **[qBittorrent](https://www.qbittorrent.org/)** — Free, open-source, and lightweight BitTorrent client with integrated search engine, sequential downloading, and no bundled adware.
+  - 🌐 **Official Website**: https://www.qbittorrent.org/
+  - 💻 **Open Source Link**: https://github.com/qbittorrent/qBittorrent
+  - 🔄 **Replaces**: uTorrent, BitTorrent Web
+
+- **[Transmission](https://transmissionbt.com/)** — Fast, easy, and free multi-platform BitTorrent client with low memory footprint and clean native desktop integration.
+  - 🌐 **Official Website**: https://transmissionbt.com/
+  - 💻 **Open Source Link**: https://github.com/transmission/transmission
+  - 🔄 **Replaces**: uTorrent, Vuze
+
+- **[Motrix](https://motrix.app/)** — Full-featured open-source download manager that supports downloading HTTP, FTP, BitTorrent, and Magnet links with multi-thread acceleration.
+  - 🌐 **Official Website**: https://motrix.app/
+  - 💻 **Open Source Link**: https://github.com/agalwood/Motrix
+  - 🔄 **Replaces**: Internet Download Manager (IDM), Free Download Manager
+
+---
+
+## 48. Time Tracking & Digital Wellbeing
+
+- **[ActivityWatch](https://activitywatch.net/)** — Extensible, automated personal time tracking application that keeps all telemetry and app usage data stored strictly on your local device.
+  - 🌐 **Official Website**: https://activitywatch.net/
+  - 💻 **Open Source Link**: https://github.com/ActivityWatch/activitywatch
+  - 🔄 **Replaces**: RescueTime, Apple Screen Time, ManicTime
+
+- **[Kimai](https://www.kimai.org/)** — Open-source multi-user time-tracking software designed for freelancers and agencies to record working hours and invoice clients.
+  - 🌐 **Official Website**: https://www.kimai.org/
+  - 💻 **Open Source Link**: https://github.com/kimai/kimai
+  - 🔄 **Replaces**: Toggl Track, Harvest, Clockify
+
+- **[Habitica](https://habitica.com/)** — Open-source habit-building and productivity app that treats your real life like an RPG game, with complete data exportability.
+  - 🌐 **Official Website**: https://habitica.com/
+  - 💻 **Open Source Link**: https://github.com/HabitRPG/habitica
+  - 🔄 **Replaces**: Fabulous, Habitify
+
+---
+
+## 49. Application Launchers & Search Utilities
+
+- **[Ulauncher](https://ulauncher.io/)** — Fast application launcher for Linux desktop with rich Python extension support, fuzzy search, and custom shortcuts.
+  - 🌐 **Official Website**: https://ulauncher.io/
+  - 💻 **Open Source Link**: https://github.com/Ulauncher/Ulauncher
+  - 🔄 **Replaces**: Raycast, Alfred, Mac Spotlight
+
+- **[Flow Launcher](https://www.flowlauncher.com/)** — Open-source, quick-file-search and app launcher for Windows with community plugins and zero diagnostic tracking.
+  - 🌐 **Official Website**: https://www.flowlauncher.com/
+  - 💻 **Open Source Link**: https://github.com/Flow-Launcher/Flow.Launcher
+  - 🔄 **Replaces**: Windows Search, PowerToys Run, Alfred
+
+- **[Albert](https://albertlauncher.github.io/)** — Fast and flexible keyboard launcher for Linux written in C++ and Qt, offering direct calculations, file queries, and actions.
+  - 🌐 **Official Website**: https://albertlauncher.github.io/
+  - 💻 **Open Source Link**: https://github.com/albertlauncher/albert
+  - 🔄 **Replaces**: Raycast, Alfred
+
+---
+
+## 50. Screenshots & Screen Annotation
+
+- **[Flameshot](https://flameshot.org/)** — Powerful yet simple-to-use screenshot software with in-place annotation, arrow drawing, text blurring, and local saving.
+  - 🌐 **Official Website**: https://flameshot.org/
+  - 💻 **Open Source Link**: https://github.com/flameshot-org/flameshot
+  - 🔄 **Replaces**: Lightshot, Gyazo, Snagit
+
+- **[ShareX](https://getsharex.com/)** — Open-source Windows tool that lets you capture or record any area of your screen and save it locally or upload to custom servers.
+  - 🌐 **Official Website**: https://getsharex.com/
+  - 💻 **Open Source Link**: https://github.com/ShareX/ShareX
+  - 🔄 **Replaces**: Lightshot, CloudApp, Droplr
+
+- **[Kooha](https://github.com/SeaDve/Kooha)** — Minimalist, elegant screen recorder for Linux desktop that records your display and audio into MP4, WebM, or GIF directly.
+  - 🌐 **Official Website**: https://github.com/SeaDve/Kooha
+  - 💻 **Open Source Link**: https://github.com/SeaDve/Kooha
+  - 🔄 **Replaces**: Loom, Camtasia
+
+---
+
+## 51. Clipboard Managers
+
+- **[CopyQ](https://hluk.github.io/CopyQ/)** — Advanced clipboard manager with editing and scripting features that stores history locally without transmitting clippings anywhere.
+  - 🌐 **Official Website**: https://hluk.github.io/CopyQ/
+  - 💻 **Open Source Link**: https://github.com/hluk/CopyQ
+  - 🔄 **Replaces**: Paste, ClipboardFusion
+
+- **[Maccy](https://maccy.app/)** — Lightweight open-source clipboard manager for macOS that keeps your copy history on your device with native keyboard navigation.
+  - 🌐 **Official Website**: https://maccy.app/
+  - 💻 **Open Source Link**: https://github.com/p0deje/Maccy
+  - 🔄 **Replaces**: Paste for Mac, Clipy
+
+---
+
+## 52. Flashcards & Spaced Repetition Learning
+
+- **[Anki](https://apps.ankiweb.net/)** — Powerful, intelligent flashcard program that utilizes spaced repetition algorithms to make remembering facts easy and durable.
+  - 🌐 **Official Website**: https://apps.ankiweb.net/
+  - 💻 **Open Source Link**: https://github.com/ankitects/anki
+  - 🔄 **Replaces**: Quizlet, Brainscape, Chegg Prep
+
+---
+
+## 53. Gaming Launchers & Storefronts
+
+- **[Heroic Games Launcher](https://heroicgameslauncher.com/)** — Open-source native graphical launcher for Epic Games, GOG, and Amazon Games on Linux, Windows, and macOS.
+  - 🌐 **Official Website**: https://heroicgameslauncher.com/
+  - 💻 **Open Source Link**: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher
+  - 🔄 **Replaces**: Epic Games Launcher, GOG Galaxy
+
+- **[Lutris](https://lutris.net/)** — Open gaming platform for Linux that helps you install and manage games from all major platforms in one unified interface.
+  - 🌐 **Official Website**: https://lutris.net/
+  - 💻 **Open Source Link**: https://github.com/lutris/lutris
+  - 🔄 **Replaces**: Steam Client (telemetry components), EA App, Ubisoft Connect
+
+- **[Prism Launcher](https://prismlauncher.org/)** — Custom open-source Minecraft launcher with instance management, mod downloading, and zero telemetry.
+  - 🌐 **Official Website**: https://prismlauncher.org/
+  - 💻 **Open Source Link**: https://github.com/PrismLauncher/PrismLauncher
+  - 🔄 **Replaces**: Minecraft Launcher, CurseForge, Overwolf
+
+---
+
+## 54. Forms, Surveys & Customer Support
+
+- **[CryptPad Forms](https://cryptpad.org/)** — Fully end-to-end encrypted questionnaire and survey builder where respondents' answers can only be decrypted by you.
+  - 🌐 **Official Website**: https://cryptpad.org/
+  - 💻 **Open Source Link**: https://github.com/cryptpad/cryptpad
+  - 🔄 **Replaces**: Google Forms, SurveyMonkey
 
 - **[Formbricks](https://formbricks.com/)** — Privacy-first open-source survey and feedback platform to gather in-product micro-surveys without third-party data tracking.
   - 🌐 **Official Website**: https://formbricks.com/
@@ -1046,7 +1406,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 38. Remote Desktop & Virtualization
+## 55. Remote Desktop & Virtualization
 
 - **[RustDesk](https://rustdesk.com/)** — Open-source remote desktop client and server software written in Rust with full end-to-end encryption and self-hosted relays.
   - 🌐 **Official Website**: https://rustdesk.com/
@@ -1070,7 +1430,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 39. App Stores & Package Management
+## 56. App Stores & Package Management
 
 - **[F-Droid](https://f-droid.org/)** — Installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform with audited build recipes.
   - 🌐 **Official Website**: https://f-droid.org/
@@ -1089,7 +1449,7 @@ Each entry includes a clear description, official website link, open-source repo
 
 ---
 
-## 40. E-Commerce & Website Builders
+## 57. E-Commerce & Website Builders
 
 - **[MedusaJS](https://medusajs.com/)** — Modern, modular headless open-source commerce platform built with Node.js providing complete customization and database control.
   - 🌐 **Official Website**: https://medusajs.com/
