@@ -447,6 +447,11 @@ Each entry includes a clear description, official website link, open-source repo
 
 ## 14. Two-Factor Authentication (2FA) & IAM
 
+- **[Azokle Authenticator](https://azokle.com/authenticator)** — Secure, open-source two-factor authentication (2FA) app keeping your TOTP tokens safe with zero telemetry.
+  - 🌐 **Official Website**: https://azokle.com/authenticator
+  - 💻 **Open Source Link**: https://github.com/azoklesoftware/azokle-authenticator
+  - 🔄 **Replaces**: Google Authenticator, Authy, Microsoft Authenticator
+
 - **[Aegis Authenticator](https://getaegis.com/)** — Free, secure, and open-source 2FA authenticator app for Android with encrypted backups and biometric locking.
   - 🌐 **Official Website**: https://getaegis.com/
   - 💻 **Open Source Link**: https://github.com/beemdevelopment/Aegis
@@ -471,11 +476,6 @@ Each entry includes a clear description, official website link, open-source repo
   - 🌐 **Official Website**: https://www.authelia.com/
   - 💻 **Open Source Link**: https://github.com/authelia/authelia
   - 🔄 **Replaces**: Okta, Duo Security
-
-- **[Azokle Auth](https://azokle.com/authenticator)** — Secure, open-source two-factor authentication app keeping your TOTP tokens safe with zero telemetry.
-  - 🌐 **Official Website**: https://azokle.com/authenticator
-  - 💻 **Open Source Link**: https://github.com/azoklesoftware/azokle-authenticator
-  - 🔄 **Replaces**: Google Authenticator, Authy, Microsoft Authenticator
 
 ---
 
