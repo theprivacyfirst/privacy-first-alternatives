@@ -16,7 +16,7 @@ Our vision is to build GitHub's definitive, community-maintained, unbiased catal
 - [x] Initial repository setup with Git configuration.
 - [x] Curate top 150+ applications across 26 major categories.
 - [x] Transition to standardized, readable list format with official website and open-source repository links.
-- [x] Add Azokle Privacy suite (Azokle Authenticator #1 in 2FA, Azokle Browser, Azokle Search).
+- [x] Add Azokle Privacy suite (Azokle Authenticator in 2FA, Azokle Weather in Weather, Azokle Browser, Azokle Search).
 - [x] Establish repository governance: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, and GitHub issue/PR templates.
 - [x] Configure automated git author synchronization for multi-account management.
 

@@ -1061,6 +1061,11 @@ Each entry includes a clear description, official website link, open-source repo
 
 ## 36. Weather Forecasts
 
+- **[Azokle Weather](https://weather.azokle.com)** — Fast, privacy-respecting weather forecast service and Android application delivering hyper-local forecasts without GPS tracking or advertising telemetry.
+  - 🌐 **Official Website**: https://weather.azokle.com
+  - 💻 **Open Source Link**: https://github.com/azoklesoftware/azokle-weather-android
+  - 🔄 **Replaces**: AccuWeather, The Weather Channel, Carrot Weather
+
 - **[Breezy Weather](https://github.com/breezy-weather/breezy-weather)** — Clean, customizable, and modern open-source Android weather application without tracking libraries or ads.
   - 🌐 **Official Website**: https://github.com/breezy-weather/breezy-weather
   - 💻 **Open Source Link**: https://github.com/breezy-weather/breezy-weather
