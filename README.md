@@ -90,6 +90,11 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://github.com/brave/brave-browser
   - 🔄 **Replaces**: Google Chrome, Microsoft Edge, Opera
 
+- **[Azokle Browser](https://azokle.com/search)** — Fast, privacy-centric web browser engineered to browse without tracking, profiling, or background data collection.
+  - 🌐 **Official Website**: https://azokle.com/search
+  - 💻 **Open Source Link**: https://github.com/azoklesoftware
+  - 🔄 **Replaces**: Google Chrome, Microsoft Edge, Apple Safari
+
 ---
 
 ## 2. Search Engines
@@ -113,6 +118,11 @@ Each entry includes a clear description, official website link, open-source repo
   - 🌐 **Official Website**: https://search.brave.com/
   - 💻 **Open Source Link**: https://github.com/brave
   - 🔄 **Replaces**: Google Search, Microsoft Bing
+
+- **[Azokle Search](https://search.azokle.com)** — Privacy-first search engine providing unbiased results without user tracking, query logging, or targeted advertising profiles.
+  - 🌐 **Official Website**: https://search.azokle.com
+  - 💻 **Open Source Link**: https://github.com/azoklesoftware
+  - 🔄 **Replaces**: Google Search, Microsoft Bing, Yahoo Search
 
 ---
 
@@ -461,6 +471,11 @@ Each entry includes a clear description, official website link, open-source repo
   - 🌐 **Official Website**: https://www.authelia.com/
   - 💻 **Open Source Link**: https://github.com/authelia/authelia
   - 🔄 **Replaces**: Okta, Duo Security
+
+- **[Azokle Auth](https://azokle.com/authenticator)** — Secure, open-source two-factor authentication app keeping your TOTP tokens safe with zero telemetry.
+  - 🌐 **Official Website**: https://azokle.com/authenticator
+  - 💻 **Open Source Link**: https://github.com/azoklesoftware/azokle-authenticator
+  - 🔄 **Replaces**: Google Authenticator, Authy, Microsoft Authenticator
 
 ---
 
