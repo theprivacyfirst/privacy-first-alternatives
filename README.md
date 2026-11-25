@@ -1651,6 +1651,11 @@ Each entry includes a clear description, official website link, open-source repo
   - 💻 **Open Source Link**: https://github.com/cachethq/cachet
   - 🔄 **Replaces**: Atlassian Statuspage, Status.io
 
+- **[SiteWatcher](https://monitoring.kurkov.dev/demo)** — Self-hosted website monitoring with response-time history, TLS and domain expiry checks, and public status pages. Check history stays in a SQLite database on your server.
+  - 🌐 **Official Website**: https://monitoring.kurkov.dev/demo
+  - 💻 **Open Source Link**: https://github.com/NikKurkov/sitewatcher
+  - 🔄 **Replaces**: UptimeRobot for website checks, alerts, and status pages
+
 ---
 
 ## 67. Podcast Players & Radio Streaming
